@@ -1,0 +1,6 @@
+@media (400px <=  width <= 800px)
+{
+    .carrucel{
+        z-index: -1;
+    }
+}
