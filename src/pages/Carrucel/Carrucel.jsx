@@ -1,6 +1,7 @@
 
 import ImageGallery from "react-image-gallery";
 import 'react-image-gallery/styles/css/image-gallery.css'
+import  '../../assets/img/instituto.svg'
 
 
 const Carrucel = () => {
@@ -8,7 +9,7 @@ const Carrucel = () => {
   const images = [
     //imagenes del slaider
     {
-      original: "https://i.postimg.cc/SNQnYLZZ/lurinslider.jpg",
+      original: "https://i.postimg.cc/Qdf4XJ62/7.jpg",
     },
 
     {
