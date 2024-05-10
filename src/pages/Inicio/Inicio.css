@@ -86,3 +86,21 @@
 .inicio__container-contabilidad{
     width: 350px;
 }
+
+@media (400px <= width <= 800px)
+{
+    .inicio_container_imagen{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .inicio__container-diseño{
+        width: 400px;
+    }
+    .inicio__container-protesis{
+        width: 210px;
+    }
+    .inicio__container-contabilidad{
+        width: 300px;
+    }
+}
