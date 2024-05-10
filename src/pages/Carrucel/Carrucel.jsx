@@ -1,7 +1,7 @@
 
 import ImageGallery from "react-image-gallery";
 import 'react-image-gallery/styles/css/image-gallery.css'
-import  '../../assets/img/instituto.svg'
+
 
 
 const Carrucel = () => {

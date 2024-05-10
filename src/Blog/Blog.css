@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_blog{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+   
+
+}
+.card_blog{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__blog-paragraph{
+    position: absolute;
+    z-index: 999;
+    color: aqua;
+    font-size: 28px;
+    left: 20%;
+}
+
+
+.card__imagen{
+    width: 300px;
+    
+}
+
+
+.card__paragraph{
+    width: 250px
+}
+@media (400px <= width <= 800px)
+{
+    .container_blog{
+        margin-top: 1000px;
+    }
+}

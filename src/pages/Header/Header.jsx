@@ -8,6 +8,7 @@ const Header = () => {
     const toggleMenu = () => {
         setMenuOpen(!menuOpen);
     };
+    
 
     return (
         <div className={`container_header ${menuOpen ? 'menu-open' : ''}`}>
@@ -19,8 +20,9 @@ const Header = () => {
                     <rect y="60" width="80" height="15"></rect>
                 </svg>
             </div>
+            
             <ul className='lista_desordenada'>
-              <Link className='listas' to= '/inicio'>
+              <Link className='listas' to= '/'>
                 <li className='listas'>Inicio</li></Link>
               <Link className='listas' to = '/nosotros'>
                 <li className='listas'>Nosotros</li>
