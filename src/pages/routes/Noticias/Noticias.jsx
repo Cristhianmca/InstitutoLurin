@@ -1,9 +1,10 @@
-import Header from "../Header/Header";
+
+import Nav from "../../Header/Nav";
 
 const Noticias = () => {
     return (
         <div>
-            <Header/>
+            <Nav/>
             Noticias del peru y del Mundo 
         </div>
     )

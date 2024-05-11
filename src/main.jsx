@@ -2,12 +2,15 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { createBrowserRouter , RouterProvider } from 'react-router-dom'
-import Admision from '../src/pages/routes/Admision.jsx'
-import Carreras from '../src/pages/routes/Carreras.jsx'
-import Contactanos from './pages/routes/Contactanos.jsx'
-import Inicio from './pages/routes/Contactanos.jsx'
-import Nosotros from './pages/routes/Contactanos.jsx'
-import Noticias from './pages/routes/Contactanos.jsx'
+
+
+import Diseño from './pages/routes/Carreras/Diseño/Diseño.jsx'
+import Protesis from './pages/routes/Carreras/Protesis/Protesis.jsx'
+import Contabilidad  from './pages/routes/Carreras/Contabilidad/Contabilidad.jsx'
+import Admision from './pages/routes/Admision/Examen2024.jsx'
+
+import Contactanos from '../src/pages/routes/Contactanos/Contactanos.jsx'
+import Noticias from './pages/routes/Noticias/Noticias.jsx'
 
 
 const router = createBrowserRouter ([
@@ -17,29 +20,37 @@ const router = createBrowserRouter ([
   },
 
   {
-    path : "/admision",
-    element : <Admision/>
+    path: "/protesis",
+    element: <Protesis/>
   },
+
   {
-    path: '/carreras',
-    element: <Carreras/>
+    path : "/diseño",
+    element: <Diseño/>
   },
+
+  {
+    path : "/contabilidad",
+    element: <Contabilidad/>
+  },
+
+  {
+    path: "/examen",
+    element: <Admision/>
+  },
+
+  {
+    path: "/blog",
+    element: <Noticias/>
+    },
+
+
   {
     path: '/contactanos',
     element: <Contactanos/>
   },
-  {
-    path: '/inicio',
-    element: <Inicio/>
-  },
-  {
-    path: '/nosotros',
-    element: <Nosotros/>
-  },
-  {
-    path: '/noticias',
-    element: <Noticias/>
-  }
+  
+ 
 
 
 ])
