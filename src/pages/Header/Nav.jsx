@@ -8,12 +8,6 @@ function Nav() {
     setMenuOpen(!menuOpen);
   };
 
-  const handleParentClick = () => {
-    if (window.innerWidth <= 900) {
-      setMenuOpen(!menuOpen);
-    }
-  };
-
   return (
     <nav>
       <div
@@ -32,7 +26,7 @@ function Nav() {
       <ul className={`cont-ul ${menuOpen ? "active" : ""}`}>
         <li>Inicio</li>
         <li>Nosotros</li>
-        <li className="develop" onClick={handleParentClick}>
+        <li className="develop">
           Carreras
           <ul className="ul-second">
             <ul className="front">
@@ -42,23 +36,30 @@ function Nav() {
             </ul>
           </ul>
         </li>
-        <li className="develop" onClick={handleParentClick}>
+        <li className="develop">
           Admisión
           <ul className="ul-second">
             <ul className="front">
               <li>Exámen 2024</li>
+              
             </ul>
           </ul>
         </li>
-        <li className="develop" onClick={handleParentClick}>
-          Noticias
-          <ul className="ul-second">
+        <li className="develop">
+            Noticias
+            <ul className="ul-second">
             <ul className="front">
               <li>Blog</li>
+              
             </ul>
           </ul>
-        </li>
-        <li className="develop">Contactanos <i className="fa-brands fa-whatsapp"></i></li>
+            </li>
+
+            <li className="develop">
+           Contactanos <i className="fa-brands fa-whatsapp"></i>
+           
+            </li>
+
       </ul>
     </nav>
   );
