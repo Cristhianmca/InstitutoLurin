@@ -1,5 +1,6 @@
 import Blog from './Blog/Blog'
-import Header from './pages/Header/Header'
+
+import Nav from './pages/Header/Nav'
 
 import Inicio from './pages/Inicio/Inicio'
 import Scarreras from './pages/SectionCarreras/Scarreras'
@@ -10,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Header/>
+     <Nav/>
       <Inicio/>
       <Scarreras/>
       <Blog/>

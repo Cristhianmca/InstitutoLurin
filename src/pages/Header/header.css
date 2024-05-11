@@ -1,8 +1,22 @@
 /* header.css */
+
+/* imagen logo */
+
 .image_instituto {
-    width: 150px;
-    height: 100px;
+    
+    display: block;
+    width: 250px;
+    height: 180px;
 }
+@media (400px <= width <= 800px)
+{
+    .image_instituto{
+        width: 180px;
+        height: 120px;
+    }
+}
+
+/* termino logo  */
 body{
     
         background: -webkit-linear-gradient(90deg, rgba(94, 3, 3), rgba(0, 0, 0, ), rgba(94, 3, 3 ));
@@ -117,10 +131,25 @@ body{
 
     .menu-icon {
         display: block;
+        background-color: #2ba8b8;
+        padding: 5px;
+        border-radius: 30%;
+    
+       
+    }
+
+    .svg_icon{
+       
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 12px;
     }
 
     .menu-open .lista_desordenada {
         display: flex;
+        
     }
 }
 

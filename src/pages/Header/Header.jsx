@@ -12,9 +12,9 @@ const Header = () => {
 
     return (
         <div className={`container_header ${menuOpen ? 'menu-open' : ''}`}>
-            <Link to = '/'> <img className='image_instituto' src="https://i.postimg.cc/pXw5L0G4/images.png" alt="" /></Link>
+            <Link to = '/'> <img className='image_instituto' src="https://i.postimg.cc/Bbk4tTfs/logo-Lurin.png" alt="" /></Link>
             <div className="menu-icon" onClick={toggleMenu}>
-                <svg viewBox="0 0 150 80" width="40" height="40">
+                <svg className='svg_icon' viewBox="0 0 150 80" width="40" height="40">
                     <rect width="80" height="15"></rect>
                     <rect y="30" width="80" height="15"></rect>
                     <rect y="60" width="80" height="15"></rect>

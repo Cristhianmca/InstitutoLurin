@@ -143,12 +143,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #000;
 }
 
 .card_detalle_paragraph{
     width: 90%;
     font-size: 12px;
     margin: auto;
+    color: #000;
 }
 
 .btn {

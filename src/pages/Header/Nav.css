@@ -1,0 +1,384 @@
+/* Estilos generales */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Estilos del cuerpo */
+  body {
+    height: 100vh;
+    background-color: #a9aaac;
+    color: #fff;
+  }
+  
+  /* Estilos del logo */
+  .logo_instituto{
+    width: 200px;
+    height: 150px;
+  }
+  
+  /* Estilos de la barra de navegación */
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(10, 6, 6, 0.8);
+    padding-left: 2vw;
+    position: -webkit-sticky; /* Para compatibilidad con Safari */
+    position: sticky;
+    top: 0; /* Fija la barra de navegación en la parte superior de la página */
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+  }
+  
+  /* Estilos del icono del menú */
+  .menu-icon {
+    display: none; /* Oculta el icono del menú por defecto */
+  }
+  
+  .menu-icon.open .bar:nth-child(2) {
+    opacity: 0; /* Oculta la barra central del icono del menú cuando está abierto */
+  }
+  
+  .menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-icon .bar:before,
+  .menu-icon .bar:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .menu-icon .bar:before {
+    top: -8px;
+  }
+  
+  .menu-icon .bar:after {
+    bottom: -8px;
+  }
+  
+  .menu-icon.open .bar:first-child:before {
+    transform: translateY(8px) rotate(45deg); /* Rota la primera barra del icono del menú cuando está abierto */
+  }
+  
+  .menu-icon.open .bar:last-child:after {
+    transform: translateY(-8px) rotate(-45deg); /* Rota la última barra del icono del menú cuando está abierto */
+  }
+  
+  /* Estilos del contenedor de la lista de elementos */
+  .cont-ul {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos de la lista de elementos */
+  ul {
+    list-style-type: none;
+  }
+  
+  /* Estilos de cada elemento de la lista */
+  li {
+    cursor: pointer;
+    padding: 1.5vw;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    position: relative;
+    
+    font-size: 18px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+
+    
+        cursor:pointer;
+            position:relative;
+            
+            background:rgb(30, 27, 27);
+            font-size:18px;
+            border-top-right-radius:10px;
+            border-bottom-left-radius:10px;
+            transition:all 1s;
+            &:after,&:before{
+                content:" ";
+                width:10px;
+                height:10px;
+                position:absolute;
+                border :0px solid #fff;
+                transition:all 1s;
+                }
+            &:after{
+                top:-1px;
+                left:-1px;
+                border-top:5px solid black;
+                border-left:5px solid black;
+            }
+            &:before{
+                bottom:-1px;
+                right:-1px;
+                border-bottom:5px solid black;
+                border-right:5px solid black;
+            }
+            &:hover{
+                border-top-right-radius:0px;
+            border-bottom-left-radius:0px;
+              
+                &:before,&:after{
+                    
+                    width:100%;
+                    height:100%;
+                    
+                }
+            }
+        
+        
+        .data-container{
+            background:#ffebee;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+  }
+  
+  /* Estilos para los seudoelementos de cada elemento de la lista */
+  li:after,
+  li:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+  }
+  
+  li:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+  }
+  
+  li:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+  }
+  
+  /* Estilos para el contenedor de datos */
+  .data-container {
+    background: #ffebee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos al pasar el ratón sobre los elementos de la lista */
+  li:hover {
+    background-color: #008849;
+  }
+  
+  /* Estilos para el menú desplegable "Desarrollador" */
+  .develop {
+    position: relative;
+  }
+  
+  .ul-second {
+    display: none;
+    position: absolute;
+    margin-top: 1.5vw;
+    background-color: #24252a;
+  }
+  
+  .ul-second > li {
+    width: 190px;
+    transform: translateX(-20px);
+    border-bottom: solid 1px #fff;
+    text-align: center;
+  }
+  
+  .ul-second > li:hover {
+    background-color: #008849;
+  }
+  
+  .develop:hover > .ul-second {
+    display: block;
+  }
+  
+  /* Estilos para el menú desplegable de tercer nivel */
+  .ul-third {
+    position: absolute;
+    transform: translateX(100%);
+    right: 0;
+    top: 0;
+    display: none;
+    background-color: #24252a;
+  }
+  
+  .ul-third > li {
+    padding: 1.5vw;
+    border-bottom: solid 1px #fff;
+  }
+  
+  .front:hover > .ul-third {
+    display: block;
+  }
+  
+  /* Media query para pantallas más pequeñas */
+  @media (max-width: 900px) {
+    /* Estilos para el icono del menú en pantallas pequeñas */
+    .menu-icon {
+      display: flex; /* Muestra el icono del menú en pantallas más pequeñas */
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* Estilos para el contenedor de la lista de elementos en pantallas pequeñas */
+    .cont-ul {
+      display: none; /* Oculta los enlaces de navegación por defecto en pantallas más pequeñas */
+      flex-direction: column;
+      align-items: center;
+      background-color: #24252a;
+      width: 90%;
+      position: absolute;
+      top: 135px; /* Ajusta este valor según tu diseño */
+      left: 5;
+      z-index: 1;
+     
+      
+    }
+  
+    /* Muestra los enlaces de navegación cuando se hace clic en el icono del menú */
+    .cont-ul.active {
+      display: flex;
+    }
+  
+    /* Oculta la barra central del icono del menú cuando está abierto */
+    .menu-icon.open .bar:nth-child(2) {
+      display: none;
+    }
+  
+    /* Oculta los pseudo elementos de las barras cuando el menú está abierto */
+    .menu-icon.open .bar:before,
+    .menu-icon.open .bar:after {
+      display: none;
+    }
+  
+    /* Rota la primera barra del icono del menú cuando está abierto */
+    .menu-icon.open .bar:first-child:before {
+      transform: translateY(8px) rotate(45deg);
+    }
+  
+    /* Rota la última barra del icono del menú cuando está abierto */
+    .menu-icon.open .bar:last-child:after {
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    ul {
+        list-style-type: none;
+        /* Agrega desbordamiento vertical para permitir el desplazamiento */
+        max-height: 100vh; /* Limita la altura máxima para evitar que el menú se vuelva demasiado largo */
+      }
+  
+    /* Estilos para los elementos de la lista en pantallas pequeñas */
+    li {
+      width: 100%; /* Hace que los enlaces de navegación tengan el ancho completo en pantallas más pequeñas */
+      text-align: center;
+      padding: 20px 0; /* Ajusta este valor según tu diseño */
+      border-bottom: solid 1px #fff;
+      position: relative;
+      background: rgb(196, 93, 93);
+      font-size: 18px;
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 10px;
+      transition: all 1s;
+      
+      cursor:pointer;
+      position:relative;
+      
+      background:rgb(173, 154, 154);
+      font-size:18px;
+      border-top-right-radius:10px;
+      border-bottom-left-radius:10px;
+      transition:all 1s;
+      
+      &:after{
+          top:-1px;
+          left:-1px;
+          border-top:5px solid black;
+          border-left:5px solid black;
+      }
+      &:before{
+          bottom:-1px;
+          right:-1px;
+          border-bottom:5px solid black;
+          border-right:5px solid black;
+      }
+      &:hover{
+          border-top-right-radius:0px;
+      border-bottom-left-radius:0px;
+        
+          &:before,&:after{
+              
+              width:100%;
+              height:100%;
+              
+          }
+      }
+  
+  
+  .data-container{
+      background:#ffebee;
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  }
+    }
+  
+    /* Estilos para el menú desplegable "Desarrollador" en pantallas pequeñas */
+    .develop {
+      position: static; /* Cambia la posición del menú desplegable "Desarrollador" a estática */
+    }
+  
+    /* Estilos para el menú desplegable de segundo nivel en pantallas pequeñas */
+    .ul-second {
+      position: static; /* Cambia la posición del menú desplegable de segundo nivel a estática */
+      display: none; /* Oculta el menú desplegable de segundo nivel por defecto en pantallas más pequeñas */
+      width: 100%; /* Hace que el menú desplegable de segundo nivel tenga el ancho completo en pantallas más pequeñas */
+      text-align: center;
+    }
+  
+    /* Estilos para el menú desplegable de tercer nivel en pantallas pequeñas */
+    .ul-third {
+      position: static; /* Cambia la posición del menú desplegable de tercer nivel a estática */
+      display: none; /* Oculta el menú desplegable de tercer nivel por defecto en pantallas más pequeñas */
+      width: 100%; /* Hace que el menú desplegable de tercer nivel tenga el ancho completo en pantallas más pequeñas */
+      text-align: center;
+    }
+  
+    /* Muestra los menús desplegables de segundo y tercer nivel al pasar el ratón sobre ellos */
+    .front:hover > .ul-third,
+    .ul-second.active {
+      display: block;
+      
+    }
+
+
+    
+  }
+ 
+  
