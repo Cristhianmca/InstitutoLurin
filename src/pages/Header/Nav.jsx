@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
@@ -18,21 +19,36 @@ function Nav() {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-      <img
+   <Link to = '/'>
+   <img
         className="logo_instituto"
         src="https://i.postimg.cc/Bbk4tTfs/logoLurin.png"
         alt=""
       />
+   </Link>   
       <ul className={`cont-ul ${menuOpen ? "active" : ""}`}>
-        <li>Inicio</li>
-        <li>Nosotros</li>
+      <Link to = '/' className="link" ><li >Inicio</li>
+      </Link>  
+       <Link to='/nosotros' className="link">
+       <li>Nosotros</li>
+       </Link> 
         <li className="develop">
           Carreras
           <ul className="ul-second">
             <ul className="front">
-              <li>Diseño y Desarrollo Web</li>
-              <li>Protesis</li>
-              <li>Contabilidad</li>
+
+             <Link to= '/diseño' className="link">
+             <li>Diseño y Desarrollo Web</li>
+             </Link> 
+
+            <Link to='/protesis' className="link">
+            <li>Protesis</li>
+            </Link>  
+
+            <Link to= '/contabilidad' className="link">
+            <li>Contabilidad</li>
+            </Link>
+              
             </ul>
           </ul>
         </li>
@@ -40,7 +56,9 @@ function Nav() {
           Admisión
           <ul className="ul-second">
             <ul className="front">
-              <li>Exámen 2024</li>
+           <Link to = '/examen' className="link">
+           <li>Exámen 2024</li>
+           </Link>   
               
             </ul>
           </ul>
@@ -49,16 +67,21 @@ function Nav() {
             Noticias
             <ul className="ul-second">
             <ul className="front">
-              <li>Blog</li>
+
+          <Link to= '/blog' className="link">
+          <li>Blog</li>
+          </Link>    
               
             </ul>
           </ul>
             </li>
 
-            <li className="develop">
+        <Link to = '/contactanos' className="link">
+        <li className="develop">
            Contactanos <i className="fa-brands fa-whatsapp"></i>
            
             </li>
+        </Link>    
 
       </ul>
     </nav>

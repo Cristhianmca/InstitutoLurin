@@ -10,7 +10,12 @@
     width: 200px;
     height: 150px;
   }
-  
+  .link{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+   
+  }
   nav {
     width: 100%;
     display: flex;
@@ -185,6 +190,7 @@
   .develop {
     position: relative;
     
+    
   }
   
   .ul-second {
@@ -283,7 +289,7 @@
       text-align: center;
       padding: 20px 0; /* Adjust this value according to your design */
       border-bottom: solid 1px #fff;
-        color: white;
+        color: rgb(109, 108, 108);
       cursor:pointer;
 	position:relative;
 	padding:10px 20px;
@@ -401,6 +407,20 @@
     .front:hover > .ul-third,
     .ul-second.active {
       display: block; /* Displays the second and third level dropdowns when hovered */
+    }
+    .link{
+        text-decoration: none;
+        list-style: none;
+        color: rgb(5, 5, 5);
+        width: 100%;
+      }
+    .link:hover{
+        
+            text-decoration: none;
+            list-style: none;
+            color: black;
+            width: 100%;
+          
     }
   }
   

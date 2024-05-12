@@ -8,15 +8,20 @@ import Diseño from './pages/routes/Carreras/Diseño/Diseño.jsx'
 import Protesis from './pages/routes/Carreras/Protesis/Protesis.jsx'
 import Contabilidad  from './pages/routes/Carreras/Contabilidad/Contabilidad.jsx'
 import Admision from './pages/routes/Admision/Examen2024.jsx'
-
+import Nosotros from './pages/routes/Nosotros/Nosotros.jsx'
 import Contactanos from '../src/pages/routes/Contactanos/Contactanos.jsx'
 import Noticias from './pages/routes/Noticias/Noticias.jsx'
+
 
 
 const router = createBrowserRouter ([
   {
     path : "/",
     element: <App/>
+  },
+  {
+    path:"/nosotros",
+    element: <Nosotros/>
   },
 
   {

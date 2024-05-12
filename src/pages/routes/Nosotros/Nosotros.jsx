@@ -1,9 +1,11 @@
-import Header from "../../Header/Header"
+
+
+import Nav from '../../Header/Nav'
 
 const Nosotros = () => {
     return (
         <div>
-            <Header/>
+            <Nav/>
             Nosotros somos mas
         </div>
     )

@@ -1,9 +1,10 @@
-import Header from "../../Header/Header"
+
+import Nav from "../../Header/Nav"
 
 const Admision = () => {
   return (
     <div>
-        <Header/>
+        <Nav/>
       Admision
     </div>
   )

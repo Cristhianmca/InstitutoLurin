@@ -1,4 +1,5 @@
-import Header from "../../Header/Header";
+
+import Nav from "../../Header/Nav";
 
 
 const Contactanos = () => {
@@ -6,7 +7,7 @@ const Contactanos = () => {
     return (
 
         <div>
-            <Header/>
+            <Nav/>
             Contactanos</div>
     )
 }
