@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Nav.css";
-import { Link } from "react-router-dom";
 
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,33 +18,21 @@ function Nav() {
         <div className="bar"></div>
         <div className="bar"></div>
       </div>
-    <Link to='/'><img
+      <img
         className="logo_instituto"
         src="https://i.postimg.cc/Bbk4tTfs/logoLurin.png"
         alt=""
       />
-    </Link>  
       <ul className={`cont-ul ${menuOpen ? "active" : ""}`}>
-        <Link className="link" to = '/'>
-             <li>Inicio</li>
-        </Link>
-       
-        
-      <Link className="link"> <li>Nosotros</li>
-      </Link> 
-
+        <li>Inicio</li>
+        <li>Nosotros</li>
         <li className="develop">
           Carreras
           <ul className="ul-second">
             <ul className="front">
-             <Link to= '/diseño' className="link"><li>Diseño y Desarrollo Web</li>
-             </Link> 
-             
-           <Link to= '/protesis' className="link"><li>Protesis</li>
-           </Link>   
-
-            <Link to = 'contabilidad' className="link"><li>Contabilidad</li>
-            </Link>  
+              <li>Diseño y Desarrollo Web</li>
+              <li>Protesis</li>
+              <li>Contabilidad</li>
             </ul>
           </ul>
         </li>
@@ -53,8 +40,7 @@ function Nav() {
           Admisión
           <ul className="ul-second">
             <ul className="front">
-            <Link to = '/examen' className="link"><li>Exámen 2024</li>
-            </Link>  
+              <li>Exámen 2024</li>
               
             </ul>
           </ul>
@@ -63,18 +49,16 @@ function Nav() {
             Noticias
             <ul className="ul-second">
             <ul className="front">
-             <Link to = '/blog' className="link"><li>Blog</li>
-             </Link> 
+              <li>Blog</li>
               
             </ul>
           </ul>
             </li>
 
-           <Link to= 'contactanos' className="link"><li className="develop">
+            <li className="develop">
            Contactanos <i className="fa-brands fa-whatsapp"></i>
            
             </li>
-           </Link> 
 
       </ul>
     </nav>
