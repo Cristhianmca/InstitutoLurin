@@ -15,9 +15,11 @@ function Nav() {
         className={`menu-icon ${menuOpen ? "open" : ""}`}
         onClick={toggleMenu}
       >
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
+        <svg className='svg_icon' viewBox="0 0 150 80" width="40" height="40">
+                    <rect width="80" height="15"></rect>
+                    <rect y="30" width="80" height="15"></rect>
+                    <rect y="60" width="80" height="15"></rect>
+                </svg>
       </div>
    <Link to = '/'>
    <img

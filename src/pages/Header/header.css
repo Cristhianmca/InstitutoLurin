@@ -5,7 +5,7 @@
 .image_instituto {
     
     display: block;
-    width: 250px;
+    width: 200px;
     height: 180px;
 }
 @media (400px <= width <= 800px)
