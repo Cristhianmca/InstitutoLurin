@@ -26,7 +26,7 @@ const Inicio = () => {
                 <img className='inicio__container-contabilidad' src="https://i.postimg.cc/fWfYSbvf/contabilidad.png" alt="" />
                 
                </div>
-               <hr />
+             
         </div>
 
     )

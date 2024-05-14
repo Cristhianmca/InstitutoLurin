@@ -40,7 +40,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(10, 6, 6, 0.8); /* R, G, B, Alpha */
+    background-color:  
+    rgb(3,11,23,0.9);  /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
     padding-left: 2vw;
     position: -webkit-sticky; /* Para compatibilidad con Safari */
   position: sticky;
@@ -117,7 +118,7 @@
     cursor:pointer;
 	position:relative;
 	padding: 20px 10px;
-	background-color: #e4bb22;
+	background-color: rgb(228, 187, 34 , 0.8);
 	font-size:18px;
 	border-top-right-radius:10px;
 	border-bottom-left-radius:10px;
@@ -365,7 +366,7 @@
             cursor:pointer;
             position:relative;
             padding:10px 20px;
-            background:#e4bb22;
+            background:rgb(228, 187, 34, 0.8);
             font-size:28px;
             border-top-right-radius:10px;
             border-bottom-left-radius:10px;

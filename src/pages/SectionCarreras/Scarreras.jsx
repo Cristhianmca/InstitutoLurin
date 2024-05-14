@@ -1,4 +1,5 @@
 import './Scarreras.css'
+import { Link } from 'react-router-dom';
 
 const Scarreras = () =>{
     return (
@@ -15,7 +16,9 @@ const Scarreras = () =>{
                      <div className='card_detalle'>
                         <h2 className='card_detalle-tittle'>Diseño</h2>
                         <p className='card_detalle_paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt praesentium quasi itaque voluptatem velit eius animi eligendi, nam veritatis.</p>
-                        <div className='btn'><h6>Leer mas</h6></div>
+                       <Link to = '/diseño'>
+                       <div className='tarjeta'><h6>Leer mas</h6></div>
+                       </Link> 
                      </div>
                  </div>
             </div>
@@ -28,7 +31,10 @@ const Scarreras = () =>{
                         <h2 className='card_detalle-tittle'>Protesis Dental</h2>
                         <p className='card_detalle_paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt praesentium quasi itaque voluptatem velit eius animi eligendi, nam veritatis.</p>
                         <div className='contenedor'>
-                            <div className='tarjeta'><h6>Leer mas</h6></div>
+
+                           <Link to = '/protesis'>
+                           <div className='tarjeta_2'><h6>Leer mas</h6></div>
+                           </Link> 
                         </div>
                         
                      </div>
@@ -42,7 +48,10 @@ const Scarreras = () =>{
                      <div className='card_detalle_3'>
                         <h2 className='card_detalle-tittle'>Contabilidad</h2>
                         <p className='card_detalle_paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt praesentium quasi itaque voluptatem velit eius animi eligendi, nam veritatis.</p>
-                        <div className='btn'><h6>Leer mas</h6></div>
+                       <Link to = '/contabilidad'>
+                       <div className='tarjeta'><h6>Leer mas</h6></div>
+                       </Link> 
+                        
                      </div>
                  </div>
             </div>

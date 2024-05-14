@@ -2,8 +2,18 @@ import'./Blog.css'
 
 const Blog = () =>{
     return(
-        <div className='container_blog'>
+        <>
+        <div className='container_paralelo'>
+        <div className='container_diseño-tittle'><h1 className="diseño_programacion__tittle">BLOG</h1>
+            </div>
+          {/* <div className="paralelo"> Diseño y Desarrollo web </div>   */}
+        </div>
         
+        
+        <div className='container_blog'>
+           
+		
+	
          <div className='card_blog'>
                 <img className='card__imagen' src="https://i.postimg.cc/d09WZCWb/charladise-o.jpg" alt="" />
                 <p className='card__blog-paragraph'>Diseño</p>
@@ -26,6 +36,9 @@ const Blog = () =>{
                 <p>Ver mas </p>
             </div>
         </div>
+        
+        </>
     )
 }
+
 export default Blog;
