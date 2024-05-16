@@ -35,7 +35,7 @@
     color: black;
    
   }
-  nav {
+  .container_nav {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -273,10 +273,10 @@
       display: none; /* Hides the navigation links by default on smaller screens */
       flex-direction: column;
       align-items: center;
-      background-color: #24252a;
+      background-color: rgb(2, 16, 84,0.8);
       width: 100%;
       position: absolute;
-      top: 135px; /* Adjust this value according to your design */
+      top: 55px; /* Adjust this value according to your design */
       left: 0;
       z-index: 1;
       gap: 5px;
@@ -445,7 +445,7 @@
     
     .menu-icon {
         display: block;
-        background-color: #28071a;
+        background-color: rgb(9, 28, 104,0.8);
         padding: 5px;
         border-radius: 30%;
         transition: all 300ms ease;
@@ -461,6 +461,13 @@
         align-items: center;
         padding-left: 12px;
         transition: all 300ms ease;
+    }
+    .container_nav{
+      height: 80px;
+    }
+    .logo_instituto{
+      width: 100px;
+      height: 80px;
     }
   }
   

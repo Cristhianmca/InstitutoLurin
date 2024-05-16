@@ -10,7 +10,7 @@ function Nav() {
   };
 
   return (
-    <nav>
+    <nav className="container_nav">
       <div
         className={`menu-icon ${menuOpen ? "open" : ""}`}
         onClick={toggleMenu}

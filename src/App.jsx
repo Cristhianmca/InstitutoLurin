@@ -3,8 +3,9 @@ import Blog from './Blog/Blog'
 import Nav from './pages/Header/Nav'
 
 import Inicio from './pages/Inicio/Inicio'
-import Scarreras from './pages/SectionCarreras/Scarreras'
+// import Scarreras from './pages/SectionCarreras/Scarreras'
 import Background from './Background/Backgound'
+import Parallax from './Parallax/Parallax'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
     <Background/>
      <Nav/>
       <Inicio/>
-      <Scarreras/>
+      <Parallax/>
+      {/* <Scarreras/> */}
       <Blog/>
       {/* <Carrucel/>
       <Banner/> */}

@@ -21,9 +21,9 @@ const Inicio = () => {
                 </div>
                
                <div className='inicio_container_imagen'>
-                <img className='inicio__container-diseño' src="https://i.postimg.cc/2SjjKcQW/hombreenpc.png" alt="" />
-                <img className='inicio__container-protesis' src="https://i.postimg.cc/BvKvT857/protesis-dental.png" alt="" />
-                <img className='inicio__container-contabilidad' src="https://i.postimg.cc/fWfYSbvf/contabilidad.png" alt="" />
+                <img className='inicio__container-diseño' src="https://i.postimg.cc/RVHYx8k8/Dise-o-sin-t-tulo-7.png" alt="" />
+                {/* <img className='inicio__container-protesis' src="https://i.postimg.cc/BvKvT857/protesis-dental.png" alt="" />
+                <img className='inicio__container-contabilidad' src="https://i.postimg.cc/fWfYSbvf/contabilidad.png" alt="" /> */}
                 
                </div>
              

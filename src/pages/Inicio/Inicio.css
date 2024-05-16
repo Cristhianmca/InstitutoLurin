@@ -7,9 +7,10 @@
 .contenedor_inicio{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 50px;
    
     
    
@@ -90,18 +91,48 @@
 
 @media (400px <= width <= 800px)
 {
+    .contenedor_inicio{
+        margin-top:30px;
+    }
     .inicio_container_imagen{
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-    }
-    .inicio__container-diseño{
-        width: 400px;
-    }
-    .inicio__container-protesis{
-        width: 210px;
-    }
-    .inicio__container-contabilidad{
-        width: 300px;
-    }
+        margin: auto;
+        
+        width: 100%;
+        position: absolute;
+        top: 45%;
+        left: -7%;
+        z-index: -1;
+        
+        
+     }
+     .inicio__container-diseño{
+         width: 300px;
+     }
+   
+ 
+     .inicio__paragraph-creatividad{
+         font-size: 15px;
+     }
+     .inicio__paragraph-presicion{
+         font-size: 15px;
+     }
+     .inicio__paragraph-cuidado{
+         font-size: 15px;
+     }
+ 
+     .inicio_logo{
+         margin-top: 230px;
+       
+         
+     }
+     .inicio__paragraph-entrelazan{
+         font-size: 22px;
+     }
+     .inicio_instituto{
+         font-size: 28px;
+         
+     }
+     .inicio_lurin{
+         font-size: 25px;
+     }
 }
