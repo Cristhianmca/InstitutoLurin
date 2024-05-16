@@ -99,7 +99,7 @@
         
         width: 100%;
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: -7%;
         z-index: -1;
         
@@ -129,10 +129,10 @@
          font-size: 22px;
      }
      .inicio_instituto{
-         font-size: 28px;
+         font-size: 30px;
          
      }
      .inicio_lurin{
-         font-size: 25px;
+         font-size: 30px;
      }
 }
