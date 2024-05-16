@@ -1,4 +1,5 @@
 import './Parallax.css'
+import { Link } from 'react-router-dom';
 const Parallax = ()=>{
     return (
       <div className='contenedor_parallax'>
@@ -9,6 +10,9 @@ const Parallax = ()=>{
 <section className='section_diseño'>
             <h2>DISEÑO Y DESARROLLO WEB</h2>
            <p>Este enfoque se basa en la idea de que el diseño de un sitio web debe priorizar las necesidades y experiencias de los usuarios. Implica realizar investigaciones exhaustivas sobre el público objetivo para comprender sus comportamientos, preferencias y desafíos. Luego, utilizando técnicas como mapas de empatía, entrevistas y pruebas de usabilidad, los diseñadores y desarrolladores web pueden crear interfaces intuitivas y atractivas que mejoren la experiencia del usuario. Este enfoque también implica iterar y mejorar continuamente el diseño en función del feedback de los usuarios, con el objetivo de optimizar la usabilidad y la satisfacción del usuario.</p>
+           <Link to = '/diseño'>
+                       <div className='section_leermas'><h6>Leer mas</h6></div>
+                       </Link> 
         </section>
         <div className="parallax-image parallax-image-02"></div>
         <section className='section_protesis'>
