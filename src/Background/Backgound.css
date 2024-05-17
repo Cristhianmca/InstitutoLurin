@@ -11,7 +11,7 @@
   animation: move linear infinite;
 }
 
-
+/* Inicio de estilos en el contenedor principal */
 .container {
     background-image: linear-gradient(rgba(4, 8, 40, 0.8), #000);
     inset: 0;
@@ -19,6 +19,7 @@
     z-index: -10;
   }
   
+  /* Se le da los estilos al fondo para que tengan esos colores y movimiento */
   .space {
     --size: 2px;
     --space-layer: 
@@ -35,10 +36,12 @@
     left: 0;
     opacity: 0.75;
   }
-  
+  /* aqui se le hizo animaciones */
   .space {
      animation: move var(--duration) linear infinite;
   }
+
+  /* Se hizo los estilos de las transiciones */
   
   @keyframes move {
     from { transform: translateY(0); }

@@ -1,34 +1,34 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.css";
 
 function Nav() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false); // se hizo un estado para el menu esto es para que se abra y cierre el menu
 
-  const toggleMenu = () => {
+  const toggleMenu = () => { 
     setMenuOpen(!menuOpen);
-  };
+  }; // esto es para que se abra y cierre el menu mediante un toggle que sirve para cambiar el estado del menu
 
   return (
     <nav className="container_nav">
       <div
-        className={`menu-icon ${menuOpen ? "open" : ""}`}
-        onClick={toggleMenu}
+        className={`menu-icon ${menuOpen ? "open" : ""}`} // se hizo un div para el icono del menu
+        onClick={toggleMenu} // esto es para que se abra y cierre el menu
       >
         <svg className='svg_icon' viewBox="0 0 150 80" width="40" height="40">
                     <rect width="80" height="15"></rect>
                     <rect y="30" width="80" height="15"></rect>
                     <rect y="60" width="80" height="15"></rect>
-                </svg>
-      </div>
-   <Link to = '/'>
-   <img
+                </svg> 
+      </div> 
+   <Link to = '/'> 
+   <img 
         className="logo_instituto"
         src="https://i.postimg.cc/Bbk4tTfs/logoLurin.png"
         alt=""
-      />
+      />  
    </Link>   
-      <ul className={`cont-ul ${menuOpen ? "active" : ""}`}>
+      <ul className={`cont-ul ${menuOpen ? "active" : ""}`}> 
       <Link to = '/' className="link" ><li >Inicio</li>
       </Link>  
        <Link to='/nosotros' className="link">

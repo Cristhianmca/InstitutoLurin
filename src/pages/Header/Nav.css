@@ -1,64 +1,76 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-  }
-  body{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-    
-    background: -webkit-linear-gradient(90deg, rgba(94, 3, 3), rgba(0, 0, 0, ), rgba(94, 3, 3 ));
-    background: linear-gradient(90deg, rgb(44, 3, 3), rgba(0, 0, 0), rgb(31, 7, 7));
-
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
-  
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(94, 3, 3),
+    rgba(0, 0, 0),
+    rgba(94, 3, 3)
+  );
+  background: linear-gradient(
+    90deg,
+    rgb(44, 3, 3),
+    rgba(0, 0, 0),
+    rgb(31, 7, 7)
+  );
+}
+
 .menu-icon {
-    display: none; /* Ocultar el ícono del menú en pantallas grandes */
-    cursor: pointer;
+  display: none; /* Ocultar el ícono del menú en pantallas grandes */
+  cursor: pointer;
 }
 
 /* Estilo para el ícono del menú */
 .menu-icon svg {
-    width: 40px;
-    height: auto;
+  width: 40px;
+  height: auto;
 }
-  .logo_instituto{
-    width: 200px;
-    height: 150px;
-  }
-  .link{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-   
-  }
-  .container_nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color:  
-    rgb(3,11,23,0.9);  /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
-    padding-left: 2vw;
-    position: -webkit-sticky; /* Para compatibilidad con Safari */
+
+.logo_instituto {
+  width: 200px;
+  height: 150px;
+}
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.container_nav {
+  /* aqui se le da los estilos al contenedor principal */
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(
+    3,
+    11,
+    23,
+    0.9
+  ); /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
+  padding-left: 2vw;
+  position: -webkit-sticky; /* Para compatibilidad con Safari */
   position: sticky;
   top: 0; /* Fija la barra de navegación en la parte superior de la página */
   z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
-    
+}
+
+.menu-icon {
+  display: none; /* esto oculta el icono del menu en pantallas grandes */
+}
+
+/* .menu-icon.open .bar:nth-child(2) {
+    opacity: 0; 
   }
   
-  .menu-icon {
-    display: none; /* Hides the menu icon by default */
-  }
-  
-  .menu-icon.open .bar:nth-child(2) {
-    opacity: 0; /* Hides the middle bar of the menu icon when open */
-  }
-  
-  .menu-icon .bar {
+  .menu-icon .bar { 
     width: 25px;
     height: 3px;
     background-color: #fff;
@@ -85,389 +97,356 @@
   }
   
   .menu-icon.open .bar:first-child:before {
-    transform: translateY(8px) rotate(45deg); /* Rotates the first bar of the menu icon when open */
+    transform: translateY(8px) rotate(45deg); 
   }
   
   .menu-icon.open .bar:last-child:after {
-    transform: translateY(-8px) rotate(-45deg); /* Rotates the last bar of the menu icon when open */
-  }
-  
-  .cont-ul {
-    display: flex;
-    align-items: center;
-   
-	
-	display:flex;
-	justify-content:center;
-	align-items:center;
-    gap: 20px;
-    
-  }
-  
-  ul {
-    list-style-type: none;
-    
-  }
-  
-  li {
-    cursor: pointer;
-    padding: 1.5vw;
-    transition: all 0.3s ease 0s;
-    border-radius: 10%;
+    transform: translateY(-8px) rotate(-45deg); 
+  } */
 
-    cursor:pointer;
-	position:relative;
-	padding: 20px 10px;
-	background-color: rgb(228, 187, 34 , 0.8);
-	font-size:18px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	transition:all 1s;
-	&:after,&:before{
-		content:" ";
-		width:10px;
-		height:10px;
-		position:absolute;
-		
-		transition:all 1s;
-		}
-	&:after{
-		top:-1px;
-		left:-1px;
-		border-top:5px solid black;
-		border-left:5px solid black;
-	}
-	&:before{
-		bottom:-1px;
-		right:-1px;
-		border-bottom:5px solid black;
-		border-right:5px solid black;
-	}
-	&:hover{
-		border-top-right-radius:0px;
-	border-bottom-left-radius:0px;
-		
-		&:before,&:after{
-			
-			width:100%;
-			height:100%;
-			
-		
-	}
-    
-    
+.cont-ul {
+  display: flex;
+  align-items: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-    
-  }
-  
-  li:hover {
-    background-color: #3d3c46;
-    cursor:pointer;
-	position:relative;
-	
-	
-	cursor:pointer;
-	position:relative;
-	
-	background:#e4bb22;
-	font-size:18px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	transition:all 1s;
-	&:after,&:before{
-		content:" ";
-		width:10px;
-		height:10px;
-		position:absolute;
-		border :0px solid #fff;
-		transition:all 1s;
-		}
-	&:after{
-		top:-1px;
-		left:-1px;
-		border-top:5px solid black;
-		border-left:5px solid black;
-	}
-	&:before{
-		bottom:-1px;
-		right:-1px;
-		border-bottom:5px solid black;
-		border-right:5px solid black;
-	}
-	&:hover{
-		border-top-right-radius:0px;
-	border-bottom-left-radius:0px;
-		
-		&:before,&:after{
-			
-			width:100%;
-			height:100%;
-		
-		}
-	}
-  }
-  
-  .develop {
-    position: relative;
-    
-    
-  }
-  
-  .ul-second {
-    display: none;
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  cursor: pointer;
+  padding: 1.5vw;
+  transition: all 0.3s ease 0s;
+  border-radius: 10%;
+
+  cursor: pointer;
+  position: relative;
+  padding: 20px 10px;
+  background-color: rgb(228, 187, 34, 0.8);
+  font-size: 18px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+  &:after,
+  &:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
     position: absolute;
-    margin-top: 1.5vw;
-    background-color: #24252a;
-   
+
+    transition: all 1s;
   }
-  
-  .ul-second > li {
-    width: 190px;
-    transform: translateX(-20px);
-    border-bottom: solid 1px #fff;
-    text-align: center;
-    
+  &:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
   }
-  
-  .ul-second > li:hover {
-    background-color: #008849;
-    border: solid red;
+  &:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
   }
-  
-  .develop:hover > .ul-second {
-    display: block;
-   
-  }
-  
-  .ul-third {
-    position: absolute;
-    transform: translateX(100%);
-    right: 0;
-    top: 0;
-    display: none;
-    background-color: #24252a;
-   
-  }
-  
-  .ul-third > li {
-    padding: 1.5vw;
-    border-bottom: solid 1px #fff;
-    
-  }
-  
-  .front:hover > .ul-third {
-    display: block;
-    
-  }
-  
-  @media (max-width: 900px) {
-    .menu-icon {
-      display: flex; /* Displays the menu icon on smaller screens */
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-       
-    }
-  
-    .cont-ul {
-      display: none; /* Hides the navigation links by default on smaller screens */
-      flex-direction: column;
-      align-items: center;
-      background-color: rgb(2, 16, 84,0.8);
+  &:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    &:before,
+    &:after {
       width: 100%;
-      position: absolute;
-      top: 55px; /* Adjust this value according to your design */
-      left: 0;
-      z-index: 1;
-      gap: 5px;
-      margin-top: 20px;
+      height: 100%;
     }
-  
-    .cont-ul.active {
-      display: flex; /* Displays the navigation links when the menu icon is clicked */
+  }
+}
+
+li:hover {
+  background-color: #3d3c46;
+  cursor: pointer;
+  position: relative;
+
+  cursor: pointer;
+  position: relative;
+
+  background: #e4bb22;
+  font-size: 18px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+  &:after,
+  &:before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border: 0px solid #fff;
+    transition: all 1s;
+  }
+  &:after {
+    top: -1px;
+    left: -1px;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+  }
+  &:before {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+  }
+  &:hover {
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+    &:before,
+    &:after {
+      width: 100%;
+      height: 100%;
     }
-  
-    .menu-icon.open .bar:nth-child(2) {
-      display: none; /* Hides the middle bar of the menu icon when open */
+  }
+}
+
+.develop {
+  position: relative;
+}
+
+.ul-second {
+  display: none;
+  position: absolute;
+  margin-top: 1.5vw;
+  background-color: #24252a;
+}
+
+.ul-second > li {
+  width: 190px;
+  transform: translateX(-20px);
+  border-bottom: solid 1px #fff;
+  text-align: center;
+}
+
+.ul-second > li:hover {
+  background-color: #008849;
+  border: solid red;
+}
+
+.develop:hover > .ul-second {
+  display: block;
+}
+
+.ul-third {
+  position: absolute;
+  transform: translateX(100%);
+  right: 0;
+  top: 0;
+  display: none;
+  background-color: #24252a;
+}
+
+.ul-third > li {
+  padding: 1.5vw;
+  border-bottom: solid 1px #fff;
+}
+
+.front:hover > .ul-third {
+  display: block;
+}
+
+@media (max-width: 900px) {
+
+  .menu-icon {
+    display: block;
+    background-color: rgb(9, 28, 104, 0.8);
+    padding: 5px;
+    border-radius: 30%;
+    transition: all 300ms ease;
+  }
+  /* .menu-icon {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .cont-ul {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(2, 16, 84, 0.8);
+    width: 100%;
+    position: absolute;
+    top: 55px; /* Adjust this value according to your design */
+    left: 0;
+    z-index: 1;
+    gap: 5px;
+    margin-top: 20px;
+   
+  }
+
+  .cont-ul.active {
+    display: flex; /* Displays the navigation links when the menu icon is clicked */
+  }
+
+  /* .menu-icon.open .bar:nth-child(2) {
+      display: none;
     }
   
     .menu-icon.open .bar:before,
     .menu-icon.open .bar:after {
-      display: none; /* Hides the pseudo elements of the bars when menu is open */
+      display: none; 
     }
   
     .menu-icon.open .bar:first-child:before {
-      transform: translateY(8px) rotate(45deg); /* Rotates the first bar of the menu icon when open */
+      transform: translateY(8px) rotate(45deg); 
     }
   
     .menu-icon.open .bar:last-child:after {
-      transform: translateY(-8px) rotate(-45deg); /* Rotates the last bar of the menu icon when open */
-    }
-  
-    li {
-      width: 100%; /* Makes the navigation links full width on smaller screens */
-      text-align: center;
-      padding: 20px 0; /* Adjust this value according to your design */
-      border-bottom: solid 1px #fff;
-        color: rgb(109, 108, 108);
-      cursor:pointer;
-	position:relative;
-	padding:10px 20px;
-	background-color: rgba(10, 6, 6, 0.8); /* R, G, B, Alpha */
-	font-size:28px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	transition:all 1s;
-	&:after,&:before{
-		content:" ";
-		width:10px;
-		height:10px;
-		position:absolute;
-		border :0px solid #fff;
-		transition:all 1s;
-		}
-	&:after{
-		top:-1px;
-		left:-1px;
-		border-top:5px solid black;
-		border-left:5px solid black;
-	}
-	&:before{
-		bottom:-1px;
-		right:-1px;
-		border-bottom:5px solid black;
-		border-right:5px solid black;
-	}
-	&:hover{
-		border-top-right-radius:0px;
-	border-bottom-left-radius:0px;
-		
-		&:before,&:after{
-			
-			width:100%;
-			height:100%;
-			
-		
-	}
-    }
-}
-    li:hover {
-       
-            color: white;
-            cursor:pointer;
-            position:relative;
-            
-           
-            font-size:18px;
-            border-top-right-radius:10px;
-            border-bottom-left-radius:10px;
-            transition:all 1s;
+      transform: translateY(-8px) rotate(-45deg); 
+    } */
 
-            cursor:pointer;
-            position:relative;
-            padding:10px 20px;
-            background:rgb(228, 187, 34, 0.8);
-            font-size:28px;
-            border-top-right-radius:10px;
-            border-bottom-left-radius:10px;
-            transition:all 1s;
-            &:after,&:before{
-                content:" ";
-                width:10px;
-                height:10px;
-                position:absolute;
-                border :0px solid #fff;
-                transition:all 1s;
-                }
-            &:after{
-                top:-1px;
-                left:-1px;
-                border-top:5px solid black;
-                border-left:5px solid black;
-            }
-            &:before{
-                bottom:-1px;
-                right:-1px;
-                border-bottom:5px solid black;
-                border-right:5px solid black;
-            }
-            &:hover{
-                border-top-right-radius:0px;
-            border-bottom-left-radius:0px;
-                
-                &:before,&:after{
-                    
-                    width:50%;
-                    height:80%;
-                    
-                
-            }
-          
-      }
+  li {
+    width: 100%; /* Makes the navigation links full width on smaller screens */
+    text-align: center;
+    padding: 20px 0; /* Adjust this value according to your design */
+    border-bottom: solid 1px #fff;
+    color: rgb(109, 108, 108);
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    background-color: rgba(10, 6, 6, 0.8); /* R, G, B, Alpha */
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+    &:after,
+    &:before {
+      content: " ";
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      border: 0px solid #fff;
+      transition: all 1s;
     }
-  
-    .develop {
-      position: static; /* Changes the position of the "DEVELOPER" dropdown to static */
+    &:after {
+      top: -1px;
+      left: -1px;
+      border-top: 5px solid black;
+      border-left: 5px solid black;
     }
-  
-    .ul-second {
-      position: static; /* Changes the position of the second level dropdown to static */
-      display: none; /* Hides the second level dropdown by default on smaller screens */
-      width: 100%; /* Makes the second level dropdown full width on smaller screens */
-      text-align: center;
+    &:before {
+      bottom: -1px;
+      right: -1px;
+      border-bottom: 5px solid black;
+      border-right: 5px solid black;
     }
-  
-    .ul-third {
-      position: static; /* Changes the position of the third level dropdown to static */
-      display: none; /* Hides the third level dropdown by default on smaller screens */
-      width: 100%; /* Makes the third level dropdown full width on smaller screens */
-      text-align: center;
-    }
-  
-    .front:hover > .ul-third,
-    .ul-second.active {
-      display: block; /* Displays the second and third level dropdowns when hovered */
-    }
-    .link{
-        text-decoration: none;
-        list-style: none;
-        color: rgb(5, 5, 5);
+    &:hover {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+
+      &:before,
+      &:after {
         width: 100%;
+        height: 100%;
       }
-    .link:hover{
-        
-            text-decoration: none;
-            list-style: none;
-            color: black;
-            width: 100%;
-          
-    }
-    
-    .menu-icon {
-        display: block;
-        background-color: rgb(9, 28, 104,0.8);
-        padding: 5px;
-        border-radius: 30%;
-        transition: all 300ms ease;
-    
-       
-    }
-
-    .svg_icon{
-       
-        display: block;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 12px;
-        transition: all 300ms ease;
-    }
-    .container_nav{
-      height: 80px;
-    }
-    .logo_instituto{
-      width: 100px;
-      height: 80px;
     }
   }
-  
+  li:hover {
+   
+    cursor: pointer;
+    position: relative;
+    
+    background: rgb(228, 187, 34, 0.8);
+    font-size: 28px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    transition: all 1s;
+    &:after,
+    &:before {
+      content: " ";
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      border: 0px solid #fff;
+      transition: all 5s; /* esto es para que la animacion sea mas lenta */
+    }
+    &:after {
+      top: -1px;
+      left: -1px;
+      border-top: 5px solid black;
+      border-left: 5px solid black;
+    }
+    &:before {
+      bottom: -1px;
+      right: -1px;
+      border-bottom: 5px solid black;
+      border-right: 5px solid black;
+    }
+    &:hover {
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+
+      &:before,
+      &:after {
+        width: 50%;
+        height: 80%;
+      }
+    }
+  }
+
+  .develop {
+    position: static; /* Changes the position of the "DEVELOPER" dropdown to static */
+  }
+
+  .ul-second {
+    position: static; /* Changes the position of the second level dropdown to static */
+    display: none; /* Hides the second level dropdown by default on smaller screens */
+    width: 100%; /* Makes the second level dropdown full width on smaller screens */
+    text-align: center;
+  }
+
+  .ul-third {
+    position: static; /* Changes the position of the third level dropdown to static */
+    display: none; /* Hides the third level dropdown by default on smaller screens */
+    width: 100%; /* Makes the third level dropdown full width on smaller screens */
+    text-align: center;
+  }
+
+  .front:hover > .ul-third,
+  .ul-second.active {
+    display: block; /* Displays the second and third level dropdowns when hovered */
+  }
+  .link {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(5, 5, 5);
+    width: 100%;
+  }
+  .link:hover {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    width: 100%;
+  }
+
+ 
+
+  .svg_icon {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    transition: all 300ms ease;
+  }
+  .container_nav {
+    height: 80px;
+  }
+  .logo_instituto {
+    width: 100px;
+    height: 80px;
+  }
+}
