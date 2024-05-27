@@ -4,10 +4,10 @@ import Background from '../../../../Background/Backgound'
 
 const Contabilidad = () => {
   return (
-    <div>
+    <div >
         <Nav/>
         <Background/>
-      Contabilidad
+      <p className='text-[#5ebe27]'>Contabildedidad</p>
     </div>
   )
 }

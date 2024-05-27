@@ -49,12 +49,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgb(
-    3,
-    11,
-    23,
-    0.9
-  ); /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
+  background-color: rgba(47, 66, 86, 0.452); /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
   padding-left: 2vw;
   position: -webkit-sticky; /* Para compatibilidad con Safari */
   position: sticky;

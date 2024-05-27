@@ -6,6 +6,9 @@ import Inicio from './pages/Inicio/Inicio'
 // import Scarreras from './pages/SectionCarreras/Scarreras'
 import Background from './Background/Backgound'
 import Parallax from './Parallax/Parallax'
+import VideoFondo from './pages/Inicio/VideoFondo'
+
+
 
 
 function App() {
@@ -15,7 +18,11 @@ function App() {
     <>
     <Background/>
      <Nav/>
-      <Inicio/>
+
+      {/* <Inicio/> */}
+      <VideoFondo/>
+   
+
       <Parallax/>
       {/* <Scarreras/> */}
       <Blog/>

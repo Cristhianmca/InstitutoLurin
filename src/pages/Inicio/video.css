@@ -1,0 +1,20 @@
+#miVideoFondo{
+    /* border: solid red 1px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajusta esto a la altura que desees para el contenedor */
+
+
+   
+}
+.videoContainer {
+   
+    min-width: 50%;
+    min-height: 40%;
+
+    opacity: 0.7;
+
+  }
+
+  
