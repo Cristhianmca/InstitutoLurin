@@ -1,5 +1,5 @@
 
-import Nav from '../../../Header/Nav'
+import Nav from '../../../../pages/Inicio/Header/Nav'
 import Background from '../../../../Background/Backgound'
 
 const Contabilidad = () => {
