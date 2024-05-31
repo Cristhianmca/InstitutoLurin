@@ -79,8 +79,8 @@ section > h2 {
 
 }
   
-P{
-    color: white;
+P{ 
+    color: white; 
 }
 
 h2{
@@ -103,6 +103,8 @@ h2{
     
    
 }
+
+
 
 .section_leermas::before{
     content: "";

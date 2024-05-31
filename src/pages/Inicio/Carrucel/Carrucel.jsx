@@ -9,15 +9,15 @@ const Carrucel = () => {
   const images = [
     //imagenes del slaider
     {
-      original: "https://i.postimg.cc/Qdf4XJ62/7.jpg",
+      original: "https://res.cloudinary.com/dxhcv6buy/image/upload/v1717117516/institutocarrucel_zidp3s.png",
     },
 
     {
-      original: "https://i.postimg.cc/L6yntqwm/lurinslider3.jpg",
+      original: "https://res.cloudinary.com/dxhcv6buy/image/upload/v1717117516/institutocarrucel_zidp3s.png",
     },
     
     {
-      original: "https://i.postimg.cc/y6yJNpTg/luroinslider2.jpg",
+      original: "https://res.cloudinary.com/dxhcv6buy/image/upload/v1717117516/institutocarrucel_zidp3s.png",
     },
   ];
 

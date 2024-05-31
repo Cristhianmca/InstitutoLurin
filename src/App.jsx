@@ -1,12 +1,15 @@
-import Blog from './Blog/Blog'
+import Blog from './pages/Inicio/Noticias/Blog'
 
-import Nav from './pages/Header/Nav'
+import Nav from './pages/Inicio/Header/Nav'
 
-import Inicio from './pages/Inicio/Inicio'
-// import Scarreras from './pages/SectionCarreras/Scarreras'
+// import Inicio from './pages/Inicio/Inicio'
+ import Scarreras from './pages/Inicio/Carreras/Scarreras'
 import Background from './Background/Backgound'
-import Parallax from './Parallax/Parallax'
-import VideoFondo from './pages/Inicio/VideoFondo'
+// import Parallax from './Parallax/Parallax'
+import Carrucel from './pages/Inicio/Carrucel/Carrucel'
+// import VideoFondo from './pages/Inicio/VideoFondo'
+import Footer from './pages/Inicio/Footer/Footer'
+
 
 
 
@@ -20,12 +23,13 @@ function App() {
      <Nav/>
 
       {/* <Inicio/> */}
-      <VideoFondo/>
+      {/* <VideoFondo/> */}
    
-
-      <Parallax/>
-      {/* <Scarreras/> */}
+      <Carrucel/>
+      {/* <Parallax/> */}
+      <Scarreras/> 
       <Blog/>
+      <Footer/>
       {/* <Carrucel/>
       <Banner/> */}
      

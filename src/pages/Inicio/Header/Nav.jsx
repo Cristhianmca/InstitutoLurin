@@ -85,8 +85,8 @@ function Nav() {
             </li>
         </Link>    
         <Link to = '/contactanos' className="link">
-        <li className="develop">
-           <i className="fa-solid fa-user-bounty-hunter"></i>
+        <li className="develop"> Aula Virtual <br />
+           {/* <i className="fa-solid fa-user-bounty-hunter"></i> */}
            
             </li>
         </Link>   
