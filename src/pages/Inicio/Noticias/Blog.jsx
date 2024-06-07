@@ -25,7 +25,7 @@ const Blog = () =>{
             <div className='card_blog'>
                 <img className='card__imagen' src="https://i.postimg.cc/wBzfB2k5/charlaprotesis.jpg" alt="" />
                 <h5 className='card__titulo'>Titulo</h5>
-                <p className='card__paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui natus obcaecati earum, sit dolorem suscipit officia aliquam magnam totam eos!</p>
+                <p className='card__paragraph'>Lorem  dolor sit amet, consectetur adipisicing elit. Qui natus obcaecati earum, sit dolorem suscipit officia aliquam magnam totam eos!</p>
                 <p>Ver mas </p>
             </div>
 
