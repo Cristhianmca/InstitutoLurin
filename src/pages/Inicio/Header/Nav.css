@@ -124,7 +124,7 @@ li {
   padding: 20px 10px;
   /* este background-color es el color de fondo de los elementos del menu */
   /* background-color: rgb(228, 187, 34, 0.8); */
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.7);
   font-size: 18px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;

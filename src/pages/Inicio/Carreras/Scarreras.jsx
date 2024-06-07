@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Scarreras = () =>{
     return (
         <div className="container_carreras-total">
-            <div className='container_carreras-tittle'><h1 className="carreras__tittle">3 CARRERAS</h1>
+            <div className='container_carreras-tittle'><h1 className="carreras__tittle">NUESTRAS CARRERAS <i className="fa-duotone fa-graduation-cap"></i> </h1>
             </div>
             
             <div className="container_carreras">
