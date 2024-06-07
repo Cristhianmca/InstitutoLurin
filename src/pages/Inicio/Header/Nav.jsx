@@ -24,7 +24,7 @@ function Nav() {
    <Link to = '/'> 
    <img 
         className="logo_instituto"
-        src="https://i.postimg.cc/Bbk4tTfs/logoLurin.png"
+        src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1717457856/images_pcrpfl.png"
         alt=""
       />  
    </Link>   

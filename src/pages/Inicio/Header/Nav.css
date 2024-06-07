@@ -9,7 +9,7 @@ body {
   margin: 0;
   box-sizing: border-box;
 
-  background: -webkit-linear-gradient(
+  /* background: -webkit-linear-gradient(
     90deg,
     rgba(94, 3, 3),
     rgba(0, 0, 0),
@@ -20,7 +20,7 @@ body {
     rgb(44, 3, 3),
     rgba(0, 0, 0),
     rgb(31, 7, 7)
-  );
+  ); */
 }
 
 .menu-icon {
@@ -35,8 +35,8 @@ body {
 }
 
 .logo_instituto {
-  width: 200px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 .link {
   text-decoration: none;
@@ -49,7 +49,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: rgba(47, 66, 86, 0.452); /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
+  background-color: white; /* rgba(10, 6, 6, 0.7);  R, G, B, Alpha */
   padding-left: 2vw;
   position: -webkit-sticky; /* Para compatibilidad con Safari */
   position: sticky;
@@ -102,7 +102,7 @@ body {
 .cont-ul {
   display: flex;
   align-items: center;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -122,12 +122,15 @@ li {
   cursor: pointer;
   position: relative;
   padding: 20px 10px;
-  background-color: rgb(228, 187, 34, 0.8);
+  /* este background-color es el color de fondo de los elementos del menu */
+  /* background-color: rgb(228, 187, 34, 0.8); */
+  background-color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   transition: all 1s;
-  &:after,
+  /* esta zona de after y before es para hacer un efecto de triangulo en los bordes de los elementos del menu */
+  /* &:after,
   &:before {
     content: " ";
     width: 10px;
@@ -157,18 +160,19 @@ li {
       width: 100%;
       height: 100%;
     }
-  }
+  } */
 }
 
 li:hover {
-  background-color: #3d3c46;
+  
   cursor: pointer;
   position: relative;
 
   cursor: pointer;
   position: relative;
-
-  background: #e4bb22;
+  /*este background-color es el color de fondo de los elementos del menu cuando se pasa el mouse por encima */
+  
+  /* background: #e4bb22;  */
   font-size: 18px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
@@ -224,10 +228,7 @@ li:hover {
   text-align: center;
 }
 
-.ul-second > li:hover {
-  background-color: #008849;
-  border: solid red;
-}
+
 
 .develop:hover > .ul-second {
   display: block;
