@@ -15,7 +15,7 @@
     
     text-align: center;
     color: rgb(15, 13, 13);
-    margin-top: 100px;
+    margin-top: 50px;
    
     font-size: 25px;
     
@@ -299,4 +299,89 @@ h6{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     text-shadow: 5px 5px 5px black;
+}
+
+@media (400px <= width <= 800px){
+   
+        .card{
+        height: 300px;
+        width: 200px;
+    }
+    .card_carreras, .card_carreras_2,  .card_carreras_3{
+        height: 300px;
+        width: 250px;
+    }
+    .card_personajes_3{
+        height: 200px;
+        width: 200px;
+    }
+    .card_detalle , .card_detalle_2, .card_detalle_3{
+        height: 150px;
+        width: 250px;
+    }
+    .card_detalle-tittle{
+        font-size: 15px;
+    }
+    .card_detalle_paragraph{
+        font-size: 10px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+    .container_carreras-tittle{
+        font-size: 15px;
+        margin-top: 0px;
+        margin-bottom: 45px;
+        border-top: #000 solid 1px;
+        border-bottom: solid 1px #000;
+    }
+    .tarjeta{
+        height: 30px;
+        width: 150px;
+    }
+    .tarjeta_2{
+        height: 30px;
+        width: 150px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .card_personajes{
+        height: 230px;
+        width: 300px;
+        background-image:url(../../../img/diseño1.png) ;
+        background-size: cover;
+        margin-bottom: 200px;
+        transition: 1000ms;
+        filter: drop-shadow(5px -4px 10px #000);
+    }
+    .card_personajes:hover{
+       
+        width: 30px;
+        height: 200px;
+        margin-top: 150px;
+        transition: 1000ms;
+        filter: none;
+        background-image: url(../../../img/diseño22.png);
+    
+    }
+    .card_personajes_2{
+        height: 380px;
+        width: 300px;
+        background-size: cover;
+        margin-bottom: 300px;
+        transition: 1000ms;
+        filter: drop-shadow(5px -4px 10px #000);
+    }
+    .card:hover .card_personajes_2{
+       height: 350px;
+        width: 200px;
+        background-image: url(../../../img/protesis22.png);
+        background-size: cover;
+    margin-bottom: 100px;
+    transition: 1000ms;
+    filter: drop-shadow(5px -4px 10px #000);
+    
+    }
+    
 }

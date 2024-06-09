@@ -113,7 +113,7 @@ ul {
   list-style-type: none;
 }
 
-li {
+.develop {
   cursor: pointer;
   padding: 1.5vw;
   transition: all 0.3s ease 0s;
@@ -163,7 +163,7 @@ li {
   } */
 }
 
-li:hover {
+.develop:hover {
   
   cursor: pointer;
   position: relative;
@@ -304,7 +304,7 @@ li:hover {
       transform: translateY(-8px) rotate(-45deg); 
     } */
 
-  li {
+  .develop {
     width: 100%; /* Makes the navigation links full width on smaller screens */
     text-align: center;
     padding: 20px 0; /* Adjust this value according to your design */
@@ -350,7 +350,7 @@ li:hover {
       }
     }
   }
-  li:hover {
+  .develop:hover {
    
     cursor: pointer;
     position: relative;

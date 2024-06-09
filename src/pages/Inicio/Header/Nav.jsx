@@ -29,10 +29,10 @@ function Nav() {
       />  
    </Link>   
       <ul className={`cont-ul ${menuOpen ? "active" : ""}`}> 
-      <Link to = '/' className="link" ><li >Inicio</li>
+      <Link to = '/' className="link" ><li className="develop" >Inicio</li>
       </Link>  
        <Link to='/nosotros' className="link">
-       <li>Nosotros</li>
+       <li className="develop">Nosotros</li>
        </Link> 
         <li className="develop">
           Carreras
@@ -40,15 +40,16 @@ function Nav() {
             <ul className="front">
 
              <Link to= '/diseño' className="link">
-             <li>Diseño y Desarrollo Web</li>
+             <li className="develop
+             ">Diseño y Desarrollo Web</li>
              </Link> 
 
             <Link to='/protesis' className="link">
-            <li>Protesis</li>
+            <li className="develop">Protesis</li>
             </Link>  
 
             <Link to= '/contabilidad' className="link">
-            <li>Contabilidad</li>
+            <li className="develop">Contabilidad</li>
             </Link>
               
             </ul>
@@ -59,7 +60,7 @@ function Nav() {
           <ul className="ul-second">
             <ul className="front">
            <Link to = '/examen' className="link">
-           <li>Exámen 2024</li>
+           <li className="develop">Exámen 2024</li>
            </Link>   
               
             </ul>
@@ -71,7 +72,7 @@ function Nav() {
             <ul className="front">
 
           <Link to= '/blog' className="link">
-          <li>Blog</li>
+          <li className="develop">Blog</li>
           </Link>    
               
             </ul>
