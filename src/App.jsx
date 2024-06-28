@@ -9,7 +9,7 @@ import Nav from './pages/Inicio/Header/Nav'
 import Carrucel from './pages/Inicio/Carrucel/Carrucel'
 // import VideoFondo from './pages/Inicio/VideoFondo'
 import Footer from './pages/Inicio/Footer/Footer'
-import Develops from './pages/Inicio/Develops/Develops'
+// import Develops from './pages/Inicio/Develops/Develops'
 
 
 
@@ -32,9 +32,10 @@ function App() {
       <Blog/>
 
 
-      <Develops/>
+      {/* <Develops/> */}
       <Footer/>
       {/* <Carrucel/>
+      
       <Banner/> */}
 
      
