@@ -19,7 +19,7 @@ function App() {
     <Background/>
      <Nav/>
 
-      {/* <Inicio/> */}
+      <Inicio/>
       <VideoFondo/>
    
 
