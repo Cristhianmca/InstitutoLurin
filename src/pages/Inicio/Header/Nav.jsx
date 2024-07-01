@@ -24,15 +24,15 @@ function Nav() {
    <Link to = '/'> 
    <img 
         className="logo_instituto"
-        src="https://i.postimg.cc/Bbk4tTfs/logoLurin.png"
+        src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1717457856/images_pcrpfl.png"
         alt=""
       />  
    </Link>   
       <ul className={`cont-ul ${menuOpen ? "active" : ""}`}> 
-      <Link to = '/' className="link" ><li >Inicio</li>
+      <Link to = '/' className="link" ><li className="develop" >Inicio</li>
       </Link>  
        <Link to='/nosotros' className="link">
-       <li>Nosotros</li>
+       <li className="develop">Nosotros</li>
        </Link> 
         <li className="develop">
           Carreras
@@ -40,15 +40,16 @@ function Nav() {
             <ul className="front">
 
              <Link to= '/diseño' className="link">
-             <li>Diseño y Desarrollo Web</li>
+             <li className="develop
+             ">Diseño y Desarrollo Web</li>
              </Link> 
 
             <Link to='/protesis' className="link">
-            <li>Protesis</li>
+            <li className="develop">Protesis</li>
             </Link>  
 
             <Link to= '/contabilidad' className="link">
-            <li>Contabilidad</li>
+            <li className="develop">Contabilidad</li>
             </Link>
               
             </ul>
@@ -59,7 +60,7 @@ function Nav() {
           <ul className="ul-second">
             <ul className="front">
            <Link to = '/examen' className="link">
-           <li>Exámen 2024</li>
+           <li className="develop">Exámen 2024</li>
            </Link>   
               
             </ul>
@@ -71,7 +72,7 @@ function Nav() {
             <ul className="front">
 
           <Link to= '/blog' className="link">
-          <li>Blog</li>
+          <li className="develop">Blog</li>
           </Link>    
               
             </ul>
@@ -85,8 +86,8 @@ function Nav() {
             </li>
         </Link>    
         <Link to = '/contactanos' className="link">
-        <li className="develop">
-           <i className="fa-solid fa-user-bounty-hunter"></i>
+        <li className="develop"> Aula Virtual <br />
+           {/* <i className="fa-solid fa-user-bounty-hunter"></i> */}
            
             </li>
         </Link>   

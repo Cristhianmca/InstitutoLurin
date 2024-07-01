@@ -1,12 +1,16 @@
-import Blog from './Blog/Blog'
+import Blog from './pages/Inicio/Noticias/Blog'
 
-import Nav from './pages/Header/Nav'
+import Nav from './pages/Inicio/Header/Nav'
 
-import Inicio from './pages/Inicio/Inicio'
-// import Scarreras from './pages/SectionCarreras/Scarreras'
-import Background from './Background/Backgound'
-import Parallax from './Parallax/Parallax'
-import VideoFondo from './pages/Inicio/VideoFondo'
+// import Inicio from './pages/Inicio/Inicio'
+ import Scarreras from './pages/Inicio/Carreras/Scarreras'
+//import Background from './Background/Backgound'
+// import Parallax from './Parallax/Parallax'
+import Carrucel from './pages/Inicio/Carrucel/Carrucel'
+// import VideoFondo from './pages/Inicio/VideoFondo'
+import Footer from './pages/Inicio/Footer/Footer'
+// import Develops from './pages/Inicio/Develops/Develops'
+
 
 
 
@@ -16,18 +20,24 @@ function App() {
 
   return (
     <>
-    <Background/>
+    {/* <Background/> */}
      <Nav/>
 
-      <Inicio/>
-      <VideoFondo/>
+      {/* <Inicio/> */}
+      {/* <VideoFondo/> */}
    
-
-      <Parallax/>
-      {/* <Scarreras/> */}
+      <Carrucel/>
+      {/* <Parallax/> */}
+      <Scarreras/> 
       <Blog/>
+
+
+      {/* <Develops/> */}
+      <Footer/>
       {/* <Carrucel/>
+      
       <Banner/> */}
+
      
       
     </>

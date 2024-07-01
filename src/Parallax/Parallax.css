@@ -1,6 +1,6 @@
 :root {
     --background: #531f6f;
-    --background-border: #9615a4;
+    --background-border: #9d1aab;
 }
 
 * {
@@ -79,8 +79,8 @@ section > h2 {
 
 }
   
-P{
-    color: white;
+P{ 
+    color: white; 
 }
 
 h2{
@@ -103,6 +103,8 @@ h2{
     
    
 }
+
+
 
 .section_leermas::before{
     content: "";

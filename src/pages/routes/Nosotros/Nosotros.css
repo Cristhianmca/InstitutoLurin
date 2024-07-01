@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container_mision_vision{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tittle_mision_vision{
+    color: yellow;
+    text-align: center;
+}
+
+.parrafo_mision_vision{
+    color: white;
+    max-width: 50%;
+    display: block;
+    justify-content: center;
+    border: solid 1px;
+    font-size: 25px;
+}
