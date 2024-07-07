@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from "../../Inicio/Header/Nav";
-// import './Noticiascss.css';
+import './Noticiascss.css';
 // npm sklip carousel
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
@@ -49,8 +49,8 @@ const Noticias = () => {
             <div key={index} className="noticias_container">
               <img className='noticias_img'  src={noticia.foto} alt={noticia.nombre} />
               <h3 className='noticiasnombre'>{noticia.nombre}</h3>
-              <p className="text-red-400">{noticia.contenido}</p>
-              <span className="noticio_fecha ">{noticia.fecha}</span>
+              <p >{noticia.contenido}</p>
+              <span className="noticio_fecha">{noticia.fecha}</span>
             </div>
           ))}
         </Slider>
