@@ -1,0 +1,14 @@
+.noticias_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border: solid red 2px;
+}
+.noticias_img{
+    border-radius: 50px;
+    border: solid rebeccapurple;
+}
+.noticias_pricipal_container{
+    border: solid blue 2px;
+}
