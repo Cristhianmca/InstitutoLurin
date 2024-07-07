@@ -71,3 +71,14 @@
         border-top: black 1px solid;
     }
 } 
+
+
+/*parte de cesr*/
+
+.blog_principal_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    border: solid red 2px;
+}
