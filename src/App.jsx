@@ -10,6 +10,8 @@ import Carrucel from './pages/Inicio/Carrucel/Carrucel'
 // import VideoFondo from './pages/Inicio/VideoFondo'
 import Footer from './pages/Inicio/Footer/Footer'
 import Develops from './pages/Inicio/Develops/Develops'
+import Slider from './pages/Inicio/Carrucel/SliderSwiper'
+
 
 
 
@@ -21,12 +23,13 @@ function App() {
   return (
     <>
     {/* <Background/> */}
-     <Nav/>
+      <Nav/>
+     <Slider/>
 
       {/* <Inicio/> */}
       {/* <VideoFondo/> */}
    
-      <Carrucel/>
+      {/* <Carrucel/> */}
       {/* <Parallax/> */}
       <Scarreras/> 
       <Blog/>
