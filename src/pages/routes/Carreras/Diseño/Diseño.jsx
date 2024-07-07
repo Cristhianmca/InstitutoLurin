@@ -7,7 +7,7 @@ const Diseño = () => {
     <div>
         <Background/>
         <Nav/>
-      Diseño
+      Diseño grafico
     </div>
   )
 }
