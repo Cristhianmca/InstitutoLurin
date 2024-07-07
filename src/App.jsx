@@ -11,6 +11,7 @@ import Carrucel from './pages/Inicio/Carrucel/Carrucel'
 import Footer from './pages/Inicio/Footer/Footer'
 import Develops from './pages/Inicio/Develops/Develops'
 import Slider from './pages/Inicio/Carrucel/SliderSwiper'
+import Noticias from './pages/Inicio/Noticias/Noticias'
 
 
 
@@ -32,7 +33,8 @@ function App() {
       {/* <Carrucel/> */}
       {/* <Parallax/> */}
       <Scarreras/> 
-      <Blog/>
+      {/* <Blog/> */}
+     <Noticias/>
 
 
       <Develops/>
