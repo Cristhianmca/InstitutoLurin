@@ -69,7 +69,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Blog = () => {
     const blog = [
         {
-            nombre: 'María González',
+            nombre: 'María Gofnzález',
             foto: 'https://i.postimg.cc/d09WZCWb/charladise-o.jpg',
             contenido: '¡Increíble servicio! Los resultados superaron todas nuestras expectativas. Definitivamente recomendaré a HealthStyle a todos mis amigos y colegas. Estoy muy contenta con la atención recibida y con los cambios positivos que he experimentado en mi salud.',
             fecha: '12 de febrero de 2024' 
