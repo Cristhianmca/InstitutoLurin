@@ -60,66 +60,56 @@
 /*cesar*/
 
 import React from 'react';
-import Slider from 'react-slick'; /*npm sklip carousel*/
-import 'slick-carousel/slick/slick.css';  /*npm sklip carousel*/
-import 'slick-carousel/slick/slick-theme.css'; /*npm sklip carousel*/
-import'./Blog.css' 
-
-
+import Slider from 'react-slick'; // Import react-slick for carousel functionality
+import 'slick-carousel/slick/slick.css'; // Styles for slick carousel
+import 'slick-carousel/slick/slick-theme.css'; // Theme styles for slick carousel
+// import './Blog.css';
 
 const Blog = () => {
-    const blog = [
+    const blogs = [ // Cambiado a 'blogs' para evitar confusión con el nombre del componente
         {
-            nombre: 'María Gofnzález',
+            nombre: 'Ana González',
             foto: 'https://i.postimg.cc/d09WZCWb/charladise-o.jpg',
             contenido: '¡Increíble servicio! Los resultados superaron todas nuestras expectativas. Definitivamente recomendaré a HealthStyle a todos mis amigos y colegas. Estoy muy contenta con la atención recibida y con los cambios positivos que he experimentado en mi salud.',
-            fecha: '12 de febrero de 2024' 
-          },
-          {
-            nombre: 'Juan Pérez',
+            fecha: '12 de febrero de 2024'
+        },
+        {
+            nombre: 'Cesar Marca',
             foto: 'https://i.postimg.cc/wBzfB2k5/charlaprotesis.jpg',
             contenido: 'He probado muchos servicios similares en el pasado, pero ninguno se compara con HealthStyle. Su atención al cliente y resultados son incomparables. ¡Totalmente recomendado! Gracias a HealthStyle he logrado mejorar mi condición física y sentirme mejor conmigo mismo.',
-            fecha: '15 de febrero de 2024' 
-          },
-          {
+            fecha: '15 de febrero de 2024'
+        },
+        {
             nombre: 'Ana Martínez',
             foto: 'https://i.postimg.cc/YCYDkZQq/charlaconta.jpg',
             contenido: 'HealthStyle no solo mejoró mi salud física, sino también mi bienestar mental. Estoy eternamente agradecido por el apoyo y la atención que recibí de su equipo. Recomiendo encarecidamente los servicios de HealthStyle a cualquiera que esté buscando mejorar su calidad de vida.',
-            fecha: '18 de febrero de 2024' 
-          },
-          {
-            nombre: 'Ana Martínez',
-            foto: 'https://i.postimg.cc/YCYDkZQq/charlaconta.jpg',
-            contenido: 'HealthStyle no solo mejoró mi salud física, sino también mi bienestar mental. Estoy eternamente agradecido por el apoyo y la atención que recibí de su equipo. Recomiendo encarecidamente los servicios de HealthStyle a cualquiera que esté buscando mejorar su calidad de vida.',
-            fecha: '18 de febrero de 2024' 
-          }
-     
+            fecha: '18 de febrero de 2024'
+        }
     ];
-  
+
     const settings = {
-        dots: true, // Muestra puntos de navegación en la parte inferior del carrusel para cada diapositiva.
-        infinite: true, // Habilita el desplazamiento infinito del carrusel. Al llegar al final, vuelve a empezar desde el principio.
-        speed: 1000, // Velocidad de transición entre diapositivas en milisegundos.
-        slidesToShow: 1, // Número de diapositivas a mostrar en el carrusel a la vez.
-        slidesToScroll: 1, // Número de diapositivas a desplazar en cada movimiento del carrusel.
-        autoplay: true, // Habilita la reproducción automática de las diapositivas.
-        autoplaySpeed: 4000 // Intervalo de tiempo en milisegundos antes de pasar a la siguiente diapositiva automáticamente.
-      };
-  
-      return (
-        <div className='blog_principal_container'>
-        
-          <Slider {...settings}>
-            {blog.map((entrada, index) => (
-              <div key={index} className="blog_container">
-                <img className='blog_img'  src={entrada.foto} alt={entrada.nombre} />
-                <h3 className='blog_nombre'>{entrada.contenido}</h3>
-                <span className="blog_fecha">{entrada.fecha}</span>
-              </div>
-            ))}
-          </Slider>
-        </div>
-      );
+        dots: true,
+        infinite: true,
+        speed: 1000,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 4000
     };
-    
-    export default Blog;
+
+    return (
+        <div className='blog_principal_container'>
+            <Slider {...settings}>
+                {blogs.map((entrada, index) => ( // Cambiado a 'entrada' para evitar sombra de variables
+                    <div key={index} className="blog_container">
+                        <img className='blog_img' src={entrada.foto} alt={`Imagen de ${entrada.nombre}`} />
+                        <h3 className='blog_contenido'>{entrada.contenido}</h3>
+                        <span className="blog_fecha">{entrada.fecha}</span>
+                    </div>
+                ))}
+            </Slider>
+        </div>
+    );
+};
+
+export default Blog;
