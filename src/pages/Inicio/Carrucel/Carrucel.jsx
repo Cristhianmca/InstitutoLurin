@@ -6,15 +6,15 @@ import './carrucel.css'; // Asegúrate de importar tus estilos personalizados
 const Carrucel = () => {
   const images = [
     {
-      original: "https://res.cloudinary.com/dxhcv6buy/image/upload/v1717117516/institutocarrucel_zidp3s.png",
+      original: "https://i.postimg.cc/44WfPxHV/mercadoshop-venta-de-productos-promociones-tecnologia-negro.png",
       originalClass: 'custom-image'
     },
     {
-      original: "https://res.cloudinary.com/dxhcv6buy/image/upload/v1717117516/institutocarrucel_zidp3s.png",
+      original: "https://i.postimg.cc/44WfPxHV/mercadoshop-venta-de-productos-promociones-tecnologia-negro.png",
       originalClass: 'custom-image'
     },
     {
-      original: "https://res.cloudinary.com/dxhcv6buy/image/upload/v1717117516/institutocarrucel_zidp3s.png",
+      original: "https://i.postimg.cc/44WfPxHV/mercadoshop-venta-de-productos-promociones-tecnologia-negro.png",
       originalClass: 'custom-image'
     },
   ];
