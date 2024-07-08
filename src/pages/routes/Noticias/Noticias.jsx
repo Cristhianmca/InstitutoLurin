@@ -11,7 +11,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const Noticias = () => {
     const noticias = [
         {
-            nombre: 'María González',
+            nombre: 'ana González',
             foto: 'https://randomuser.me/api/portraits/women/1.jpg',
             contenido: '¡Increíble servicio! Los resultados superaron todas nuestras expectativas. Definitivamente recomendaré a HealthStyle a todos mis amigos y colegas. Estoy muy contenta con la atención recibida y con los cambios positivos que he experimentado en mi salud.',
             fecha: '12 de febrero de 2024' 
