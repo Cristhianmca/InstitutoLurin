@@ -63,7 +63,7 @@ import React from 'react';
 import Slider from 'react-slick'; // Import react-slick for carousel functionality
 import 'slick-carousel/slick/slick.css'; // Styles for slick carousel
 import 'slick-carousel/slick/slick-theme.css'; // Theme styles for slick carousel
-// import './Blog.css';
+import './Blogc.css';
 
 const Blog = () => {
     const blogs = [ // Cambiado a 'blogs' para evitar confusión con el nombre del componente
@@ -102,9 +102,15 @@ const Blog = () => {
             <Slider {...settings}>
                 {blogs.map((entrada, index) => ( // Cambiado a 'entrada' para evitar sombra de variables
                     <div key={index} className="blog_container">
-                        <img className='blog_img' src={entrada.foto} alt={`Imagen de ${entrada.nombre}`} />
-                        <h3 className='blog_contenido'>{entrada.contenido}</h3>
-                        <span className="blog_fecha">{entrada.fecha}</span>
+                        <div className='imagen_texto'>
+                             <img className='blog_img' src={entrada.foto} alt={`Imagen de ${entrada.nombre}`} />
+                             <h3 className='blog_contenido'>{entrada.contenido}</h3>
+                        </div>
+                       
+                        <div className="blog_text">
+                            
+                            <span className="blog_fecha">{entrada.fecha}</span>
+                        </div>
                     </div>
                 ))}
             </Slider>
