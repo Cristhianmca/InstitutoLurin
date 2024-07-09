@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import './Noticias.css'; // Asegúrate de tener los estilos necesarios
+import './Noticias.css'; 
 
 const Noticias = () => {
   const eventsRef = useRef(null);
@@ -60,7 +60,8 @@ const Noticias = () => {
     const events = eventsRef.current;
     events.addEventListener('scroll', handleScroll);
 
-    handleScroll(); // Call initially to set the correct state for buttons
+    handleScroll(); 
+
 
     return () => {
       events.removeEventListener('scroll', handleScroll);
@@ -68,7 +69,15 @@ const Noticias = () => {
   }, []);
 
   return (
+    <div className='container_noticias-total'>
+       
+   
     <div className="container_noticias">
+    <div className='container_diseño-tittle'>
+            <h1 className="diseño_programacion__tittle">
+                NOTICIAS IMPORTANTES <i className="fa-duotone fa-bullhorn"></i>
+            </h1>
+        </div>
       <div className="top-bar">
         <svg
           aria-hidden="true"
@@ -95,7 +104,7 @@ const Noticias = () => {
           <path d="M7.01 17h.005" />
           <path d="M10.01 17h.005" />
         </svg>
-        <h2>Upcoming events</h2>
+        <h2>Noticias Actuales</h2>
         <button
           type="button"
           id="action-button--previous"
@@ -290,6 +299,7 @@ const Noticias = () => {
           </div>
         </a>
       </div>
+    </div>
     </div>
   );
 };
