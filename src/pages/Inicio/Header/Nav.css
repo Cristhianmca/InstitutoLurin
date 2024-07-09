@@ -40,9 +40,7 @@
   top: 0; /* Fija la barra de navegación en la parte superior de la página */
   z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
 }
-h1, h2, h3 {
-  color: #8E9B83; /* Encabezados */
-}
+
 a {
   color: #8E9B83; /* Enlaces */
 }

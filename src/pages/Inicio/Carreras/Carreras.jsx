@@ -26,7 +26,7 @@ const Carreras = () => {
                 />
               </figure>
               <div className="article-preview">
-                <h2>Protesis</h2>
+                <h2 className="carreras_tittle-protesis">Protesis</h2>
                 <p>
                   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                   Praesent in mauris eu tortor porttitor accumsan. Lorem ipsum
