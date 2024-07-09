@@ -139,7 +139,7 @@ const Noticias = () => {
       >
         <a href="#the-weeknd" className="event">
           <div className="event__image">
-            <img src="https://www.urbanstage.cz/wp-content/uploads/2020/03/weeknd.jpg" alt="The Weeknd" />
+            <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg" alt="The Weeknd" />
             <div className="event__indicator event__date">
               08 <div className="event__date__month">Feb</div>
             </div>
@@ -164,21 +164,16 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>The Weeknd - After Hours Tour</h2>
+            <h2>Noticia 1</h2>
             <div className="bottom-stats">
-              <div className="bottom-stat">
-                <div className="circle circle--red"></div> 2 new posts
-              </div>
-              <div className="bottom-stat">
-                <div className="circle circle--green"></div> 5 tickets
-              </div>
+              
             </div>
           </div>
         </a>
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://media.architecturaldigest.com/photos/641b2b8252ae61ead67e92d9/16:9/w_2560%2Cc_limit/GettyImages-1474485122.jpg"
+              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg"
               alt="The Weeknd"
             />
             <div className="event__indicator event__date">
@@ -205,21 +200,16 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>Taylor Swift - Eras Tour</h2>
+            <h2>Noticia 2</h2>
             <div className="bottom-stats">
-              <div className="bottom-stat">
-                <div className="circle circle--red"></div> 4 new posts
-              </div>
-              <div className="bottom-stat">
-                <div className="circle circle--green"></div> 10 tickets
-              </div>
+             
             </div>
           </div>
         </a>
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://fox2now.com/wp-content/uploads/sites/14/2021/09/GettyImages-451833751.jpg?w=1280"
+              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg"
               alt="The Weeknd"
             />
             <div className="event__indicator event__date">
@@ -246,21 +236,16 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>Imagine Dragons</h2>
+            <h2>Noticia 3</h2>
             <div className="bottom-stats">
-              <div className="bottom-stat">
-                <div className="circle circle--red"></div> 2 new posts
-              </div>
-              <div className="bottom-stat">
-                <div className="circle circle--green"></div> 4 tickets purchased
-              </div>
+             
             </div>
           </div>
         </a>
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://i.dailymail.co.uk/i/pix/2012/10/05/article-2212936-155E4783000005DC-817_1024x615_large.jpg"
+              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg"
               alt="The Weeknd"
             />
             <div className="event__indicator event__date">
@@ -289,12 +274,7 @@ const Noticias = () => {
           <div className="event-description">
             <h2>U2</h2>
             <div className="bottom-stats">
-              <div className="bottom-stat">
-                <div className="circle circle--red"></div> 2 new posts
-              </div>
-              <div className="bottom-stat">
-                <div className="circle circle--green"></div> 3 tickets purchased
-              </div>
+             
             </div>
           </div>
         </a>
