@@ -10,7 +10,7 @@ const Carreras = () => {
     <div className="background_tittle">
       <div className="container_carreras-tittle">
         <h1 className="carreras__tittle">
-          NUESTRAS CARRERAS <i className="fa-duotone fa-graduation-cap"></i>{" "}
+          NUESTRAS CARRERAS <i className="fa-duotone fa-graduation-cap"></i>
         </h1>
       </div>
 

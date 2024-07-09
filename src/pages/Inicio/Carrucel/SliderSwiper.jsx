@@ -12,6 +12,8 @@ const MyCarousel = () => (
       showStatus={false} 
       autoPlay={true} 
       interval={3000}
+      showIndicators ={true}
+    
     >
       <div>
         <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 1" />
