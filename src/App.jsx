@@ -10,9 +10,10 @@ import Nav from './pages/Inicio/Header/Nav'
 // import VideoFondo from './pages/Inicio/VideoFondo'
 import Footer from './pages/Inicio/Footer/Footer'
 // import Develops from './pages/Inicio/Develops/Develops'
-import Slider from './pages/Inicio/Carrucel/SliderSwiper'
+// import Slider from './pages/Inicio/Carrucel/SliderSwiper'
 import Noticias from './pages/Inicio/Noticias/Noticias'
 import Carreras from './pages/Inicio/Carreras/Carreras'
+import MyCarousel from './pages/Inicio/Carrucel/SliderSwiper'
 
 
 
@@ -20,17 +21,18 @@ import Carreras from './pages/Inicio/Carreras/Carreras'
 
 
 function App() {
- 
+
 
   return (
     <>
     {/* <Background/> */}
       <Nav/>
-     <Slider/>
+     {/* <Slider/> */}
+     <MyCarousel/>
 
       {/* <Inicio/> */}
       {/* <VideoFondo/> */}
-   
+
       {/* <Carrucel/> */}
       {/* <Parallax/> */}
       {/* <Scarreras/>  */}
@@ -44,8 +46,8 @@ function App() {
       {/* <Carrucel/>
       <Banner/> */}
 
-     
-      
+
+
     </>
   )
 }

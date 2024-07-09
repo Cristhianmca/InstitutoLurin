@@ -1,26 +1,19 @@
-
-.container_carrucel{
-    
-    margin-bottom: -50px;
-}
-
-
-
-.carousel-item {
-    background: no-repeat center center scroll;
-    background-size: cover;
+/* CarouselStyles.css */
+.carousel-container {
     width: 100%;
-}
-.img-slider{
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .carousel .slide img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-
-@media (max-width: 768px) {
-    
-    .img-slider{
-        height: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel .slide img {
+      width: 100%;
+      height: 20rem;
     }
-}
+  }
+  
