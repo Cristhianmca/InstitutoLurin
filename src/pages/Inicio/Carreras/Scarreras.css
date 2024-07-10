@@ -51,14 +51,16 @@
     justify-content: center;
     align-items: center;
     border-radius: 10%;
-    background-color: aqua;
+    background-color: #F5F6F4; /* Fondo de Tarjetas */
+  border: 1px solid #BCC4B6; /* Borde de Tarjetas */
+  color: #3D4437; /* Texto en Tarjetas */
     transition: all 300ms ease;
     position: absolute;
 }
 .card_personajes{
     height: 230px;
     width: 300px;
-    background-image:url(../../../img/diseño1.png) ;
+    background-image:url(https://res.cloudinary.com/dxhcv6buy/image/upload/v1720481930/vzo1fslefuuwiszmdggm.jpg) ;
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -67,7 +69,7 @@
 .card_personajes_2{
     height: 350px;
     width: 250px;
-    background-image:url(../../../img/protesis1.png) ;
+    background-image:url(https://res.cloudinary.com/dxhcv6buy/image/upload/v1720481930/vzo1fslefuuwiszmdggm.jpg) ;
     background-size: cover;
     margin-bottom: 300px;
     transition: 300ms;
@@ -76,7 +78,7 @@
 .card_personajes_3{
     height: 230px;
     width: 300px;
-    background-image:url(../../../img/contabilidad11.png) ;
+    background-image:url(https://res.cloudinary.com/dxhcv6buy/image/upload/v1720481930/vzo1fslefuuwiszmdggm.jpg) ;
     background-size: cover;
     margin-bottom: 200px;
     transition: 300ms;
@@ -110,7 +112,7 @@
     margin-bottom: 170px;
     transition: 5ms;
     filter: none;
-    background-image: url(../../../img/diseño22.png);
+    background-image: url(https://res.cloudinary.com/dxhcv6buy/image/upload/v1720481930/vzo1fslefuuwiszmdggm.jpg);
 
 }
 .card:hover .card_personajes_2{
@@ -118,7 +120,7 @@
     height: 325px;
     transition: 5ms;
     filter: none;
-    background-image: url(../../../img/protesis22.png);
+    background-image: url(https://res.cloudinary.com/dxhcv6buy/image/upload/v1720481930/vzo1fslefuuwiszmdggm.jpg);
 
 }
 .card:hover .card_personajes_3{
@@ -127,7 +129,7 @@
     height: 350px;
     transition: 300ms;
     filter: none;
-    background-image: url(../../../img/contabilidad2.png);
+    background-image: url(https://res.cloudinary.com/dxhcv6buy/image/upload/v1720481930/vzo1fslefuuwiszmdggm.jpg);
 
 }
 

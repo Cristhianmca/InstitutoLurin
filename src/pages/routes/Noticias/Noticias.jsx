@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Nav from "../../Inicio/Header/Nav";
 import './Noticiascss.css';
 // npm sklip carousel
