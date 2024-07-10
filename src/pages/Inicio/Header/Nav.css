@@ -243,10 +243,11 @@ ul {
     text-align: center;
     padding: 20px 0; /* Adjust this value according to your design */
     border-bottom: solid 1px #fff;
-    color: rgb(109, 108, 108);
+    color: #0F110E;
     cursor: pointer;
     position: relative;
     padding: 10px 20px;
+    font-weight: bold;
     
     font-size: 20px;
     border-top-right-radius: 10px;
