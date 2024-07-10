@@ -32,7 +32,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3D4437; /* Fondo de Cabecera y Pie de Página */
+  background-color: #8E9B83; /* Fondo de Cabecera y Pie de Página */
   color: #F5F6F4; /* Texto en Cabecera y Pie de Página */
   padding-left: 2vw;
   position: -webkit-sticky; /* Para compatibilidad con Safari */
@@ -102,7 +102,7 @@ a:hover {
 
 ul {
   list-style-type: none;
-  background-color: #3D4437;
+  background-color: #8E9B83;
   margin: auto;
   padding: 0;
 }
