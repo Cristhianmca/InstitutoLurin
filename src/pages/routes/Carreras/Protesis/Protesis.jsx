@@ -1,11 +1,11 @@
 
 import Nav from '../../../../pages/Inicio/Header/Nav'
-import Background from '../../../../Background/Backgound'
+
 
 const Protesis = () => {
   return (
     <div>
-      <Background/>
+     
         <Nav/>
         <div className='contenedor_inicio'>
                 <div className='inicio_paragraph'>

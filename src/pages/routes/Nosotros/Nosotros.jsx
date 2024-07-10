@@ -1,12 +1,12 @@
 
 import Nav from '../../Inicio/Header/Nav'
-import Background from '../../../Background/Backgound'
+
 import './Nosotros.css'
 
 const Nosotros = () => {
     return (
         <div>
-            <Background/>
+        
             <Nav/>
             <div className='container_mision_vision'>
                 <h1 className='tittle_mision_vision'>MISIÓN</h1>
