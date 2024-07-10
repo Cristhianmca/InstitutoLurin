@@ -63,6 +63,7 @@ import React from 'react';
 import Slider from 'react-slick'; // Import react-slick for carousel functionality
 import 'slick-carousel/slick/slick.css'; // Styles for slick carousel
 import 'slick-carousel/slick/slick-theme.css'; // Theme styles for slick carousel
+import './Blogcss.css';
 // import './Blogc.css';
 
 const Blog = () => {
