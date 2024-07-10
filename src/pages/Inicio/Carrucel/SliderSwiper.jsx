@@ -27,6 +27,10 @@ const MyCarousel = () => (
         <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 3" />
         
       </div>
+      <div>
+        <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 3" />
+        
+      </div>
     </Carousel>
   </div>
 );
