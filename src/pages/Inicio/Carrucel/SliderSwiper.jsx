@@ -16,22 +16,22 @@ const MyCarousel = () => (
     
     >
       <div>
-        <img src="https://res.cloudinary.com/dqwksoy7s/image/upload/v1720591673/mercadoshop_venta_de_productos_promociones_tecnologia_negro_fmusbp.png
+        <img src="https://i.postimg.cc/3RNMYLmh/Agregar-un-subt-tulo.png
 
 
 " />
         
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dqwksoy7s/image/upload/v1720591673/mercadoshop_venta_de_productos_promociones_tecnologia_negro_fmusbp.png" />
+        <img src="https://i.postimg.cc/d3czrJgs/Agregar-un-subt-tulo-1.png" /> /*diseño web 2*/
         
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dqwksoy7s/image/upload/v1720591673/mercadoshop_venta_de_productos_promociones_tecnologia_negro_fmusbp.png" alt="Slide 3" />
+        <img src="https://i.postimg.cc/J4q9HVx8/CONTABILIDAD.png" /> /*contabilidad*/
         
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 3" />
+        <img src="https://i.postimg.cc/JhGVW6bL/PROTESIS-DENTAL.png" /> /*dental 4*/
         
       </div>
     </Carousel>
