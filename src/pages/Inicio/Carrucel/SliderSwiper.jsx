@@ -23,15 +23,15 @@ const MyCarousel = () => (
         
       </div>
       <div>
-        <img src="https://i.postimg.cc/d3czrJgs/Agregar-un-subt-tulo-1.png" /> /*diseño web 2*/
+        <img src="https://i.postimg.cc/d3czrJgs/Agregar-un-subt-tulo-1.png" /> 
         
       </div>
       <div>
-        <img src="https://i.postimg.cc/J4q9HVx8/CONTABILIDAD.png" /> /*contabilidad*/
+        <img src="https://i.postimg.cc/J4q9HVx8/CONTABILIDAD.png" /> 
         
       </div>
       <div>
-        <img src="https://i.postimg.cc/JhGVW6bL/PROTESIS-DENTAL.png" /> /*dental 4*/
+        <img src="https://i.postimg.cc/JhGVW6bL/PROTESIS-DENTAL.png" /> 
         
       </div>
     </Carousel>
