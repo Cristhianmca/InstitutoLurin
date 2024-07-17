@@ -1,4 +1,4 @@
-
+import './Noticias.css'
 import Nav from "../../Inicio/Header/Nav";
 // import Background from '../../../Background/Backgound'
 
@@ -7,7 +7,8 @@ const Noticias = () => {
         <div>
             {/* <Background/> */}
             <Nav/>
-            Noticias del peru y del Mundo 
+          
+         <h1>Noticias</h1>
         </div>
     )
 }
