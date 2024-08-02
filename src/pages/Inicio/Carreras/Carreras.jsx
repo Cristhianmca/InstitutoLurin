@@ -21,7 +21,7 @@ const Carreras = () => {
               <figure>
                 <img
                   className="img-article"
-                  src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720484277/medidascard_zqns1j.jpg"
+                  src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1722474482/Instituto/protecis_con_fondo_s4o2gv.jpg"
                   alt="Preview"
                 />
               </figure>
@@ -41,7 +41,7 @@ const Carreras = () => {
             <article>
               <figure>
                 <img
-                  src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720484277/medidascard_zqns1j.jpg"
+                  src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1722474481/Instituto/dise%C3%B1o_1_con_fondo_rtmjiw.jpg"
                   alt="Preview"
                 />
               </figure>
@@ -61,7 +61,7 @@ const Carreras = () => {
             <article>
               <figure>
                 <img
-                  src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720484277/medidascard_zqns1j.jpg"
+                  src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1722474481/Instituto/contabilidad_con_condo_avwvre.jpg"
                   alt="Preview"
                 />
               </figure>

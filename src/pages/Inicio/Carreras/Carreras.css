@@ -60,7 +60,7 @@
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     border-radius: 1rem;
-    border: solid;
+    
     margin: 0; /* Asegúrate de que no haya margen */
 }
 
