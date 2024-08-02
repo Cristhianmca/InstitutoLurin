@@ -65,13 +65,15 @@ const Chatbox = () => {
     <div className="chatbot-container">
       {!isOpen && (
         <button onClick={() => setIsOpen(true)} className="robot-icon">
-          🤖
+          <img className='robot-img' src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1722575229/Floating_Robot_iinu9f.png" alt="" />
         </button>
       )}
       {isOpen && (
         <div className="chat-window">
           <div className="header">
-            <span>Chatbot</span>
+            <span className='lurinBot'>LurinBot
+              <img className='robot-img2' src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1722574688/robot_zizfg9.png" alt="" />
+            </span>
             <button onClick={() => setIsOpen(false)} className="close-button">X</button>
           </div>
           <div className="messages-container">

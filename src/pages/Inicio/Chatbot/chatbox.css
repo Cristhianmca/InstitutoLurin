@@ -7,19 +7,39 @@
     width: 80px;  /* Cambia este valor según el ancho deseado del botón */
     font-family: Arial, sans-serif;
 }
-
+.lurinBot {
+    color: #1E221B;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+.robot-img{
+    
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;  /* Esto asegurará que la imagen siga siendo circular */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Opcional: agrega sombra si es necesario */
+        animation: float 3s ease-in-out infinite;
+}
+.robot-img2{
+    width: 15%;
+    
+    
+}
 .robot-icon {
     width: 60px;
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: #18ac20;
-    color: white;
+    
+    background-color: transparent;
     font-size: 24px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-right: 20px;  /* Mueve el botón más hacia el borde */
 }
+
 
 .chat-window {
     display: flex;
@@ -98,4 +118,17 @@
     background-color: #4c9f09;
     color: white;
     cursor: pointer;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px); /* Mueve el elemento hacia arriba */
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
