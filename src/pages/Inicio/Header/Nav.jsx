@@ -84,7 +84,13 @@ function Nav() {
            Contactanos <i className="fa-brands fa-whatsapp"></i>
            
             </li>
-        </Link>    
+        </Link>   
+
+        <li className="develop">
+           <a className="biblioteca" href="https://centroderecursosies.drelm.gob.pe/" target="_blank">Bilioteca Virutal</a> <i className="fa-sharp-duotone fa-solid fa-books"></i>
+           
+            </li> 
+
         <Link to = '/contactanos' className="link">
         <li className="develop"> Aula Virtual <br />
            {/* <i className="fa-solid fa-user-bounty-hunter"></i> */}

@@ -3,7 +3,14 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  
 }
+a{
+  list-style: none;
+  text-decoration: none;
+  
+}
+
 
 
 .menu-icon {
@@ -184,6 +191,10 @@ ul {
 
 .front:hover > .ul-third {
   display: block;
+}
+
+.biblioteca{
+  color: #F5F6F4
 }
 
 @media (max-width: 900px) {
