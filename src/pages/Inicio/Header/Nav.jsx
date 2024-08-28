@@ -87,7 +87,7 @@ function Nav() {
         </Link>   
 
         <li className="develop">
-           <a className="biblioteca" href="https://centroderecursosies.drelm.gob.pe/" target="_blank">Bilioteca Virutal</a> <i className="fa-sharp-duotone fa-solid fa-books"></i>
+           <a className="biblioteca" href="https://centroderecursosies.drelm.gob.pe/" target="_blank">Biblioteca Virtual</a> <i className="fa-sharp-duotone fa-solid fa-books"></i>
            
             </li> 
 
