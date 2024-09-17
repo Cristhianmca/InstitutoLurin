@@ -15,7 +15,7 @@ const Scarreras = () =>{
                     <div className='card_personajes'></div>
                        
                      <div className='card_detalle'>
-                        <h2 className='card_detalle-tittle'>Diseño</h2>
+                        <h1 className='card_detalle-tittle'>Diseño</h1>
                         <p className='card_detalle_paragraph'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente sunt praesentium quasi itaque voluptatem velit eius animi eligendi, nam veritatis.</p>
                        <Link to = '/diseño'>
                        <div className='tarjeta'><h6>Leer mas</h6></div>
