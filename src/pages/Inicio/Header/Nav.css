@@ -3,22 +3,19 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  
 }
-a{
+
+a {
   list-style: none;
   text-decoration: none;
-  
+  color: inherit;
 }
 
-
-
 .menu-icon {
-  display: none; /* Ocultar el ícono del menú en pantallas grandes */
+  display: none;
   cursor: pointer;
 }
 
-/* Estilo para el ícono del menú */
 .menu-icon svg {
   width: 40px;
   height: auto;
@@ -28,83 +25,26 @@ a{
   width: 100px;
   height: 100px;
 }
-.link {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-}
+
 .container_nav {
-  /* aqui se le da los estilos al contenedor principal */
   width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #3d4337; /* Fondo de Cabecera y Pie de Página */
-  color: #F5F6F4; /* Texto en Cabecera y Pie de Página */
+  background-color: #3d4337;
+  color: #FFFFFF;
   padding-left: 2vw;
-  position: -webkit-sticky; /* Para compatibilidad con Safari */
+  position: -webkit-sticky;
   position: sticky;
-  top: 0; /* Fija la barra de navegación en la parte superior de la página */
-  z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+  top: 0;
+  z-index: 1000;
 }
-
-a {
-  color: #8E9B83; /* Enlaces */
-}
-a:hover {
-  color: #A5AF9C; /* Hover en Enlaces */
-}
-.menu-icon {
-  display: none; /* esto oculta el icono del menu en pantallas grandes */
-}
-
-/* .menu-icon.open .bar:nth-child(2) {
-    opacity: 0; 
-  }
-  
-  .menu-icon .bar { 
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
-    transition: all 0.3s ease;
-  }
-  
-  .menu-icon .bar:before,
-  .menu-icon .bar:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: #fff;
-    transition: all 0.3s ease;
-  }
-  
-  .menu-icon .bar:before {
-    top: -8px;
-  }
-  
-  .menu-icon .bar:after {
-    bottom: -8px;
-  }
-  
-  .menu-icon.open .bar:first-child:before {
-    transform: translateY(8px) rotate(45deg); 
-  }
-  
-  .menu-icon.open .bar:last-child:after {
-    transform: translateY(-8px) rotate(-45deg); 
-  } */
 
 .cont-ul {
   display: flex;
   align-items: center;
-  color: white;
-  display: flex;
   justify-content: center;
-  align-items: center;
   gap: 20px;
- 
 }
 
 ul {
@@ -116,102 +56,81 @@ ul {
 
 .develop {
   cursor: pointer;
-  padding: 1.5vw;
+  padding: 20px 10px;
   transition: all 0.3s ease 0s;
   border-radius: 10%;
-  color: white;
-  cursor: pointer;
+  color: #FFFFFF;
   position: relative;
-  padding: 20px 10px;
-  /* este background-color es el color de fondo de los elementos del menu */
-  /* background-color: rgb(228, 187, 34, 0.8); */
-  /* background-color: rgba(255, 255, 255, 0.7); */
   font-size: 18px;
-  
-  /* transition: all 1s; */
   font-weight: lighter;
 }
-/* hover de boton del navar */
-.develop:hover {
-  
-  cursor: pointer;
-  position: relative;
 
-  cursor: pointer;
-  position: relative;
-  font-size: 18px;
+.develop:hover {
+  background-color: #4a5044;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
-  /* transition: all 1s; */
-  background-color: #323430;
- 
-  
-
-   
-}
-
-.develop {
-  position: relative;
 }
 
 .ul-second {
   display: none;
   position: absolute;
-  margin-top: 1.5vw;
-  background-color: 
-  #939e89;
+  top: 100%;
+  left: 0;
+  background-color: #4a5044;
+  min-width: 200px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.develop:hover > .ul-second,
+.ul-second:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 
 .ul-second > li {
-  width: 190px;
-  transform: translateX(-20px);
-  border-bottom: solid 1px #fff;
-  text-align: center;
+  width: 100%;
+  border-bottom: solid 1px #5c635455;
+  text-align: left;
 }
 
-
-
-.develop:hover > .ul-second {
+.ul-second .develop {
+  padding: 15px;
   display: block;
+}
+
+.ul-second .develop:hover {
+  background-color: #5c6354;
 }
 
 .ul-third {
   position: absolute;
-  transform: translateX(100%);
-  right: 0;
+  left: 100%;
   top: 0;
   display: none;
-  background-color: #24252a;
-}
-
-.ul-third > li {
-  padding: 1.5vw;
-  border-bottom: solid 1px #fff;
+  background-color: #5c6354;
+  min-width: 200px;
 }
 
 .front:hover > .ul-third {
   display: block;
 }
 
-.biblioteca{
-  color: #F5F6F4
+.biblioteca {
+  color: #FFFFFF;
 }
 
 @media (max-width: 900px) {
-
   .menu-icon {
     display: block;
-    background-color: #1f221b;
+    background-color: #4a5044;
     padding: 5px;
     border-radius: 30%;
     transition: all 300ms ease;
   }
-  /* .menu-icon {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
 
   .cont-ul {
     display: none;
@@ -220,170 +139,72 @@ ul {
     background-color: #3d4337;
     width: 100%;
     position: absolute;
-    top: 55px; /* Adjust this value according to your design */
+    top: 80px;
     left: 0;
     z-index: 1;
     gap: 5px;
-    margin-top: 20px;
-   
+    margin-top: 0;
   }
 
   .cont-ul.active {
-    display: flex; /* Displays the navigation links when the menu icon is clicked */
+    display: flex;
   }
 
-  /* .menu-icon.open .bar:nth-child(2) {
-      display: none;
-    }
-  
-    .menu-icon.open .bar:before,
-    .menu-icon.open .bar:after {
-      display: none; 
-    }
-  
-    .menu-icon.open .bar:first-child:before {
-      transform: translateY(8px) rotate(45deg); 
-    }
-  
-    .menu-icon.open .bar:last-child:after {
-      transform: translateY(-8px) rotate(-45deg); 
-    } */
-
   .develop {
-    width: 100%; /* Makes the navigation links full width on smaller screens */
+    width: 100%;
     text-align: center;
-    padding: 20px 0; /* Adjust this value according to your design */
-    border-bottom: solid 1px #fff;
-    color: #0F110E;
-    cursor: pointer;
+    padding: 20px 0;
+    border-bottom: solid 1px #5c635455;
     position: relative;
-    padding: 10px 20px;
     font-weight: bold;
-    
     font-size: 20px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     transition: all 1s;
-    &:after,
-    &:before {
-      content: " ";
-      width: 10px;
-      height: 10px;
-      position: absolute;
-      border: 0px solid #fff;
-      transition: all 1s;
-    }
-    &:after {
-      top: -1px;
-      left: -1px;
-      border-top: 5px solid black;
-      border-left: 5px solid black;
-    }
-    &:before {
-      bottom: -1px;
-      right: -1px;
-      border-bottom: 5px solid black;
-      border-right: 5px solid black;
-    }
-    &:hover {
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-
-      &:before,
-      &:after {
-        width: 100%;
-        height: 100%;
-      }
-    }
   }
+
   .develop:hover {
-   
-    cursor: pointer;
-    position: relative;
-    
-    background: #1f221b;
-    font-size: 25px;
-   
-    transition: all 1s;
-    &:after,
-    &:before {
-      content: " ";
-      width: 10px;
-      height: 10px;
-      position: absolute;
-      /* border: 0px solid #fff; */
-      transition: all 5s; /* esto es para que la animacion sea mas lenta */
-    }
-    &:after {
-      top: -1px;
-      left: -1px;
-     
-    }
-    &:before {
-      bottom: -1px;
-      right: -1px;
-      
-    }
-    &:hover {
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-
-      &:before,
-      &:after {
-        width: 50%;
-        height: 80%;
-      }
-    }
+    background-color: #4a5044;
+    font-size: 22px;
   }
 
-  .develop {
-    position: static; /* Changes the position of the "DEVELOPER" dropdown to static */
-  }
-
-  .ul-second {
-    position: static; /* Changes the position of the second level dropdown to static */
-    display: none; /* Hides the second level dropdown by default on smaller screens */
-    width: 100%; /* Makes the second level dropdown full width on smaller screens */
-    text-align: center;
-  }
-
+  .ul-second,
   .ul-third {
-    position: static; /* Changes the position of the third level dropdown to static */
-    display: none; /* Hides the third level dropdown by default on smaller screens */
-    width: 100%; /* Makes the third level dropdown full width on smaller screens */
+    position: static;
+    display: none;
+    width: 100%;
     text-align: center;
+    opacity: 1;
+    visibility: visible;
+    transition: none;
+    background-color: #4a5044;
   }
 
-  .front:hover > .ul-third,
-  .ul-second.active {
-    display: block; /* Displays the second and third level dropdowns when hovered */
-  }
-  .link {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(5, 5, 5);
-    width: 100%;
-  }
-  .link:hover {
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    width: 100%;
+  .ul-second.active,
+  .ul-third.active {
+    display: block;
   }
 
- 
+  .ul-second .develop,
+  .ul-third .develop {
+    background-color: #5c6354;
+  }
+
+  .ul-second .develop:hover,
+  .ul-third .develop:hover {
+    background-color: #6b7361;
+  }
 
   .svg_icon {
     display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding-left: 12px;
     transition: all 300ms ease;
   }
+
   .container_nav {
     height: 80px;
   }
+
   .logo_instituto {
     width: 100px;
     height: 80px;

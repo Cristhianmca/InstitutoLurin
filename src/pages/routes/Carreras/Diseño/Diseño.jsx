@@ -1,4 +1,5 @@
 import Nav from "../../../../pages/Inicio/Header/Nav";
+import "./Diseño.css";
 
 const Diseño = () => {
   return (
@@ -8,7 +9,7 @@ const Diseño = () => {
         <img
           className="image_carreras"
           src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1726965634/Banner_de_YouTube_Gamer_Juego_de_MMO_Rol_Moderno_Amarillo_y_Morado_hgoypb.jpg"
-          alt="imagen protesis"
+          alt="imagen diseño y programacion"
         />
 
         <div className="carreras_tittle">
