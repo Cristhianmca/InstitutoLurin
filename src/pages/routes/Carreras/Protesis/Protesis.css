@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container_protesis{
+    background: linear-gradient(90deg, #ffffff,#f5f6f4,#e8ebe6,#d3d8cf,#bcc4b6);
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+   
+}
+.image_protesis{
+    width: 100%;
+    height: 300px;
+    background: url('https://www.ortodoncia.ws/publicaciones/2016/imagenes/2016-09-07-prot-1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    margin: 0 auto;
+    
+    display: flex;
+
+
+}
+.container_protesis-tittle{
+    text-align: center;
+    color: rgb(15, 13, 13);
+    margin-top: 50px;
+    font-size: 25px;
+    
+}
+.container_protesis__section{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.section_article{
+    display: flex;
+    flex-wrap: wrap;
+  
+    justify-content: center;
+    max-width: 20rem;
+    gap: 50px;
+    border: solid;
+    border-color: black;
+    padding: 50px;
+
+}

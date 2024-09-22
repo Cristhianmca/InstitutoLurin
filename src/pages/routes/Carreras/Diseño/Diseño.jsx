@@ -9,7 +9,7 @@ const Diseño = () => {
     <div>
       
         <Nav/>
-      Diseño grafico
+      
     </div>
   )
 }
