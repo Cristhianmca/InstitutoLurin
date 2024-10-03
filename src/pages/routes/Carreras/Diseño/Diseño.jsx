@@ -4,13 +4,13 @@ import "./Diseño.css";
 const Diseño = () => {
   return (
     <div>
-      <Nav />
-      <div className="container_carreras">
-        <img
+      <Nav /><img
           className="image_carreras"
           src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1726965634/Banner_de_YouTube_Gamer_Juego_de_MMO_Rol_Moderno_Amarillo_y_Morado_hgoypb.jpg"
           alt="imagen diseño y programacion"
         />
+      <div className="container_carreras">
+        
 
         <div className="carreras_tittle">
           <h1 className="carreras_tittle__tittle">Diseño y desarrollo web</h1>

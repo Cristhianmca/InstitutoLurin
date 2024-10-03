@@ -15,13 +15,13 @@
    
 }
 .image_carreras{
+    width: 100%; 
+    max-width: 100%; 
+    height: auto; 
+    display: block;
    
-    border: 4px solid rgb(142, 6, 6);
-    height: 20px;
     
-
-
-
+   
 }
 
 .container_carreras__section{
