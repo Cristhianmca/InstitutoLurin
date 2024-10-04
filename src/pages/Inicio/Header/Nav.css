@@ -6,69 +6,66 @@
 }
 
 a {
-  list-style: none;
   text-decoration: none;
   color: inherit;
 }
 
-.menu-icon {
-  display: none;
-  cursor: pointer;
-}
-
-.menu-icon svg {
-  width: 40px;
-  height: auto;
-}
-
-.logo_instituto {
-  width: 100px;
-  height: 100px;
-}
-
 .container_nav {
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
   background-color: #3d4337;
   color: #FFFFFF;
-  padding-left: 2vw;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-.cont-ul {
+.nav-content {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  padding: 0 2vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-ul {
+.logo-link {
+  display: flex;
+  align-items: center;
+}
+
+.logo_instituto {
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-icon svg {
+  fill: #FFFFFF;
+}
+
+.cont-ul {
+  display: flex;
   list-style-type: none;
-  background-color: #3d4337;
-  margin: auto;
+  margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .develop {
-  cursor: pointer;
-  padding: 20px 10px;
-  transition: all 0.3s ease 0s;
-  border-radius: 10%;
-  color: #FFFFFF;
   position: relative;
-  font-size: 18px;
-  font-weight: lighter;
+  padding: 20px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .develop:hover {
   background-color: #4a5044;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 .ul-second {
@@ -78,72 +75,52 @@ ul {
   left: 0;
   background-color: #4a5044;
   min-width: 200px;
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity 0.3s, visibility 0.3s;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
 .develop:hover > .ul-second,
 .ul-second:hover {
   display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-.ul-second > li {
-  width: 100%;
-  border-bottom: solid 1px #5c635455;
-  text-align: left;
 }
 
 .ul-second .develop {
   padding: 15px;
   display: block;
+  border-bottom: 1px solid #5c635455;
 }
 
 .ul-second .develop:hover {
   background-color: #5c6354;
 }
 
-.ul-third {
-  position: absolute;
-  left: 100%;
-  top: 0;
-  display: none;
-  background-color: #5c6354;
-  min-width: 200px;
-}
-
-.front:hover > .ul-third {
-  display: block;
-}
-
-.biblioteca {
-  color: #FFFFFF;
-}
-
 @media (max-width: 900px) {
+  .nav-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+
   .menu-icon {
     display: block;
-    background-color: #4a5044;
-    padding: 5px;
-    border-radius: 30%;
-    transition: all 300ms ease;
+    position: absolute;
+    top: 25px;
+    left: 15px;
+  }
+
+  .logo-link {
+    margin: 10px auto;
+  }
+
+  .logo_instituto {
+    width: 60px;
+    height: 60px;
   }
 
   .cont-ul {
     display: none;
     flex-direction: column;
-    align-items: center;
-    background-color: #3d4337;
     width: 100%;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    z-index: 1;
-    gap: 5px;
-    margin-top: 0;
+    background-color: #FFFFFF;
   }
 
   .cont-ul.active {
@@ -152,61 +129,31 @@ ul {
 
   .develop {
     width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    border-bottom: solid 1px #5c635455;
-    position: relative;
-    font-weight: bold;
-    font-size: 20px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transition: all 1s;
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 20px;
+    color: #3d4337;
   }
 
-  .develop:hover {
-    background-color: #4a5044;
-    font-size: 22px;
-  }
-
-  .ul-second,
-  .ul-third {
+  .ul-second {
     position: static;
     display: none;
     width: 100%;
-    text-align: center;
-    opacity: 1;
-    visibility: visible;
-    transition: none;
-    background-color: #4a5044;
+    background-color: #f5f5f5;
+    box-shadow: none;
   }
 
-  .ul-second.active,
-  .ul-third.active {
+  .ul-second.active {
     display: block;
   }
 
-  .ul-second .develop,
-  .ul-third .develop {
-    background-color: #5c6354;
+  .ul-second .develop {
+    padding-left: 40px;
+    border-top: 1px solid #e0e0e0;
   }
 
-  .ul-second .develop:hover,
-  .ul-third .develop:hover {
-    background-color: #6b7361;
-  }
-
-  .svg_icon {
-    display: block;
-    padding-left: 12px;
-    transition: all 300ms ease;
-  }
-
-  .container_nav {
-    height: 80px;
-  }
-
-  .logo_instituto {
-    width: 100px;
-    height: 80px;
+  .develop:hover,
+  .ul-second .develop:hover {
+    background-color: #f0f0f0;
   }
 }
