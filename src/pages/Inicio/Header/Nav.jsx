@@ -34,7 +34,7 @@ export default function Nav() {
           <li className="develop" onClick={() => toggleSubmenu(0)}>
             Carreras
             <ul className={`ul-second ${activeSubmenu === 0 ? 'active' : ''}`}>
-              <li className="develop"><Link to="/diseno" className="link" onClick={toggleMenu}>Diseño y Desarrollo Web</Link></li>
+              <li className="develop"><Link to="/diseño" className="link" onClick={toggleMenu}>Diseño y Desarrollo Web</Link></li>
               <li className="develop"><Link to="/protesis" className="link" onClick={toggleMenu}>Prótesis</Link></li>
               <li className="develop"><Link to="/contabilidad" className="link" onClick={toggleMenu}>Contabilidad</Link></li>
             </ul>
@@ -52,15 +52,17 @@ export default function Nav() {
             </ul>
           </li>
           <li className="develop">
-            <Link to="/contactanos" className="link" onClick={toggleMenu}>Contáctanos <i className="fa-brands fa-whatsapp"></i></Link>
+            <Link to="/contactanos" className="link" onClick={toggleMenu}>Contáctanos </Link>
+            {/* <i className="fa-brands fa-whatsapp"></i> */}
           </li>
           <li className="develop">
             <a className="biblioteca" href="https://centroderecursosies.drelm.gob.pe/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>
-              Biblioteca Virtual <i className="fa-sharp fa-solid fa-books"></i>
+              Biblioteca Virtual 
             </a>
+            {/* <i className="fa-sharp fa-solid fa-books"></i> */}
           </li>
           <li className="develop">
-            <Link to="/aula-virtual" className="link" onClick={toggleMenu}>Aula Virtual</Link>
+            <Link to="https://iestplurin.jedu.pe/" target='_blank' className="link" onClick={toggleMenu}>Intranet</Link>
           </li>
         </ul>
       </div>
