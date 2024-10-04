@@ -9,7 +9,7 @@ const Contabilidad = () => {
      
         <Nav/>
         <div className='container_carreras'>
-        <img className='image_carreras' src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1722474482/Instituto/protecis_con_fondo_s4o2gv.jpg" alt="imagen protesis" />
+        <img className='image_carreras' src="https://res.cloudinary.com/dxhcv6buy/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1720292271/qghz54utluk14uiitvj4.jpg" alt="imagen protesis" />
 
           <div className='carreras_tittle'>
         <h1 className='carreras_tittle__tittle'>Contabilidad</h1>
