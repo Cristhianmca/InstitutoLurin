@@ -3,10 +3,10 @@ import {Link} from 'react-router-dom';
 
 const Carreras = () => {
   return (
-    <div className="container_carreras-total">
+    <div  className="container_carreras-total">
       <div className="background_tittle">
         <div className="container_carreras-tittle">
-          <h1 className="carreras__tittle">
+          <h1 id="carreras" className="carreras__tittle"  >
             NUESTRAS CARRERAS <i className="fa-duotone fa-graduation-cap"></i>
           </h1>
         </div>

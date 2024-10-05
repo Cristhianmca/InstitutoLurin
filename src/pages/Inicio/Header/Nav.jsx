@@ -29,28 +29,30 @@ export default function Nav() {
           </svg>
         </div>
         <ul className={`cont-ul ${menuOpen ? 'active' : ''}`}>
-          <li className="develop"><Link to="/" className="link" onClick={toggleMenu}>Inicio</Link></li>
+          <li className="develop"><Link to="/" className="link" onClick={toggleMenu}>
+          Inicio
+          </Link></li>
           <li className="develop"><Link to="/nosotros" className="link" onClick={toggleMenu}>Nosotros</Link></li>
-          <li className="develop" onClick={() => toggleSubmenu(0)}>
-            Carreras
+          <li className="develop">
+          <a href="#carreras" onClick={() => toggleSubmenu(0)}> Carreras  </a>  
             <ul className={`ul-second ${activeSubmenu === 0 ? 'active' : ''}`}>
               <li className="develop"><Link to="/diseño" className="link" onClick={toggleMenu}>Diseño y Desarrollo Web</Link></li>
               <li className="develop"><Link to="/protesis" className="link" onClick={toggleMenu}>Prótesis</Link></li>
               <li className="develop"><Link to="/contabilidad" className="link" onClick={toggleMenu}>Contabilidad</Link></li>
             </ul>
           </li>
-          <li className="develop" onClick={() => toggleSubmenu(1)}>
+          <li  className="develop" onClick={() => toggleSubmenu(1)}>
             Admisión
             <ul className={`ul-second ${activeSubmenu === 1 ? 'active' : ''}`}>
               <li className="develop"><Link to="/examen" className="link" onClick={toggleMenu}>Examen 2024</Link></li>
             </ul>
           </li>
-          <li className="develop" onClick={() => toggleSubmenu(2)}>
+       <Link to = "/noticias"> <li className="develop" onClick={() => toggleSubmenu(2)}>
             Noticias
-            <ul className={`ul-second ${activeSubmenu === 2 ? 'active' : ''}`}>
+            {/* <ul className={`ul-second ${activeSubmenu === 2 ? 'active' : ''}`}>
               <li className="develop"><Link to="/blog" className="link" onClick={toggleMenu}>Blog</Link></li>
-            </ul>
-          </li>
+            </ul> */}
+          </li></Link>  
           <li className="develop">
             <Link to="/contactanos" className="link" onClick={toggleMenu}>Contáctanos </Link>
             {/* <i className="fa-brands fa-whatsapp"></i> */}

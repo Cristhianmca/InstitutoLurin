@@ -11,6 +11,7 @@ import Admision from './pages/routes/Admision/Examen2024.jsx'
 import Nosotros from './pages/routes/Nosotros/Nosotros.jsx'
 import Contactanos from '../src/pages/routes/Contactanos/Contactanos.jsx'
 // import Noticias from './pages/routes/Noticias/Noticias.jsx'
+import Noticias from './pages/routes/Noticias/Noticias.jsx'
 
 
 
@@ -48,6 +49,11 @@ const router = createBrowserRouter ([
   //   path: "/blog",
   //   element: <Noticias/>
   //   },
+  {
+    path: "/noticias",
+    element: <Noticias/>
+
+  },
 
 
   {
