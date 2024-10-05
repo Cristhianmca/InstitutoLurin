@@ -1,0 +1,134 @@
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 0px;  /* Ajusta este valor si quieres mover más el botón */
+    display: flex;
+    justify-content: flex-end;
+    width: 80px;  /* Cambia este valor según el ancho deseado del botón */
+    font-family: Arial, sans-serif;
+}
+.lurinBot {
+    color: #1E221B;
+    font-weight: bold;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+.robot-img{
+    
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;  /* Esto asegurará que la imagen siga siendo circular */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Opcional: agrega sombra si es necesario */
+        animation: float 3s ease-in-out infinite;
+}
+.robot-img2{
+    width: 15%;
+    
+    
+}
+.robot-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    
+    background-color: transparent;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;  /* Mueve el botón más hacia el borde */
+}
+
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    bottom: 90px;  /* Ajusta esto si el botón está encima del chat */
+    right: 20px;  /* Mantén el contenedor principal a una distancia fija de la derecha */
+    height: 400px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #4c9f09;
+    color: white;
+}
+
+.close-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.messages-container {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message {
+    align-self: flex-end;
+    background-color: #4c9f09;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 4px 0;
+    max-width: 80%;
+}
+
+.bot-message {
+    align-self: flex-start;
+    background-color: #f1f1f1;
+    color: black;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 4px 0;
+    max-width: 80%;
+}
+
+.input-container {
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+
+.input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    background-color: #4c9f09;
+    color: white;
+    cursor: pointer;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px); /* Mueve el elemento hacia arriba */
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}

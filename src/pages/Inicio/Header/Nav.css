@@ -4,379 +4,160 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
-
-.menu-icon {
-  display: none; /* Ocultar el ícono del menú en pantallas grandes */
-  cursor: pointer;
+html {
+  scroll-behavior: smooth;
 }
 
-/* Estilo para el ícono del menú */
-.menu-icon svg {
-  width: 40px;
-  height: auto;
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container_nav {
+  width: 100%;
+  background-color: #3d4337;
+  color: #FFFFFF;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
 }
 
 .logo_instituto {
-  width: 100px;
-  height: 100px;
-}
-.link {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-}
-.container_nav {
-  /* aqui se le da los estilos al contenedor principal */
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #3D4437; /* Fondo de Cabecera y Pie de Página */
-  color: #F5F6F4; /* Texto en Cabecera y Pie de Página */
-  padding-left: 2vw;
-  position: -webkit-sticky; /* Para compatibilidad con Safari */
-  position: sticky;
-  top: 0; /* Fija la barra de navegación en la parte superior de la página */
-  z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+  margin-top: 10px;
+  width: 80px;
+  height: 80px;
 }
 
-a {
-  color: #8E9B83; /* Enlaces */
-}
-a:hover {
-  color: #A5AF9C; /* Hover en Enlaces */
-}
 .menu-icon {
-  display: none; /* esto oculta el icono del menu en pantallas grandes */
+  display: none;
+  cursor: pointer;
+  padding: 10px;
 }
 
-/* .menu-icon.open .bar:nth-child(2) {
-    opacity: 0; 
-  }
-  
-  .menu-icon .bar { 
-    width: 25px;
-    height: 3px;
-    background-color: #fff;
-    margin: 5px;
-    transition: all 0.3s ease;
-  }
-  
-  .menu-icon .bar:before,
-  .menu-icon .bar:after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3px;
-    background-color: #fff;
-    transition: all 0.3s ease;
-  }
-  
-  .menu-icon .bar:before {
-    top: -8px;
-  }
-  
-  .menu-icon .bar:after {
-    bottom: -8px;
-  }
-  
-  .menu-icon.open .bar:first-child:before {
-    transform: translateY(8px) rotate(45deg); 
-  }
-  
-  .menu-icon.open .bar:last-child:after {
-    transform: translateY(-8px) rotate(-45deg); 
-  } */
+.menu-icon svg {
+  fill: #FFFFFF;
+}
 
 .cont-ul {
   display: flex;
-  align-items: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
- 
-}
-
-ul {
   list-style-type: none;
-  background-color: #3D4437;
-  margin: auto;
+  margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .develop {
-  cursor: pointer;
-  padding: 1.5vw;
-  transition: all 0.3s ease 0s;
-  border-radius: 10%;
-  color: white;
-  cursor: pointer;
   position: relative;
   padding: 20px 10px;
-  /* este background-color es el color de fondo de los elementos del menu */
-  /* background-color: rgb(228, 187, 34, 0.8); */
-  /* background-color: rgba(255, 255, 255, 0.7); */
-  font-size: 18px;
-  
-  /* transition: all 1s; */
-  font-weight: lighter;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 .develop:hover {
-  
-  cursor: pointer;
-  position: relative;
-
-  cursor: pointer;
-  position: relative;
-  font-size: 18px;
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  /* transition: all 1s; */
-  background-color: #323430;
- 
-  
-
-   
-}
-
-.develop {
-  position: relative;
+  background-color: #4a5044;
 }
 
 .ul-second {
   display: none;
   position: absolute;
-  margin-top: 1.5vw;
-  background-color: 
-  #939e89;
+  top: 100%;
+  left: 0;
+  background-color: #4a5044;
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-.ul-second > li {
-  width: 190px;
-  transform: translateX(-20px);
-  border-bottom: solid 1px #fff;
-  text-align: center;
-}
-
-
-
-.develop:hover > .ul-second {
+.develop:hover > .ul-second,
+.ul-second:hover {
   display: block;
 }
 
-.ul-third {
-  position: absolute;
-  transform: translateX(100%);
-  right: 0;
-  top: 0;
-  display: none;
-  background-color: #24252a;
-}
-
-.ul-third > li {
-  padding: 1.5vw;
-  border-bottom: solid 1px #fff;
-}
-
-.front:hover > .ul-third {
+.ul-second .develop {
+  padding: 15px;
   display: block;
+  border-bottom: 1px solid #5c635455;
+}
+
+.ul-second .develop:hover {
+  background-color: #5c6354;
 }
 
 @media (max-width: 900px) {
+  .nav-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
 
   .menu-icon {
     display: block;
-    background-color: rgb(9, 28, 104, 0.8);
-    padding: 5px;
-    border-radius: 30%;
-    transition: all 300ms ease;
+    position: absolute;
+    top: 25px;
+    left: 15px;
   }
-  /* .menu-icon {
-    display: flex; 
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  } */
+
+  .logo-link {
+    margin: 10px auto;
+  }
+
+  .logo_instituto {
+    width: 60px;
+    height: 60px;
+  }
 
   .cont-ul {
     display: none;
     flex-direction: column;
-    align-items: center;
-    background-color: rgb(2, 16, 84, 0.8);
     width: 100%;
-    position: absolute;
-    top: 55px; /* Adjust this value according to your design */
-    left: 0;
-    z-index: 1;
-    gap: 5px;
-    margin-top: 20px;
-   
+    background-color: #FFFFFF;
   }
 
   .cont-ul.active {
-    display: flex; /* Displays the navigation links when the menu icon is clicked */
-  }
-
-  /* .menu-icon.open .bar:nth-child(2) {
-      display: none;
-    }
-  
-    .menu-icon.open .bar:before,
-    .menu-icon.open .bar:after {
-      display: none; 
-    }
-  
-    .menu-icon.open .bar:first-child:before {
-      transform: translateY(8px) rotate(45deg); 
-    }
-  
-    .menu-icon.open .bar:last-child:after {
-      transform: translateY(-8px) rotate(-45deg); 
-    } */
-
-  .develop {
-    width: 100%; /* Makes the navigation links full width on smaller screens */
-    text-align: center;
-    padding: 20px 0; /* Adjust this value according to your design */
-    border-bottom: solid 1px #fff;
-    color: rgb(109, 108, 108);
-    cursor: pointer;
-    position: relative;
-    padding: 10px 20px;
-    background-color: rgba(10, 6, 6, 0.8); /* R, G, B, Alpha */
-    font-size: 20px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transition: all 1s;
-    &:after,
-    &:before {
-      content: " ";
-      width: 10px;
-      height: 10px;
-      position: absolute;
-      border: 0px solid #fff;
-      transition: all 1s;
-    }
-    &:after {
-      top: -1px;
-      left: -1px;
-      border-top: 5px solid black;
-      border-left: 5px solid black;
-    }
-    &:before {
-      bottom: -1px;
-      right: -1px;
-      border-bottom: 5px solid black;
-      border-right: 5px solid black;
-    }
-    &:hover {
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-
-      &:before,
-      &:after {
-        width: 100%;
-        height: 100%;
-      }
-    }
-  }
-  .develop:hover {
-   
-    cursor: pointer;
-    position: relative;
-    
-    background: rgb(228, 187, 34, 0.8);
-    font-size: 28px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    transition: all 1s;
-    &:after,
-    &:before {
-      content: " ";
-      width: 10px;
-      height: 10px;
-      position: absolute;
-      border: 0px solid #fff;
-      transition: all 5s; /* esto es para que la animacion sea mas lenta */
-    }
-    &:after {
-      top: -1px;
-      left: -1px;
-      border-top: 5px solid black;
-      border-left: 5px solid black;
-    }
-    &:before {
-      bottom: -1px;
-      right: -1px;
-      border-bottom: 5px solid black;
-      border-right: 5px solid black;
-    }
-    &:hover {
-      border-top-right-radius: 0px;
-      border-bottom-left-radius: 0px;
-
-      &:before,
-      &:after {
-        width: 50%;
-        height: 80%;
-      }
-    }
+    display: flex;
   }
 
   .develop {
-    position: static; /* Changes the position of the "DEVELOPER" dropdown to static */
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #e0e0e0;
+    padding: 15px 20px;
+    color: #3d4337;
   }
 
   .ul-second {
-    position: static; /* Changes the position of the second level dropdown to static */
-    display: none; /* Hides the second level dropdown by default on smaller screens */
-    width: 100%; /* Makes the second level dropdown full width on smaller screens */
-    text-align: center;
+    position: static;
+    display: none;
+    width: 100%;
+    background-color: #f5f5f5;
+    box-shadow: none;
   }
 
-  .ul-third {
-    position: static; /* Changes the position of the third level dropdown to static */
-    display: none; /* Hides the third level dropdown by default on smaller screens */
-    width: 100%; /* Makes the third level dropdown full width on smaller screens */
-    text-align: center;
-  }
-
-  .front:hover > .ul-third,
   .ul-second.active {
-    display: block; /* Displays the second and third level dropdowns when hovered */
-  }
-  .link {
-    text-decoration: none;
-    list-style: none;
-    color: rgb(5, 5, 5);
-    width: 100%;
-  }
-  .link:hover {
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    width: 100%;
-  }
-
- 
-
-  .svg_icon {
     display: block;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 12px;
-    transition: all 300ms ease;
   }
-  .container_nav {
-    height: 80px;
+
+  .ul-second .develop {
+    padding-left: 40px;
+    border-top: 1px solid #e0e0e0;
   }
-  .logo_instituto {
-    width: 100px;
-    height: 80px;
+
+  .develop:hover,
+  .ul-second .develop:hover {
+    background-color: #f0f0f0;
   }
 }

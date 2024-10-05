@@ -12,19 +12,26 @@ const MyCarousel = () => (
       showStatus={false} 
       autoPlay={true} 
       interval={3000}
-      showIndicators ={true}
+      showIndicators ={false}/*linea que cubre todo*/
     
     >
       <div>
-        <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 1" />
+        <img src="https://i.postimg.cc/3RNMYLmh/Agregar-un-subt-tulo.png
+
+
+" />
         
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 2" />
+        <img src="https://i.postimg.cc/d3czrJgs/Agregar-un-subt-tulo-1.png" /> 
         
       </div>
       <div>
-        <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720292271/qghz54utluk14uiitvj4.jpg" alt="Slide 3" />
+        <img src="https://i.postimg.cc/J4q9HVx8/CONTABILIDAD.png" /> 
+        
+      </div>
+      <div>
+        <img src="https://i.postimg.cc/JhGVW6bL/PROTESIS-DENTAL.png" /> 
         
       </div>
     </Carousel>

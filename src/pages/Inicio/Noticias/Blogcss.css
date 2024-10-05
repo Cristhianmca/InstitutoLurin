@@ -1,0 +1,22 @@
+.blog_principal_container{
+
+    flex-wrap: wrap;
+ 
+    width: 700px;
+    
+    border: solid 1px rgb(82, 7, 186);
+    
+}
+
+.blog_container{
+    border: solid 1px #e4651b;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+  
+}
+.blog_img{
+    width: 80%;
+    height: 200px;
+    border-radius: 10px 10px 0 0;   
+}

@@ -14,6 +14,7 @@ import Footer from './pages/Inicio/Footer/Footer'
 import Noticias from './pages/Inicio/Noticias/Noticias'
 import Carreras from './pages/Inicio/Carreras/Carreras'
 import MyCarousel from './pages/Inicio/Carrucel/SliderSwiper'
+// import Chatbox from './pages/Inicio/Chatbot/Chatbox'
 
 
 
@@ -40,10 +41,11 @@ function App() {
       <Carreras/>
      <Noticias/>
 
-
+      {/* <Chatbox/> */}
       {/* <Develops/> */}
       <Footer/>
       {/* <Carrucel/>
+      
       <Banner/> */}
 
 

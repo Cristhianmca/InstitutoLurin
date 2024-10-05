@@ -1,15 +1,16 @@
 
 import Nav from "../../../pages/Inicio/Header/Nav";
-import Background from '../../../Background/Backgound'
+
 
 const Contactanos = () => {
 
     return (
        
-        <div>
-             <Background/>
+        <div className="">
+            
             <Nav/>
-            Contactanos</div>
+            Contactanos
+        </div>
     )
 }
 export default Contactanos;
