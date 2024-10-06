@@ -6,22 +6,7 @@
 }
 .nosotros_container
 {
-    background: -webkit-linear-gradient(
-    90deg,
-    #ffffff,
-    #f5f6f4,
-    #e8ebe6,
-    #d3d8cf,
-    #bcc4b6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    90deg,
-    #ffffff,
-    #f5f6f4,
-    #e8ebe6,
-    #d3d8cf,
-    #bcc4b6
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
 }
 .name_iestp{
     display: flex;
@@ -40,6 +25,8 @@
     text-align: justify;
     
     
+    
+    
 }
 
   
@@ -48,7 +35,10 @@
     display: flex;
     align-items: center; 
     margin-left: 100px;
-    margin-top: 80px;
+    margin-top: 20px;
+    
+    
+    
   }
   
   .arrow-container {
@@ -58,6 +48,7 @@
     gap: 5px; 
     justify-content: center;
     align-items: center;
+    
   }
   
   .dot {
@@ -85,11 +76,33 @@
     font-size: 40px; 
     margin-left: 20px; 
     color: #000; 
+    
+    padding: 10px 20px;
+    border-bottom: 1px solid #000;
+    
   }
   
 .nosotros_vision{
+    padding: 10px 20px;
     
     margin-top: -150px;
+    border-radius: 50px;
+    background: -webkit-linear-gradient(
+      90deg,
+      #ffffff,
+      #f5f6f4,
+      #e8ebe6,
+      #d3d8cf,
+      #bcc4b6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      90deg,
+      #ffffff,
+      #f5f6f4,
+      #e8ebe6,
+      #d3d8cf,
+      #bcc4b6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .nosotros_video{
     display: flex;
@@ -99,8 +112,21 @@
     width: 100%;
     margin: 0 auto;
     margin-top: 60px;
+    background: -webkit-linear-gradient(90deg, #bcc4b6,#d3d8cf,#e8ebe6,#f5f6f4,#ffffff);/* Chrome 10-25, Safari 5.1-6 */
+    padding: 10px 20px;
+    border-radius: 50px;
 }
-
+.nosotros_mision{
+  background: -webkit-linear-gradient(90deg, #bcc4b6,#d3d8cf,#e8ebe6,#f5f6f4,#ffffff);/* Chrome 10-25, Safari 5.1-6 */
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.nosotros_somos{
+  background: -webkit-linear-gradient(90deg, #bcc4b6,#d3d8cf,#e8ebe6,#f5f6f4,#ffffff);/* Chrome 10-25, Safari 5.1-6 */
+  padding: 10px 20px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
 
 
 

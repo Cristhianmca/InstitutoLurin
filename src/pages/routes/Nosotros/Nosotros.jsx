@@ -65,7 +65,7 @@ const Nosotros = () => {
           </p>
         </div>
 
-        <div className="nosotros">
+        <div className="nosotros_somos">
           <h2>Somos</h2>
           <p>
             En el Instituto de Educación Superior Tecnológico Público Lurín,
