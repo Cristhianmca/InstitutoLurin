@@ -31,32 +31,44 @@ const Contabilidad = () => {
         </section>
 
         <section className='container_principal_02'>
-            <div>
-                <h2>Conoce la carrera</h2>
+          <div className='sub_container_principal_02'>
+
+{/* ---------------conoce la carrera---------------- */}
+            <div className='conoce_la_carrera'>
+                <h2>Conoce <br /> la carrera</h2>
                 <p>El profecional tecnico de administracion de redes y comunicion es capaz de implementar redes informaticas y de comuniciones siguiendo estandares internacionales.Asimismo, sabra administrar servivios de redes informaticas para garantizar el nivel comprometido y asegurar la seguridad basada en estandares inrternacionales y restricciones organizacionales</p>
             </div>
-            <div>
-              <h2>Lo que necesitas saber</h2>
-              <h4>CARRERA</h4>
-              <p>administración de redes y comunicaciones</p>
-              <h4>DURACIÓN</h4>
-              <p>2 años</p>
-              <h4>TITULACIÓN</h4>
-              <p>profecional Técnico en administación de redes y comunicación</p>
-              <h4>FORMATO</h4>
-              <button>VIRTUAL</button>
-              <h4>GRADO OBTENIDO</h4>
-              <p>Bachiller técnico en administracion de Redes y cComunicaciónes</p>
+
+{/* ---------------lo que necesitas saber---------------- */}
+            <div className='nececitas_saber'>
+              <div>
+                  <h2>Lo que necesitas saber</h2>
+                  <h4>CARRERA</h4>
+                  <p>administración de redes y comunicaciones</p>
+                  <h4>DURACIÓN</h4>
+                  <p>2 años</p>
+                  <h4>TITULACIÓN</h4>
+                  <p>profecional Técnico en administación de redes y comunicación</p>
+                  <h4>FORMATO</h4>
+                  <button className='boton-contabilidad'>VIRTUAL</button>
+                  <h4>GRADO OBTENIDO</h4>
+                  <p>Bachiller técnico en administracion de Redes y cComunicaciónes</p>
+              </div>
             </div>
 
-            <div>
-              <h2>¿Qué aprenderás?</h2>
-             
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p> 
+{/* ---------------Que aprenderas?---------------- */}
+            <div className='container_aprenderas'>
+              <div>
+                <h2>¿Qué aprenderás?</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p> 
+              </div>
             </div>
-            <div>
+
+{/* ---------------certificaciones---------------- */}
+
+            <div className='certificaciones'>
               <div>
                 <h2>Certificaciones</h2>
                 <p>al culminar tu carrera podras obtener las siguientes certificaciones</p>
@@ -68,6 +80,7 @@ const Contabilidad = () => {
               </div>
               <img src="https://i.postimg.cc/KvptbpDV/images.jpg" alt="certificado" />
             </div>
+          </div>
           </section>
 
 

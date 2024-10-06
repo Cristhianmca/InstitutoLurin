@@ -7,7 +7,7 @@
 /*  */
 .container_main_contabilidad{
  
-border: solid yellow;
+/* border: solid yellow; */
 }
 .container_carreras{
     width: 90%;
@@ -83,6 +83,9 @@ border: solid yellow;
     height: 40px;
     border-radius: 10px;
     margin: 0 auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+
 }
 .boton-contabilidad:hover{
     background-color:#050a00;
@@ -90,12 +93,122 @@ border: solid yellow;
     cursor: pointer;
 }
 
-/* section #02 */
+/* ---------------section #02 ---------------- */
 
 .container_principal_02{
     width: 90%;
     margin: 0 auto;
+    
+    /* border: solid rgb(16, 211, 98); */
+}
+
+.sub_container_principal_02{
+    /* border: solid red; */
+    
+    margin: 0 auto;
+
+}
+/* ---------------conoce la carrera---------------- */
+.conoce_la_carrera{
+    display: flex;
+    align-items: center;
+    
+    background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
+    display: flex;
+    /* border: solid red; */
+
+}
+
+.conoce_la_carrera h2{
+    font-family:'Franklin Gothic Medium', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 70px;
+    width: 700px;
+    height: 250px;
+    color: #2a2e25;
+    /* border:solid #7ab82f; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%;
+   
+    margin-left: 20px;
+}
+.conoce_la_carrera p{
+    font-size: 20px;
+    width: 700px;
+    height: 250px;
+    color: rgb(35, 37, 37);
+
+    text-align: justify;
+    margin-top: 40px;
+    margin-right: 40px;
+    /* border: solid #111d89; */
+}
+
+
+/* ---------------lo que nececitas saber---------------- */
+.nececitas_saber{
+  
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
+    /* border: solid rgb(39, 190, 5); */
+    color: rgb(35, 37, 37);
+}
+.nececitas_saber div{
+    /* border: solid rgb(73, 79, 72); */
+    margin-left: 20px;    
+}
+
+.nececitas_saber h2{
+  
+    font-weight: bold;
+    font-size: 45px;;
+    /* border: solid rgb(194, 10, 142);     */
+    /* color: blue; */
+
+  
+}
+.nececitas_saber h4{
+    font-weight: bold;
+    margin-top: 50px;
+    /* border: solid rgb(19, 158, 168); */
+}
+
+/* ---------------Que aprenderas?---------------- */
+.container_aprenderas{
     background: rgb(255,255,255);
     background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
+}
+
+.container_aprenderas h2{
+    font-weight: bold;
+    font-size: 45px;
+}
+.container_aprenderas div{
+    width: 650px;
+    /* border: solid rebeccapurple; */
+    margin-left: 20px;
+}
+
+
+/* -------------Certificaciones---------------- */
+.certificaciones{
+    display: flex;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
+    margin-left: 20px;
     /* border: solid red; */
+
+}
+.certificaciones h2{
+    font-weight: bold;
+    font-size: 45px;
+   
+}
+
+
+.certificaciones img{
+    margin-right: 40px;
+    margin-top: 40px;
 }

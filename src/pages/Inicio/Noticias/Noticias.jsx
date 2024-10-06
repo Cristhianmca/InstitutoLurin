@@ -139,7 +139,7 @@ const Noticias = () => {
       >
         <a href="#the-weeknd" className="event">
           <div className="event__image">
-            <img src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg" alt="The Weeknd" />
+            <img src="https://i.postimg.cc/1XgZWxLG/018.png" alt="The Weeknd" />
             <div className="event__indicator event__date">
               08 <div className="event__date__month">Feb</div>
             </div>
@@ -173,8 +173,8 @@ const Noticias = () => {
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg"
-              alt="The Weeknd"
+              src="https://i.postimg.cc/sggz00b0/410260859-6776657969109454-5435944013637975300-n.jpg"
+              alt="noticia 2"
             />
             <div className="event__indicator event__date">
               16 <div className="event__date__month">Feb</div>
@@ -209,8 +209,8 @@ const Noticias = () => {
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg"
-              alt="The Weeknd"
+              src="https://i.postimg.cc/pr0BqTwT/019.jpg"
+              alt="noticia 3"
             />
             <div className="event__indicator event__date">
               20 <div className="event__date__month">Feb</div>
@@ -245,8 +245,8 @@ const Noticias = () => {
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1720494734/medidanoticias_agrmwn.jpg"
-              alt="The Weeknd"
+              src="https://i.postimg.cc/g2bKsf53/441499703-7435607956547782-1736269718264825972-n.jpg"
+              alt="noticia 4"
             />
             <div className="event__indicator event__date">
               28 <div className="event__date__month">March</div>
