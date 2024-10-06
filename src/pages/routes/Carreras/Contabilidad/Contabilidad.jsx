@@ -33,7 +33,7 @@ const Contabilidad = () => {
         <section className='container_principal_02'>
           <div className='sub_container_principal_02'>
 
-{/* ---------------conoce la carrera---------------- */}
+{/* ---------------conoce la carrera---------------*/}
             <div className='conoce_la_carrera'>
                 <h2>Conoce <br /> la carrera</h2>
                 <p>El profecional tecnico de administracion de redes y comunicion es capaz de implementar redes informaticas y de comuniciones siguiendo estandares internacionales.Asimismo, sabra administrar servivios de redes informaticas para garantizar el nivel comprometido y asegurar la seguridad basada en estandares inrternacionales y restricciones organizacionales</p>
