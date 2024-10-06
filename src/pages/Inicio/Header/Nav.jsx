@@ -60,6 +60,7 @@ export default function Nav() {
           <li className="develop">
             <a className="biblioteca" href="https://centroderecursosies.drelm.gob.pe/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>
               Biblioteca Virtual 
+              
             </a>
             {/* <i className="fa-sharp fa-solid fa-books"></i> */}
           </li>
