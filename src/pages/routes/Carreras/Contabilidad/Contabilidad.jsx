@@ -75,7 +75,7 @@ const Contabilidad = () => {
                 <ul>
                   <li>soporte Técnico de los sistemas de información</li>
                   <li>imprementacion de redes y servicios de comunicacion</li>
-                  <li>gestion de la seguridad de los servicios e infraestructura de red</li>
+                  <li>gestion de la seguridad de los servicios e infraestructura de red.</li>
                 </ul>
               </div>
               <img src="https://i.postimg.cc/KvptbpDV/images.jpg" alt="certificado" />
