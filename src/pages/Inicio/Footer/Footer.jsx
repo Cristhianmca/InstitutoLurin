@@ -9,8 +9,7 @@ const Footer = () => {
             <h2 className="footer-title">Instituto Lurín</h2>
             <p className="footer-description">
               Nuestro objetivo fundamental es formar profesionales en los tres
-              programas de estudios que brindamos CONTABILIDAD, DISEÑO Y
-              PROGRAMACIÓN WEB y PRÓTESIS DENTAL, con una sólida base científica
+              programas de estudios que brindamos Diseño y Programación Web,Contabilidad y Protesís Dental, con una sólida base científica
               y tecnológica, un alto nivel de especialización.
             </p>
           </div>
