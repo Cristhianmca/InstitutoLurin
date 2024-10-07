@@ -42,7 +42,7 @@ export default function Nav() {
           <li className="develop" onClick={() => toggleSubmenu(1)}>
             Admisión
             <ul className={`ul-second ${activeSubmenu === 1 ? 'active' : ''}`}>
-              <li className="develop"><Link to="/examen" className="link" onClick={toggleMenu}>Examen 2024</Link></li>
+              <li className="develop"><Link to="/examen" className="link" onClick={toggleMenu}>Examen 2025</Link></li>
             </ul>
           </li>
           <li className="develop" >
