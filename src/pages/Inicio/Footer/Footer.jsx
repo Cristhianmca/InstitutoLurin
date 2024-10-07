@@ -43,9 +43,9 @@ const Footer = () => {
         ></iframe> */}
 
             <p className="footer-contact">
-              Celular : 99999999 <i className="fa-brands fa-whatsapp"></i>{" "}
+              Teléfono : 5006177 anexo 2802 <i className="fa-brands fa-whatsapp"></i>{" "}
             </p>
-            <p className="footer-contact">Email: lurin@gmail.com</p>
+            <p className="footer-contact">Email: informes@iestplurin.edu.pe.com</p>
           </div>
 
           <div className="footer-section social">
