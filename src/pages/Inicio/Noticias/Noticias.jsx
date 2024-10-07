@@ -164,7 +164,7 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>Noticia 1</h2>
+            <h2>Semana Deportiva</h2>
             <div className="bottom-stats">
               
             </div>
@@ -173,8 +173,8 @@ const Noticias = () => {
         <a href="#the-weeknd" className="event">
           <div className="event__image">
             <img
-              src="https://i.postimg.cc/sggz00b0/410260859-6776657969109454-5435944013637975300-n.jpg"
-              alt="noticia 2"
+              src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1728261391/031_qjjj0l.png"
+              alt="Aniversario"
             />
             <div className="event__indicator event__date">
               16 <div className="event__date__month">Feb</div>
@@ -200,13 +200,13 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>Noticia 2</h2>
+            <h2>Aniversario</h2>
             <div className="bottom-stats">
              
             </div>
           </div>
         </a>
-        <a href="#the-weeknd" className="event">
+        <a href="#" className="event">
           <div className="event__image">
             <img
               src="https://i.postimg.cc/pr0BqTwT/019.jpg"
@@ -236,13 +236,13 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>Noticia 3</h2>
+            <h2>Exámen de Admisión</h2>
             <div className="bottom-stats">
              
             </div>
           </div>
         </a>
-        <a href="#the-weeknd" className="event">
+        <a href="#" className="event">
           <div className="event__image">
             <img
               src="https://i.postimg.cc/g2bKsf53/441499703-7435607956547782-1736269718264825972-n.jpg"
@@ -272,7 +272,7 @@ const Noticias = () => {
             </div>
           </div>
           <div className="event-description">
-            <h2>U2</h2>
+            <h2>Exámen de Admisión</h2>
             <div className="bottom-stats">
              
             </div>

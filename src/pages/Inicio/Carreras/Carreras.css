@@ -22,7 +22,10 @@
     #d3d8cf,
     #bcc4b6
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+  
 }
+
 
 .background {
   width: 100%;
@@ -52,7 +55,7 @@
   margin: 0 auto;
   justify-content: center;
   max-width: 75rem;
-  gap: 1.5rem;
+  gap: 3.5rem;
 }
 
 .articles article {
