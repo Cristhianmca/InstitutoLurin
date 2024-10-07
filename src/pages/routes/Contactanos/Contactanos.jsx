@@ -18,13 +18,13 @@ const Contactanos = () => {
           <h2>Admisión</h2>
           <p>Lima - Lurín</p>
           <p>Central Telefonica : (01) 500-6177 anexo 2802</p>
-          <p>Via Whatsapp: +51 946-024-312</p>
+          <p>Via Whatsapp: +51 999-999-999</p>
         </div>
 
         <div className="contactanos_servicio">
-          <h2>Serivicio al estudiante</h2>
+          <h2>Servicio al estudiante</h2>
           <p>Central Telefonica : (01) 500-6177 anexo 2802</p>
-          <p>Via Whatsapp: +51 946-024-312</p>
+          <p>Via Whatsapp: +51 999-999-999</p>
           <p>Via E-mail. informes@iestplurin.edu.pe</p>
         </div>
 
