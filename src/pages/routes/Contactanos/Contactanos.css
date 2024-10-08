@@ -1,11 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+h2{
+    font-family: "Roboto", sans-serif;
+}
+p{
+    font-family: "Roboto", sans-serif;
+}
 .container_contactanos {
     display: flex;
+    font-family: "Roboto", sans-serif;
     margin: 0 auto;
     max-width: 1200px; 
     gap: 2rem;
@@ -22,6 +36,7 @@
     display: flex;
     flex-direction: column;
     width: 50%; 
+    font-family: "Roboto", sans-serif;
 }
 
 .contactanos_mapa {
