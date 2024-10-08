@@ -21,15 +21,17 @@ a {
   position: sticky;
   top: 0;
   z-index: 1000;
+  
 }
 
 .nav-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 2vw;
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 .logo-link {
