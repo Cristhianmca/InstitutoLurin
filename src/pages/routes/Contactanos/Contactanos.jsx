@@ -38,12 +38,16 @@ const Contactanos = () => {
           <h2>Ubicación</h2>
           <p>
             Av. San Pedro 1234, Lurín 15823, Perú
-            <a
-                target="_blank"
-                href="https://maps.app.goo.gl/LicQTD8PFPDB2iXs5"
-              >
-                <i className="fa-duotone fa-location-dot"></i>
-              </a>
+            <a target="_blank" href="https://maps.app.goo.gl/LicQTD8PFPDB2iXs5">
+              <i className="fa-duotone fa-location-dot"></i>
+            </a>
+            <a href="https://maps.app.goo.gl/fizGT5RoFp3TYDj29" target="_blank" >
+              <img
+                className="image_mapa"
+                src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1728353936/Captura_de_pantalla_2024-10-07_211835_sbzv0w.png"
+                alt=""
+              />{" "}
+            </a>
           </p>
         </div>
       </div>

@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Fondo cuadriculado */
+.background-grid {
+  background-image: url("https://res.cloudinary.com/dxhcv6buy/image/upload/v1728352797/Naranja_Blanco_Fondo_Cuadriculado_Simple_Divertido_Gato_Disculpa_Tarjeta_hmlfyk.jpg"); /* Aquí debes poner la URL de la imagen del fondo cuadriculado */
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.admisiones-card {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombras más pronunciadas */
+  overflow: hidden;
+  max-width: 1000px; /* Card más grande */
+  width: 100%;
+}
+
+.card-content {
+  padding: 30px;
+  flex: 1;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  
+}
+
+
+.titulo {
+  font-size: 36px;
+  color: #d35400;
+  font-weight: 700;
+  margin: 0;
+}
+
+.subtitulo {
+  font-size: 28px;
+  color: #d35400;
+  margin: 10px 0;
+}
+
+.frase {
+  font-size: 18px;
+  color: #2c3e50;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.descripcion {
+  font-size: 16px;
+  color: #7f8c8d;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.botones {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.boton-primario,
+.boton-secundario {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.boton-primario {
+  background-color: #e67e22;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.boton-primario:hover {
+  background-color: #d35400;
+}
+
+.boton-secundario {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+  transition: background-color 0.3s ease;
+}
+
+.boton-secundario:hover {
+  background-color: #bdc3c7;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media span {
+  display: block;
+  font-size: 14px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.iconos {
+  font-size: 24px;
+  color: #d35400;
+}
+
+.iconos i {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.card-image {
+  flex: 1;
+  background-color: #ecf0f1;
+}
+
+/* Media Queries para adaptarse a pantallas pequeñas */
+@media (max-width: 768px) {
+  .admisiones-card {
+    flex-direction: column;
+  }
+
+  .card-image {
+    order: -1;
+  }
+
+  .titulo {
+    font-size: 28px;
+  }
+
+  .subtitulo {
+    font-size: 24px;
+  }
+
+  .frase {
+    font-size: 16px;
+  }
+
+  .descripcion {
+    font-size: 14px;
+  }
+
+  .boton-primario,
+  .boton-secundario {
+    font-size: 12px;
+  }
+}
