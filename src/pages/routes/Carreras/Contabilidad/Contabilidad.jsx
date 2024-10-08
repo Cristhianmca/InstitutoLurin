@@ -51,7 +51,7 @@ const Contabilidad = () => {
                   <h4>TITULACIÓN</h4>
                   <p>profecional Técnico en administación de redes y comunicación</p>
                   <h4>FORMATO</h4>
-                  <button className='boton-contabilidad'>VIRTUAL</button>
+                  <button className='boton_2'>VIRTUAL</button>
                   <h4>GRADO OBTENIDO</h4>
                   <p>Bachiller técnico en administracion de Redes y cComunicaciónes</p>
                   <hr className='borde_derecha' />
@@ -61,7 +61,7 @@ const Contabilidad = () => {
 {/* ---------------Que aprenderas?---------------- */}
             <div className='container_aprenderas'>
               <div>
-                <h2>¿Qué aprenderás?</h2>
+                <h2 className='aprenderas_tex'>¿Qué aprenderás?</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex </p> 
@@ -83,6 +83,18 @@ const Contabilidad = () => {
                 </ul>
               </div>
               <img src="https://i.postimg.cc/KvptbpDV/images.jpg" alt="certificado" />
+            </div>
+          </div>
+
+          <div className='container_convenios'>
+              <hr className='borde_derecha' />
+            <div>
+                <h2>Principales Convenios</h2>
+                <div>
+                    <img src="https://i.postimg.cc/CMDYWyM0/images-1.jpg" alt="cisco" />
+                    <img src="https://i.postimg.cc/9Mw46x0k/8867-Microsoft-5-F00-Logo-2-D00-fo.jpg" alt="microsofs" />
+                    <img src="https://i.postimg.cc/yd6K9W4y/images-2.jpg" alt="oracle" />
+                </div>
             </div>
           </div>
         </section>
