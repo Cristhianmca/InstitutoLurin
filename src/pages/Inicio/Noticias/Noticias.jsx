@@ -1,6 +1,8 @@
-import React, { useState, useRef, useEffect } from 'react';
+import  { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Importa el componente Link
 import './Noticias.css'; 
+import Develops from './../Develops/Develops'; 
+
 
 const Noticias = () => {
   const eventsRef = useRef(null);
@@ -70,6 +72,7 @@ const Noticias = () => {
   }, []);
 
   return (
+    <>
     <div className='container_noticias-total'>
       <div className="container_noticias">
         <div className='container_diseño-tittle'>
@@ -268,6 +271,8 @@ const Noticias = () => {
         </div>
       </div>
     </div>
+    <Develops />
+    </>
   );
 };
 
