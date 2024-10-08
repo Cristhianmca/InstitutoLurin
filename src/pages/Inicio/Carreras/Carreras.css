@@ -29,6 +29,7 @@
 }
 
 
+
 .background {
   width: 100%;
   display: flex;
@@ -69,7 +70,7 @@
   overflow: hidden;
   border-radius: 1rem;
 
-  margin: 0; /* Asegúrate de que no haya margen */
+  margin: 0; 
 }
 
 .articles article a {
@@ -96,7 +97,7 @@
 }
 
 .article-preview {
-  padding: 1rem; /* Reducir el padding aquí */
+  padding: 1rem; 
   background: white;
   display: flex;
   flex-direction: column;
