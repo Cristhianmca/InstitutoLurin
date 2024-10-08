@@ -39,14 +39,14 @@ const Nosotros = () => {
           </p>
         </div>
 
-        {/* Sección del video */}
+        
         <div className="nosotros_video">
           <video
             className="video_nosotros"
             src="https://res.cloudinary.com/dxhcv6buy/video/upload/v1728161110/video_2024-10-05_15-40-01_gptt88.mp4"
             controls
-            width="500" // Ajusta el ancho según tu diseño
-            height="100" // Ajusta el alto según tu diseño
+            width="500" 
+            height="100" 
             style={{ maxWidth: "40%", height: "auto" }}
           >
             Tu navegador no soporta el elemento <code>video</code>.
