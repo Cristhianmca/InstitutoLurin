@@ -55,7 +55,7 @@
     width: 15px;
     height: 15px;
     background-color: orange;
-    border-radius: 50%;
+    
   }
   
    
@@ -78,7 +78,7 @@
     color: #000; 
     
     padding: 10px 20px;
-    border-bottom: 1px solid #000;
+    
     
   }
   
@@ -86,7 +86,7 @@
     padding: 10px 20px;
     
     margin-top: -150px;
-    border-radius: 50px;
+   
     background: -webkit-linear-gradient(
       90deg,
       #ffffff,
@@ -114,18 +114,18 @@
     margin-top: 60px;
     background: -webkit-linear-gradient(90deg, #bcc4b6,#d3d8cf,#e8ebe6,#f5f6f4,#ffffff);/* Chrome 10-25, Safari 5.1-6 */
     padding: 10px 20px;
-    border-radius: 50px;
+   
 }
 .nosotros_mision{
   background: -webkit-linear-gradient(90deg, #bcc4b6,#d3d8cf,#e8ebe6,#f5f6f4,#ffffff);/* Chrome 10-25, Safari 5.1-6 */
   padding: 10px 20px;
-  border-radius: 50px;
+  
 }
 .nosotros_somos{
   background: -webkit-linear-gradient(90deg, #bcc4b6,#d3d8cf,#e8ebe6,#f5f6f4,#ffffff);/* Chrome 10-25, Safari 5.1-6 */
   padding: 10px 20px;
   margin-top: 50px;
-  border-radius: 50px;
+  
 }
 
 

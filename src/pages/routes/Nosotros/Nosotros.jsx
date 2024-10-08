@@ -1,3 +1,4 @@
+import Footer from "../../Inicio/Footer/Footer";
 import Nav from "../../Inicio/Header/Nav";
 import "./Nosotros.css";
 
@@ -77,6 +78,7 @@ const Nosotros = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
