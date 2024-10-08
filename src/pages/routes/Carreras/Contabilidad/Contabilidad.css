@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
-/*  */
 .container_main_contabilidad{
  
 /* border: solid yellow; */
@@ -31,8 +31,6 @@
     /* border: solid rgb(13, 148, 54); */
     gap: 10px;
     /* align-items: center; */
-   
-    
 
 }
 .image_carreras{
@@ -67,15 +65,20 @@
 }
 
 .container-tex{
-    
     display: flex;
     flex-direction: column;
     width: 550px;
     text-align: justify;
     margin-top: 30px;
-    /* background-color: blueviolet; */
-    /* border: solid rgb(19, 42, 78); */
+    font-size: 20px;
 }
+.container-tex h2{
+    color:#2a2e25;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
 .boton-contabilidad{
     background-color:#2a2e25;
     color:white;
@@ -91,6 +94,16 @@
     background-color:#050a00;
     color: white;
     cursor: pointer;
+}
+
+.borde_derecha{
+    color:#1d2118;
+    width: 800px;
+    border-top-width: 6px;
+    border-radius: 10px;
+    margin-left: 545px;
+    margin-bottom: 0px;
+   
 }
 
 /* ---------------section #02 ---------------- */
@@ -112,7 +125,7 @@
 .conoce_la_carrera{
     display: flex;
     align-items: center;
-    
+    height: 400px;
     background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
     display: flex;
     /* border: solid red; */
@@ -126,7 +139,7 @@
     font-size: 70px;
     width: 700px;
     height: 250px;
-    color: #2a2e25;
+    color:#0F110E;
     /* border:solid #7ab82f; */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 500%;
@@ -147,12 +160,19 @@
 
 
 /* ---------------lo que nececitas saber---------------- */
+.borde_izquierda{
+    color:#3D4337;
+    width: 800px;
+    border-top-width: 6px;
+    border-radius: 10px;
+    margin-left: -19PX;
+    margin-top: 0px;
+}
 .nececitas_saber{
-  
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
     /* border: solid rgb(39, 190, 5); */
-    color: rgb(35, 37, 37);
+    
 }
 .nececitas_saber div{
     /* border: solid rgb(73, 79, 72); */
@@ -160,7 +180,7 @@
 }
 
 .nececitas_saber h2{
-  
+  color: #0F110E;
     font-weight: bold;
     font-size: 45px;;
     /* border: solid rgb(194, 10, 142);     */
@@ -170,7 +190,6 @@
 }
 .nececitas_saber h4{
     font-weight: bold;
-    margin-top: 50px;
     /* border: solid rgb(19, 158, 168); */
 }
 
@@ -178,6 +197,7 @@
 .container_aprenderas{
     background: rgb(255,255,255);
     background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
+
 }
 
 .container_aprenderas h2{
@@ -185,9 +205,11 @@
     font-size: 45px;
 }
 .container_aprenderas div{
-    width: 650px;
     /* border: solid rebeccapurple; */
+    width: 650px;
     margin-left: 20px;
+  
+    /* margin-top: 100px; */
 }
 
 
@@ -204,7 +226,9 @@
 .certificaciones h2{
     font-weight: bold;
     font-size: 45px;
-   
+  
+       /* border: solid red; */
+
 }
 
 
