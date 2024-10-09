@@ -53,7 +53,7 @@ const Contabilidad = () => {
           <div className="nececitas_saber">
             <div>
               <hr className="borde_izquierda" />
-              <h2>Lo que necesitas saber</h2>
+              <h2>Lo que  necesitas saber</h2>
               <h4>CARRERA</h4>
               <p>Administración de redes y comunicaciones</p>
               <h4>DURACIÓN</h4>
