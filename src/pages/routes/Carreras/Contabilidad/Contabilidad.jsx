@@ -19,7 +19,7 @@ const Contabilidad = () => {
                     <h2>La carrera de Contabilidad es ideal para ti.</h2>
                     <p>La carrera de Contabilidad te permitirá adquirir conocimientos y habilidades para la gestión de información financiera y administrativa de las organizaciones, con el fin de tomar decisiones y cumplir con las obligaciones fiscales y legales. </p>
                     <button className='boton-contabilidad'>CONOCER MAS...</button>
-                    <hr className='borde_derecha' />
+                    {/* <hr className='borde_derecha' /> */}
                 </div>
             
                 <div className='container_sub_img'>
@@ -42,7 +42,7 @@ const Contabilidad = () => {
 {/* ---------------lo que necesitas saber---------------- */}
             <div className='nececitas_saber'>
               <div>
-                <hr className='borde_izquierda' />
+                {/* <hr className='borde_izquierda' /> */}
                   <h2>Lo que necesitas saber</h2>
                   <h4>CARRERA</h4>
                   <p>administración de redes y comunicaciones</p>
@@ -54,7 +54,7 @@ const Contabilidad = () => {
                   <button className='boton_2'>VIRTUAL</button>
                   <h4>GRADO OBTENIDO</h4>
                   <p>Bachiller técnico en administracion de Redes y cComunicaciónes</p>
-                  <hr className='borde_derecha' />
+                  {/* <hr className='borde_derecha' /> */}
               </div>
             </div>
 
@@ -73,7 +73,7 @@ const Contabilidad = () => {
 
             <div className='certificaciones'>
               <div>
-              <hr className='borde_izquierda' />
+              {/* <hr className='borde_izquierda' /> */}
                 <h2>Certificaciones</h2>
                 <p>al culminar tu carrera podras obtener las siguientes certificaciones</p>
                 <ul>
@@ -87,7 +87,7 @@ const Contabilidad = () => {
           </div>
 
           <div className='container_convenios'>
-              <hr className='borde_derecha' />
+              {/* <hr className='borde_derecha' /> */}
             <div>
                 <h2>Principales Convenios</h2>
                 <div>
