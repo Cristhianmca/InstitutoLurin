@@ -26,7 +26,7 @@ const Diseño = () => {
               La carrera de Diseño te permitirá adquirir conocimientos y habilidades para la creación y gestión de sitios web dinámicos, con un enfoque en diseño gráfico, experiencia de usuario (UX), y desarrollo frontend y backend.
             </p>
             <button className="boton-contabilidad">CONOCER MÁS...</button>
-            <hr className="borde_derecha" />
+            {/* <hr className="borde_derecha" /> */}
           </div>
 
           <div className="container_sub_img">
@@ -51,7 +51,7 @@ const Diseño = () => {
           {/* Lo que necesitas saber */}
           <div className="nececitas_saber">
             <div>
-              <hr className="borde_izquierda" />
+              {/* <hr className="borde_izquierda" /> */}
               <h2>Lo que necesitas saber</h2>
               <h4>CARRERA</h4>
               <p>Diseño y Desarrollo Web</p>
@@ -63,7 +63,7 @@ const Diseño = () => {
               <button className="boton_2">PRESENCIAL</button>
               <h4>GRADO OBTENIDO</h4>
               <p>Bachiller técnico en Diseño y Desarrollo Web</p>
-              <hr className="borde_derecha" />
+              {/* <hr className="borde_derecha" /> */}
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const Diseño = () => {
           {/* Certificaciones */}
           <div className="certificaciones">
             <div>
-              <hr className="borde_izquierda" />
+              {/* <hr className="borde_izquierda" /> */}
               <h2>Certificaciones</h2>
               <p>Al culminar tu carrera, podrás obtener las siguientes certificaciones:</p>
               <ul>
@@ -95,7 +95,7 @@ const Diseño = () => {
 
         {/* Convenios */}
         <div className="container_convenios">
-          <hr className="borde_derecha" />
+          {/* <hr className="borde_derecha" /> */}
           <div>
             <h2>Principales Convenios</h2>
             <div>

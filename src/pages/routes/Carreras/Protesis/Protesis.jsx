@@ -26,7 +26,7 @@ const Protesis = () => {
               La carrera de Prótesis Dental te preparará para diseñar, fabricar y ajustar prótesis dentales que mejoren la salud bucal y la estética de los pacientes. Aprenderás a trabajar con tecnología avanzada y materiales especializados, garantizando un trabajo preciso y de alta calidad.
             </p>
             <button className="boton-contabilidad">CONOCER MÁS...</button>
-            <hr className="borde_derecha" />
+            {/* <hr className="borde_derecha" /> */}
           </div>
 
           <div className="container_sub_img">
@@ -51,7 +51,7 @@ const Protesis = () => {
           {/* Lo que necesitas saber */}
           <div className="nececitas_saber">
             <div>
-              <hr className="borde_izquierda" />
+              {/* <hr className="borde_izquierda" /> */}
               <h2>Lo que necesitas saber</h2>
               <h4>CARRERA</h4>
               <p>Prótesis Dental</p>
@@ -63,7 +63,7 @@ const Protesis = () => {
               <button className="boton_2">PRESENCIAL</button>
               <h4>GRADO OBTENIDO</h4>
               <p>Bachiller Técnico en Prótesis Dental</p>
-              <hr className="borde_derecha" />
+              {/* <hr className="borde_derecha" /> */}
             </div>
           </div>
 
@@ -80,7 +80,7 @@ const Protesis = () => {
           {/* Certificaciones */}
           <div className="certificaciones">
             <div>
-              <hr className="borde_izquierda" />
+              {/* <hr className="borde_izquierda" /> */}
               <h2>Certificaciones</h2>
               <p>Al culminar tu carrera, podrás obtener las siguientes certificaciones:</p>
               <ul>
@@ -95,7 +95,7 @@ const Protesis = () => {
 
         {/* Convenios */}
         <div className="container_convenios">
-          <hr className="borde_derecha" />
+          {/* <hr className="borde_derecha" /> */}
           <div>
             <h2>Principales Convenios</h2>
             <div>
