@@ -46,6 +46,7 @@ const ImageGallery = ({ images, onClose }) => {
   );
 };
 
+
 ImageGallery.propTypes = {
   images: PropTypes.arrayOf(PropTypes.string).isRequired,
   onClose: PropTypes.func.isRequired, 
