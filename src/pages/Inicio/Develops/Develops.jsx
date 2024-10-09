@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
-import { Helmet } from 'react-helmet'; // Importa Helmet
 import './Develops.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Facebook } from 'react-feather';
@@ -71,23 +70,14 @@ const Develops = () => {
   ];
 
   return (
-    <>
-      {/* Helmet para SEO en la sección de desarrolladores */}
-      <Helmet>
-        <title>Desarrolladores del Instituto Lurín</title>
-        <meta name="description" content="Conoce al equipo de desarrolladores del Instituto Lurín, expertos en diversas tecnologías como React, Angular, Python, y más." />
-        <meta name="keywords" content="desarrolladores, equipo, Instituto Lurín, React, Angular, Python, GitHub, LinkedIn" />
-      </Helmet>
-
-      <div className="developers-section">
-        <h2 className="typewriter-effect">Desarrolladores</h2>
-        <div className={`developers-cards-container ${isPaused ? 'paused' : ''}`}>
-          {developers.map((dev) => (
-            <DeveloperCard key={dev.name} developer={dev} isPaused={isPaused} setPause={setPause} />
-          ))}
-        </div>
+    <div className="developers-section">
+      <h2 className="typewriter-effect">Desarrolladores</h2>
+      <div className={`developers-cards-container ${isPaused ? 'paused' : ''}`}>
+        {developers.map((dev) => (
+          <DeveloperCard key={dev.name} developer={dev} isPaused={isPaused} setPause={setPause} />
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 

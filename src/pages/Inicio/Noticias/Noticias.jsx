@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom"; // Importa el componente Link
 import { Helmet } from "react-helmet"; // Importa Helmet
 import "./Noticias.css";
-import Develops from "./../Develops/Develops";
+
 
 const Noticias = () => {
   const eventsRef = useRef(null);
@@ -300,7 +300,7 @@ const Noticias = () => {
           </div>
         </div>
       </div>
-      <Develops />
+      
     </>
   );
 };

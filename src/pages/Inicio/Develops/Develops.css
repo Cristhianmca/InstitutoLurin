@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-
 .typewriter-effect {
-    font-size: 28px;
+    font-size: 14px; /* Reducido de 16px */
     font-family: 'Courier New', Courier, monospace;
     color: #333;
     white-space: nowrap;
     overflow: hidden; 
-    border-right: 3px solid; 
+    border-right: 2px solid; /* Reducido de 3px */
     width: 0;
     animation: typing 8s steps(14) infinite,
                blink-caret 0.75s step-end infinite;
@@ -31,22 +30,25 @@
     }
 }
 
-
 .developers-section {
     text-align: center;
-    padding: 40px;
+    padding: 10px; /* Reducido de 20px */
     overflow: hidden;
     position: relative;
-    margin-top: 100px;
+    
     background: linear-gradient(to right, #ece9e6, #ffffff); 
+    
+    margin-bottom: -50px;
+
 }
 
 .developers-cards-container {
     display: flex;
-    gap: 20px;
+    gap: 5px; /* Reducido de 10px */
     animation: moveHorizontal 30s linear infinite;
     position: relative;
     z-index: 1;
+   
 }
 
 .developer-card {
@@ -55,44 +57,59 @@
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 12px;
-    padding: 20px;
-    min-width: 300px; 
+    padding: 5px; /* Reducido de 10px */
+    min-width: 150px; /* Reducido de 200px */
     text-align: left;
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reducido de 0 4px 6px */
     transition: transform 0.5s ease;
+    
 }
 
 .developer-card:hover {
-    transform: scale(1.08);
+    transform: scale(1.05); /* Reducido de 1.08 */
 }
 
 .developer-photo {
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    width: 30px; /* Reducido de 40px */
+    height: 30px; /* Reducido de 40px */
     object-fit: cover;
-    margin-right: 15px;
+    margin-right: 5px; /* Reducido de 10px */
 }
 
 .developer-info {
     flex-grow: 1;
+    font-size: 10px; /* Reducido de 12px */
+}
+
+.developer-info h3 {
+    font-size: 12px; /* Reducido de 16px */
+    margin: 0; /* Eliminar márgenes */
+}
+
+.developer-info p {
+    margin: 2px 0; /* Reducir márgenes */
 }
 
 .social-links {
     display: flex;
-    gap: 10px;
+    gap: 2px; /* Reducido de 3px */
 }
 
 .social-links a {
     color: black; 
     text-decoration: none;
-    font-size: 0.9em;
+    font-size: 0.6em; /* Reducido de 0.7em */
 }
 
 .social-links a:hover {
     color: #333; 
 }
 
+.social-links svg {
+    width: 16px; /* Ajustar tamaño de los iconos */
+    height: 16px; /* Ajustar tamaño de los iconos */
+}
 
 @keyframes moveHorizontal {
     0% {
@@ -107,28 +124,32 @@
     animation-play-state: paused;
 }
 
-
 @media (max-width: 768px) {
     .developers-section {
-        padding: 20px; 
+        padding: 5px; /* Reducido de 10px */
     }
 
     .typewriter-effect {
-        font-size: 24px;
+        font-size: 12px; /* Reducido de 14px */
     }
 
     .developer-card {
-        min-width: 250px; 
+        min-width: 100px; /* Reducido de 150px */
     }
 }
 
 @media (max-width: 480px) {
     .typewriter-effect {
-        font-size: 20px; 
+        font-size: 10px; /* Reducido de 12px */
     }
 
     .developer-photo {
-        width: 60px; 
-        height: 60px; 
+        width: 20px; /* Reducido de 30px */
+        height: 20px; /* Reducido de 30px */
+    }
+
+    .developer-card {
+        padding: 3px; /* Reducido de 5px */
+        min-width: 80px; /* Reducido de 100px */
     }
 }
