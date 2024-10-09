@@ -1,12 +1,20 @@
 import "./Carreras.css";
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet'; // Importa Helmet
 
 const Carreras = () => {
   return (
-    <div  className="container_carreras-total">
+    <div className="container_carreras-total">
+      {/* Helmet para el SEO */}
+      <Helmet>
+        <title>Instituto Lurín - Nuestras Carreras</title>
+        <meta name="description" content="Conoce las diversas carreras que ofrecemos en el Instituto Lurín, como Prótesis, Diseño y Desarrollo Web, y Contabilidad, con formación de alta calidad y tecnología avanzada." />
+        <meta name="keywords" content="Carreras, Prótesis, Diseño Web, Contabilidad, Instituto Lurín, Educación, Formación Profesional" />
+      </Helmet>
+      
       <div className="background_tittle">
         <div className="container_carreras-tittle">
-          <h1 id="carreras" className="carreras__tittle"  >
+          <h1 id="carreras" className="carreras__tittle">
             NUESTRAS CARRERAS <i className="fa-duotone fa-graduation-cap"></i>
           </h1>
         </div>
@@ -23,13 +31,13 @@ const Carreras = () => {
                   />
                 </figure>
                 <div className="article-preview">
-                  <h2 className="carreras_tittle-protesis">Protesis</h2>
+                  <h2 className="carreras_tittle-protesis">Prótesis</h2>
                   <p>
                     Te prepararemos para diseñar, fabricar y ajustar prótesis
                     dentales que mejoren la salud bucal y la estética de los
                     pacientes. Aprenderás a trabajar con tecnología avanzada y
                     materiales especializados, garantizando un trabajo preciso y
-                    de alta calidad
+                    de alta calidad.
                   </p>
                   <Link to="/protesis" className="read-more" title="Ver más">
                     Ver más
@@ -44,13 +52,13 @@ const Carreras = () => {
                   />
                 </figure>
                 <div className="article-preview">
-                  <h2>Diseño y Desarrollo web</h2>
+                  <h2>Diseño y Desarrollo Web</h2>
                   <p>
                     Domina las herramientas y lenguajes necesarios para crear
                     sitios web dinámicos y funcionales. Aprende sobre diseño
                     UX/UI, desarrollo frontend y backend, y conviértete en un
                     experto en la construcción de experiencias digitales
-                    innovadoras
+                    innovadoras.
                   </p>
                   <Link to="/diseño" className="read-more" title="Ver más">
                     Ver más
@@ -85,4 +93,5 @@ const Carreras = () => {
     </div>
   );
 };
+
 export default Carreras;
