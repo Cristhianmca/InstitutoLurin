@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PropTypes from 'prop-types';
+import { Helmet } from 'react-helmet'; // Importa Helmet
 import './Develops.css';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { Facebook } from 'react-feather';
@@ -20,7 +21,7 @@ const DeveloperCard = ({ developer, isPaused, setPause }) => {
             <a href={social.link} key={social.platform} target="_blank" rel="noopener noreferrer">
               {social.icon}
             </a>
-          ))}
+          ))} 
         </div>
       </div>
     </div>
@@ -55,7 +56,7 @@ const Develops = () => {
       socials: [
         { platform: 'LinkedIn', link: 'https://www.linkedin.com/in/cristhian-medina-7b6b54228/', icon: <FaLinkedin /> },
         { platform: 'GitHub', link: 'https://github.com/Cristhianmca', icon: <FaGithub /> },
-        { platform: 'facebook', link: 'https://www.facebook.com/cristhian.medina.315', icon: <Facebook/> },
+        { platform: 'facebook', link: 'https://www.facebook.com/cristhian.medina.315', icon: <Facebook /> },
       ],
     },
     {
@@ -70,14 +71,23 @@ const Develops = () => {
   ];
 
   return (
-    <div className="developers-section">
-      <h2 className="typewriter-effect">Desarrolladores</h2>
-      <div className={`developers-cards-container ${isPaused ? 'paused' : ''}`}>
-        {developers.map((dev) => (
-          <DeveloperCard key={dev.name} developer={dev} isPaused={isPaused} setPause={setPause} />
-        ))}
+    <>
+      {/* Helmet para SEO en la sección de desarrolladores */}
+      <Helmet>
+        <title>Desarrolladores del Instituto Lurín</title>
+        <meta name="description" content="Conoce al equipo de desarrolladores del Instituto Lurín, expertos en diversas tecnologías como React, Angular, Python, y más." />
+        <meta name="keywords" content="desarrolladores, equipo, Instituto Lurín, React, Angular, Python, GitHub, LinkedIn" />
+      </Helmet>
+
+      <div className="developers-section">
+        <h2 className="typewriter-effect">Desarrolladores</h2>
+        <div className={`developers-cards-container ${isPaused ? 'paused' : ''}`}>
+          {developers.map((dev) => (
+            <DeveloperCard key={dev.name} developer={dev} isPaused={isPaused} setPause={setPause} />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

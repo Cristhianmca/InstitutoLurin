@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'; // Importa Helmet
 import Footer from "../../Inicio/Footer/Footer";
 import Nav from "../../Inicio/Header/Nav";
 import "./Nosotros.css";
@@ -5,25 +6,30 @@ import "./Nosotros.css";
 const Nosotros = () => {
   return (
     <div className="nosotros_container">
+      {/* Helmet para SEO */}
+      <Helmet>
+        <title>Nosotros - IESTP Lurín</title>
+        <meta name="description" content="Conoce al IESTP Lurín. Nuestra misión es formar profesionales técnicos altamente capacitados con valores éticos, preparados para enfrentar los retos del futuro." />
+        <meta name="keywords" content="Nosotros, IESTP Lurín, misión, visión, formación técnica, educación de calidad, valores éticos, innovación, desarrollo tecnológico" />
+      </Helmet>
+
       <Nav />
       <div className="wrapper">
-  <div className="arrow-container">
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-    <div className="dot"></div>
-  </div>
-  <div>
-    <h1 className="iestp">IESTP LURIN</h1>
-  </div>
-</div>
-
-      
+        <div className="arrow-container">
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+          <div className="dot"></div>
+        </div>
+        <div>
+          <h1 className="iestp">IESTP LURIN</h1>
+        </div>
+      </div>
 
       <div className="container_nosotros">
         <div className="nosotros_mision">
@@ -39,7 +45,6 @@ const Nosotros = () => {
           </p>
         </div>
 
-        
         <div className="nosotros_video">
           <video
             className="video_nosotros"

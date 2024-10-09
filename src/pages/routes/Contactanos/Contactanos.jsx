@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet'; // Importa Helmet
 import Nav from "../../../pages/Inicio/Header/Nav";
 import Footer from "../../Inicio/Footer/Footer";
 import "./Contactanos.css";
@@ -5,27 +6,34 @@ import "./Contactanos.css";
 const Contactanos = () => {
   return (
     <div className="contactanos_container">
+      {/* Helmet para SEO */}
+      <Helmet>
+        <title>Contáctanos - IESTP Lurín</title>
+        <meta name="description" content="Contáctanos en IESTP Lurín. Información de contacto, admisión, servicios al estudiante, ubicación y horarios de atención." />
+        <meta name="keywords" content="contáctanos, IESTP Lurín, admisión, servicios al estudiante, ubicación, atención, horarios" />
+      </Helmet>
+
       <Nav />
       <div>
         <img
           className="contactanos_img"
           src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1728165367/COTACTENOS_qmkghx.jpg"
-          alt=""
+          alt="imagen de contáctanos"
         />
       </div>
       <div className="container_contactanos">
         <div className="contactanos_admision">
           <h2>Admisión</h2>
           <p>Lima - Lurín</p>
-          <p>Central Telefonica : (01) 500-6177 anexo 2802</p>
-          <p>Via Whatsapp: +51 999-999-999</p>
+          <p>Central Telefónica: (01) 500-6177 anexo 2802</p>
+          <p>Vía WhatsApp: +51 999-999-999</p>
         </div>
 
         <div className="contactanos_servicio">
-          <h2>Servicio al estudiante</h2>
-          <p>Central Telefonica : (01) 500-6177 anexo 2802</p>
-          <p>Via Whatsapp: +51 999-999-999</p>
-          <p>Via E-mail. informes@iestplurin.edu.pe</p>
+          <h2>Servicio al Estudiante</h2>
+          <p>Central Telefónica: (01) 500-6177 anexo 2802</p>
+          <p>Vía WhatsApp: +51 999-999-999</p>
+          <p>Vía E-mail: informes@iestplurin.edu.pe</p>
         </div>
 
         <div className="contactanos_horario">
@@ -45,7 +53,7 @@ const Contactanos = () => {
               <img
                 className="image_mapa"
                 src="https://res.cloudinary.com/dxhcv6buy/image/upload/v1728353936/Captura_de_pantalla_2024-10-07_211835_sbzv0w.png"
-                alt=""
+                alt="Mapa de ubicación"
               />{" "}
             </a>
           </p>
@@ -55,4 +63,5 @@ const Contactanos = () => {
     </div>
   );
 };
+
 export default Contactanos;
