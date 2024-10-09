@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Página principal -->
+   <url>
+      <loc>https://iestplurin.edu.pe/inicio</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>1.0</priority>
+   </url>
+   <!-- Contactanos -->
+   <url>
+      <loc>https://iestplurin.edu.pe/contactanos</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <!-- Carreras -->
+   <url>
+      <loc>https://iestplurin.edu.pe/carreras</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <!-- Admisión -->
+   <url>
+      <loc>https://iestplurin.edu.pe/admision</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <!-- Nosotros -->
+   <url>
+      <loc>https://iestplurin.edu.pe/nosotros</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.8</priority>
+   </url>
+   <!-- Diseño -->
+   <url>
+      <loc>https://iestplurin.edu.pe/diseño</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <!-- Contabilidad -->
+   <url>
+      <loc>https://iestplurin.edu.pe/contabilidad</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.7</priority>
+   </url>
+   <!-- Prótesis -->
+   <url>
+      <loc>https://iestplurin.edu.pe/protesis</loc>
+      <lastmod>2024-10-10</lastmod>
+      <priority>0.7</priority>
+   </url>
+</urlset>
