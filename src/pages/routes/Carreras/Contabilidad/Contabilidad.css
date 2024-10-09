@@ -1,299 +1,249 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
-.container_carreras{
-    width: 90%;
-   
-}
-.container_principal{
+.container_carreras,
+.container_principal,
+.container_principal_02 {
     width: 90%;
     margin: 0 auto;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
+    max-width: 100%;
+    overflow-x: hidden;
 }
-.sub_container_carreras{
+
+.container_principal {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
+}
+
+.sub_container_carreras {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 97%;
-    margin: 0 auto; 
-   
     gap: 10px;
-    /* align-items: center; */
-    /* border: solid rgb(13, 148, 54); */
-
+    width: 97%;
+    margin: 0 auto;
 }
-.image_carreras{
+
+.image_carreras {
     width: 100%;
     height: 450px;
-    background: url('https://www.ortodoncia.ws/publicaciones/2016/imagenes/2016-09-07-prot-1.jpg');
+    background: url('https://www.ortodoncia.ws/publicaciones/2016/imagenes/2016-09-07-prot-1.jpg') no-repeat center center;
     background-size: cover;
-    background-position: center;
-    /* border: solid red; */
-    margin: 0 auto;
-    
-    
 }
 
-.container_sub_img{
+.container_sub_img {
     display: flex;
-
-    /* border: solid red; */
     gap: 20px;
-    margin: 0 auto;
-    margin-top: 70px;
-    /* margin-left: 150px; */
-
+    margin: 70px auto 0;
+    justify-content: center;
 }
-.container_sub_img img{
-    width:  220px;
+
+.container_sub_img img {
+    width: 220px;
     height: 180px;
     border-radius: 20px;
-    margin-top: 70px;  
-    border-bottom:  7px solid #3D4437;
-    border-right:   7px solid #3D4437;
-
+    border-bottom: 7px solid #3D4437;
+    border-right: 7px solid #3D4437;
+    transition: transform 0.3s ease;
 }
 
-.container_sub_img img:hover{
-    /* cursor: pointer; */
-    transform: translatey(10px);
-    border-bottom:  7px solid #0F110E;
-    border-right:   7px solid #0F110E;
+.container_sub_img img:hover {
+    transform: translateY(10px);
+    border-bottom: 7px solid #0F110E;
+    border-right: 7px solid #0F110E;
 }
-.container-tex{
+
+.container-tex {
     display: flex;
     flex-direction: column;
     width: 550px;
-    text-align: justify;
     margin-top: 70px;
     font-size: 20px;
-    /* border: solid #1d2118; */
+    text-align: justify;
 }
-.container-tex h2{
-    color:#0F110E;
+
+.container-tex h2 {
+    color: #0F110E;
     font-weight: bold;
     font-size: 40px;
 }
 
-/* -------------botones---------------- */
-.boton-contabilidad{
-    background-color:#2a2e25;
-    color:white;
+.boton-contabilidad,
+.boton_2 {
+    background-color: #2a2e25;
+    color: white;
     width: 180px;
     height: 40px;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 50px;
-    margin-top: 40px;
-}
-
-.boton-contabilidad:hover{
-    background-color:#050a00;
-    color: white;
+    margin: 40px auto 50px;
+    transition: transform 0.3s ease;
     cursor: pointer;
-    transform: translatey(5px);
 }
 
-.boton_2{
-    background-color:#2a2e25;
-    color:white;
-    width: 180px;
-    height: 40px;
-    border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 2px;
-    margin-top: 4px;
+.boton-contabilidad:hover,
+.boton_2:hover {
+    background-color: #050a00;
+    transform: translateY(5px);
 }
 
-.boton_2:hover{
-    background-color:#050a00;
-    color: white;
-    cursor: pointer;
-    transform: translatey(10px);
-}
-/* -------------------------------------------- */
-
-
-.borde_derecha{
-    color:#1d2118;
-    width: 800px;
-    border-top-width: 6px;
-    border-radius: 10px;
-    margin-left: 545px;
-    margin-bottom: 0px;
-   
-}
-
-/* ---------------section #02 ---------------- */
-
-.container_principal_02{
-    width: 90%;
-    margin: 0 auto;
-    
-    /* border: solid rgb(16, 211, 98); */
-}
-
-.sub_container_principal_02{
-    /* border: solid red; */
-    
-    margin: 0 auto;
-
-}
-/* ---------------conoce la carrera---------------- */
-.conoce_la_carrera{
+/* Sección de la carrera */
+.conoce_la_carrera {
     display: flex;
     flex-wrap: wrap;
-    /* height: 400px; */
-    background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
-    /* border: solid red; */
-
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
 }
 
-.conoce_la_carrera h2{
-    font-family:'Franklin Gothic Medium', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    font-size: 70px;
-    width: 700px;
-    height: 250px;
-    color:#0F110E;
-    /* border:solid #7ab82f; */
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 500%;
-   
+.conoce_la_carrera h2 {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 40px;
+    color: #0F110E;
+    width: 100%;
     margin-left: 20px;
 }
-.conoce_la_carrera p{
+
+.conoce_la_carrera p {
     font-size: 20px;
-    width: 700px;
-    height: 250px;
     color: rgb(35, 37, 37);
-
     text-align: justify;
-    margin-top: 40px;
-    margin-right: 40px;
-    /* border: solid #111d89; */
+    margin: 40px 20px;
+    width: 100%;
 }
 
-
-/* ---------------lo que nececitas saber---------------- */
-.borde_izquierda{
-    color:#3D4337;
-    width: 800px;
-    border-top-width: 6px;
-    border-radius: 10px;
-    margin-left: -19PX;
-    margin-top: 0px;
-}
-.nececitas_saber{
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
-    /* border: solid rgb(39, 190, 5); */
-    
-}
-.nececitas_saber div{
-    /* border: solid rgb(73, 79, 72); */
-    margin-left: 20px;    
+/* Sección "Lo que necesitas saber" */
+.nececitas_saber {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
 }
 
-.nececitas_saber h2{
-  color: #0F110E;
+.nececitas_saber div {
+    margin-left: 20px;
+}
+
+.nececitas_saber h2 {
+    color: #0F110E;
     font-weight: bold;
     font-size: 45px;
     margin-top: 70px;
-    /* border: solid rgb(194, 10, 142);     */
-
-    /* color: blue; */
-
-  
 }
-.nececitas_saber h4{
+
+.nececitas_saber h4 {
     font-weight: bold;
     color: #0F110E;
     margin-top: 30px;
-
-    /* border: solid rgb(19, 158, 168); */
 }
 
-/* ---------------Que aprenderas?---------------- */
-.container_aprenderas{
+/* Sección "Qué aprenderás" */
+.container_aprenderas {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(255,255,255);
-    background: linear-gradient(-90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
-     /* height: 300px; */
-     
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
+    overflow: hidden;
 }
 
-.container_aprenderas div{
-    /* border: solid rebeccapurple; */
-    width: 650px;
-    margin-left: 20px;
+.container_aprenderas div {
+    width: 100%;
+    max-width: 650px;
+    margin: 20px;
+    box-sizing: border-box;
 }
-.container_aprenderas h2{
+
+.container_aprenderas h2 {
     font-weight: bold;
     font-size: 45px;
     color: #0F110E;
-    /* border: solid rgb(0, 0, 0); */
+    word-wrap: break-word;
 }
 
-
-/* -------------Certificaciones---------------- */
-.certificaciones{
+/* Certificaciones y convenios */
+.certificaciones,
+.container_convenios {
     display: flex;
     flex-wrap: wrap;
-    background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(187,197,183,1) 100%);
-  
-    /* border: solid red; */
-
+    justify-content: center;
+    gap: 20px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
+    padding: 20px;
 }
-.certificaciones h2{
-    font-weight: bold;
+
+.certificaciones h2,
+.container_convenios h2 {
     font-size: 45px;
     color: #0F110E;
     margin-top: 50px;
-    margin-left: 20PX;
-       /* border: solid red; */
-
+    width: 100%;
+    text-align: center;
 }
 
-
-.certificaciones img{
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-right: 40px;
-}
-/* ------------------convenios-------------- */
-.container_convenios{
-    display: flex;
-    flex-wrap: wrap;
-}
+.certificaciones img,
 .container_convenios img {
-    width: 200px;
-    height: 200px;
-    margin-top: 20px;
-    margin-right: 40px;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
 }
 
-
-/* ------------------convenios---------- */
-
+/* Media Queries */
 @media (max-width: 768px) {
-    .container_carreras {
-        text-align: center;
-        margin: 0 auto;
+    .container_carreras,
+    .container_principal,
+    .container_principal_02 {
         width: 100%;
- 
+        padding: 0 15px;
     }
-    
 
-  
+    .image_carreras {
+        height: auto;
+    }
+
+    .sub_container_carreras {
+        flex-direction: column;
+    }
+
+    .container_sub_img {
+        flex-direction: column;
+    }
+
+    .container_sub_img img {
+        max-width: 220px;
+    }
+
+    .container-tex {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-tex h2,
+    .conoce_la_carrera h2,
+    .nececitas_saber h2,
+    .container_aprenderas h2,
+    .certificaciones h2 {
+        font-size: 32px;
+    }
+
+    .boton-contabilidad,
+    .boton_2 {
+        width: 100%;
+        max-width: 250px;
+    }
+
+    .certificaciones img,
+    .container_convenios img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-tex h2,
+    .conoce_la_carrera h2,
+    .nececitas_saber h2,
+    .container_aprenderas h2,
+    .certificaciones h2 {
+        font-size: 28px;
+    }
+
+    .certificaciones img,
+    .container_convenios img {
+        max-width: 120px;
+    }
 }
