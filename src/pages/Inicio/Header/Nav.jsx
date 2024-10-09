@@ -20,7 +20,7 @@ export default function Nav() {
     <nav className="container_nav">
       <Helmet>
         {/* Título genérico para la navegación */}
-        <title>Instituto Lurín</title>
+        <title>Instituto de Educación Superior Tecnológico Público Lurín </title>
         <meta name="description" content="Bienvenidos al Instituto Lurín. Explora nuestras carreras y programas académicos, admisión, noticias y mucho más." />
         <meta name="keywords" content="Instituto Lurín, carreras, admisión, noticias, contacto" />
       </Helmet>
