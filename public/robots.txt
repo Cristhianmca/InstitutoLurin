@@ -1,0 +1,35 @@
+# Indica a todos los bots que pueden acceder a todo el sitio, excepto las rutas indicadas en Disallow
+User-agent: *
+Allow: /
+
+# Bloquea directorios sensibles o no necesarios para el rastreo
+Disallow: /admin
+Disallow: /private
+Disallow: /secret-page
+
+# Bloquea archivos sensibles o específicos que no necesitan ser indexados
+Disallow: /404
+Disallow: /500
+Disallow: /terms-and-conditions
+Disallow: /privacy-policy
+
+# Si tienes páginas dinámicas o de datos que no deseas indexar (como archivos PDF o datos de usuario)
+Disallow: /*.pdf
+Disallow: /*.json
+
+# Bloquea la carpeta de configuración y scripts si es necesario
+Disallow: /config
+Disallow: /scripts
+
+# Permite el acceso a las imágenes y activos necesarios (asegúrate de ajustar si no todas las imágenes deben ser accesibles)
+Allow: /images
+Allow: /public/img
+
+# Sitemaps para ayudar a Google a rastrear tu sitio
+Sitemap: https://iestplurin.edu.pe/sitemap.xml
+
+# Asegura que no se indexen las versiones en desarrollo
+User-agent: Googlebot
+Disallow: /development
+
+
