@@ -30,9 +30,9 @@ const Contabilidad = () => {
           </div>
 
           <div className="container_sub_img">
-            <img src="https://i.postimg.cc/fRqBgGDL/contabilidad-comercial.jpg" alt="img apollo contabilidad" />
-            <img src="https://i.postimg.cc/fRqBgGDL/contabilidad-comercial.jpg" alt="img apollo contabilidad" />
-            <img src="https://i.postimg.cc/fRqBgGDL/contabilidad-comercial.jpg" alt="img apollo contabilidad" />
+            <img src="https://i.postimg.cc/wjkrSKYv/carrera-contabilidad-universidad.jpg" alt="img apollo contabilidad" />
+            <img src="https://i.postimg.cc/hj3vs3tZ/1conoce-5-universidades-donde-pue.jpg" alt="img apollo contabilidad" />
+            <img src="https://i.postimg.cc/x1TCr2Np/3contabilidad.jpg" alt="img apollo contabilidad" />
           </div>
         </div>
       </section>
@@ -43,52 +43,64 @@ const Contabilidad = () => {
 
           {/* Conoce la carrera */}
           <div className="conoce_la_carrera">
-            <h2>Conoce <br /> la carrera</h2>
+            <h2>Conoce la carrera</h2>
             <p>
-              El profesional técnico de administración de redes y comunicación es capaz de implementar redes informáticas y de comunicaciones siguiendo estándares internacionales. Asimismo, sabrá administrar servicios de redes informáticas para garantizar el nivel comprometido y asegurar la seguridad basada en estándares internacionales y restricciones organizacionales.
+            Como profesional de la carrera técnica de Contabilidad serás capaz de gestionar, analizar y reportar la información financiera de manera efectiva. A lo largo del programa, aprenderás a llevar registros precisos, preparar informes financieros y cumplir con las normativas contables y fiscales. La carrera se enfoca en brindarte habilidades prácticas en contabilidad, auditoría y finanzas, permitiéndote trabajar en diferentes tipos de organizaciones, desde empresas hasta entidades gubernamentales, y desempeñar un papel clave en la toma de decisiones financieras.
+
+
             </p>
           </div>
 
           {/* Lo que necesitas saber */}
           <div className="nececitas_saber">
-            <div>
-              {/* <hr className="borde_izquierda" /> */}
-              <h2>Lo que necesitas saber</h2>
-              <h4>CARRERA</h4>
-              <p>Administración de redes y comunicaciones</p>
-              <h4>DURACIÓN</h4>
-              <p>2 años</p>
-              <h4>TITULACIÓN</h4>
-              <p>Profesional Técnico en administración de redes y comunicación</p>
-              <h4>FORMATO</h4>
-              <button className="boton_2">VIRTUAL</button>
-              <h4>GRADO OBTENIDO</h4>
-              <p>Bachiller técnico en administración de Redes y Comunicaciones</p>
-              {/* <hr className="borde_derecha" /> */}
+                  <h2>Lo que necesitas saber</h2>
+            <div className='sub-nececitas_saber'>
+              <div>
+                  <h4>CARRERA</h4>
+                  <p>CONTABILIDAD</p>
+                  <h4>DURACIÓN</h4>
+                  <p>3 años</p>
+                  <h4>TITULACIÓN</h4>
+                  <p>Profesional Técnico en Contabilidad</p>
+              </div>
+
+              <div>
+                  <h4>FORMATO</h4>
+                  <button className="boton_2">VIRTUAL</button>
+                  <h4>GRADO OBTENIDO</h4>
+                  <p>Bachiller técnico en carrera</p>
+              </div>
+
             </div>
           </div>
 
           {/* Qué aprenderás */}
           <div className="container_aprenderas">
-            <div>
               <h2 className="aprenderas_tex">¿Qué aprenderás?</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex.</p>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum nobis neque quisquam unde, sequi porro tenetur, nostrum ex.</p>
+            <div className='sub_aprenderas_tex'>
+              <div>
+                  <p>✅Un profesional contable participa en áreas contables o financieros y elabora, analiza e interpreta los estados financieros de la organización con la aplicación de las normas internacionales.
+                  </p>
+                  <p>✅Gracias a los conocimientos en innovación y emprendimiento, podrá ser parte del lanzamiento de iniciativas o nuevos productos asegurando la sostenibilidad financiera de la empresa o tu propio negocio.
+                  </p>
+              </div>
+
+              <div>
+                  <p>✅Elabora y determina los impuestos tributarios y laborales de acuerdo a las normas tributarias. Desarrolla capacidades analíticas que aporten e iniciativas transversales de la institución.
+                  </p>
+              </div>
             </div>
           </div>
 
           {/* Certificaciones */}
+
           <div className="certificaciones">
             <div>
-              {/* <hr className="borde_izquierda" /> */}
-              <h2>Certificaciones</h2>
-              <p>Al culminar tu carrera, podrás obtener las siguientes certificaciones:</p>
-              <ul>
-                <li>Soporte Técnico de los sistemas de información</li>
-                <li>Implementación de redes y servicios de comunicación</li>
-                <li>Gestión de la seguridad de los servicios e infraestructura de red</li>
-              </ul>
+               <h2>Certificaciones</h2>
+                <p>✅Soporte Técnico de los sistemas de información</p>
+                <p>✅Implementación de redes y servicios de comunicación</p>
+                <p>✅Gestión de la seguridad de los servicios e infraestructura de red</p>
+              
             </div>
             <img src="https://i.postimg.cc/KvptbpDV/images.jpg" alt="certificado" />
           </div>
@@ -97,11 +109,13 @@ const Contabilidad = () => {
         {/* Convenios */}
         <div className="container_convenios">
           {/* <hr className="borde_derecha" /> */}
-          <div>
+          <div className='container-convenios'>
             <h2>Principales Convenios</h2>
             <div>
               <img src="https://i.postimg.cc/CMDYWyM0/images-1.jpg" alt="cisco" />
               <img src="https://i.postimg.cc/9Mw46x0k/8867-Microsoft-5-F00-Logo-2-D00-fo.jpg" alt="microsoft" />
+              <img src="https://i.postimg.cc/yd6K9W4y/images-2.jpg" alt="oracle" />
+              <img src="https://i.postimg.cc/yd6K9W4y/images-2.jpg" alt="oracle" />
               <img src="https://i.postimg.cc/yd6K9W4y/images-2.jpg" alt="oracle" />
             </div>
           </div>

@@ -14,7 +14,7 @@
 }
 
 .container_principal {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgb(187, 203, 181) 100%);
 }
 
 .sub_container_carreras {
@@ -24,6 +24,7 @@
     gap: 10px;
     width: 97%;
     margin: 0 auto;
+    /* border: solid rgb(21, 201, 117); */
 }
 
 .image_carreras {
@@ -33,43 +34,30 @@
     background-size: cover;
 }
 
-.container_sub_img {
-    display: flex;
-    gap: 20px;
-    margin: 70px auto 0;
-    justify-content: center;
-}
-
-.container_sub_img img {
-    width: 220px;
-    height: 180px;
-    border-radius: 20px;
-    border-bottom: 7px solid #3D4437;
-    border-right: 7px solid #3D4437;
-    transition: transform 0.3s ease;
-}
-
-.container_sub_img img:hover {
-    transform: translateY(10px);
-    border-bottom: 7px solid #0F110E;
-    border-right: 7px solid #0F110E;
-}
-
 .container-tex {
-    display: flex;
-    flex-direction: column;
-    width: 550px;
-    margin-top: 70px;
+    /* height: 300px; */
+    margin-top: 50px;
+    margin-bottom: 40px;
     font-size: 20px;
     text-align: justify;
+    /* border: solid rebeccapurple; */
 }
 
 .container-tex h2 {
-    color: #0F110E;
+    color:#619534;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 45px;
+    
+    /* border: solid   #213e12; */
 }
 
+.container-tex p{
+    /* border: solid red; */
+    font-size: 19px;
+    width: 90%;
+    color: rgb(97, 105, 102);
+    
+}
 .boton-contabilidad,
 .boton_2 {
     background-color: #2a2e25;
@@ -77,9 +65,10 @@
     width: 180px;
     height: 40px;
     border-radius: 10px;
-    margin: 40px auto 50px;
+    
     transition: transform 0.3s ease;
     cursor: pointer;
+    /* margin-left: 20px; */
 }
 
 .boton-contabilidad:hover,
@@ -88,99 +77,210 @@
     transform: translateY(5px);
 }
 
-/* Sección de la carrera */
-.conoce_la_carrera {
+
+.container_sub_img {
     display: flex;
+    
+    
     flex-wrap: wrap;
-    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
+    justify-content:space-around;
+    gap: 60px;
+    margin: 20px auto 0;
+    align-items: center;
+    /* border: solid rgb(22, 151, 59); */
+    /* margin-bottom: 70px; */
 }
 
-.conoce_la_carrera h2 {
+.container_sub_img img {
+    width: 320px;
+    height: 230px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    border-bottom: 7px solid #619534;
+    border-right: 7px solid #3D4437;
+    transition: transform 0.3s ease;
+    margin-bottom: 50px;
+}
+
+.container_sub_img img:hover {
+    transform: translateY(10px);
+    border-bottom: 7px solid #0F110E;
+    border-right: 7px solid #0F110E;
+
+}
+
+/* {---------------Conoce la carrera----------------------------} */
+
+
+.sub_container_principal_02{
+/* border: solid red; */
+}
+
+.conoce_la_carrera {
+    /* border: solid rgb(54, 26, 138); */
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 203, 181) 100%);
+}
+.nececitas_saber h2, .conoce_la_carrera h2 {
     font-family: 'Franklin Gothic Medium', Arial, sans-serif;
-    font-size: 40px;
-    color: #0F110E;
-    width: 100%;
+    font-size: 45px;
+    color: #619534;
     margin-left: 20px;
+    /* margin-top: 20px; */
 }
 
 .conoce_la_carrera p {
-    font-size: 20px;
-    color: rgb(35, 37, 37);
+    font-size: 19px;
+    color: rgb(98, 105, 97);
     text-align: justify;
-    margin: 40px 20px;
-    width: 100%;
+    margin: 25px;
+    width: 90%;
+    height: 150px;
+    overflow: hidden;
 }
 
 /* Sección "Lo que necesitas saber" */
 .nececitas_saber {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 203, 181) 100%); 
+     
+}
+.sub-nececitas_saber{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    margin: 20px;
+    color: rgb(97, 105, 102);
+    /* border: solid red; */
 }
 
 .nececitas_saber div {
     margin-left: 20px;
 }
 
-.nececitas_saber h2 {
-    color: #0F110E;
+.sub-nececitas_saber h2 {
+    color: #619534;
     font-weight: bold;
     font-size: 45px;
-    margin-top: 70px;
+    /* border: solid red; */
 }
 
 .nececitas_saber h4 {
     font-weight: bold;
-    color: #0F110E;
+    color: #619534;
     margin-top: 30px;
 }
 
+
 /* Sección "Qué aprenderás" */
+
 .container_aprenderas {
-    display: flex;
-    flex-wrap: wrap;
-    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
-    overflow: hidden;
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 203, 181) 100%);
 }
 
-.container_aprenderas div {
-    width: 100%;
-    max-width: 650px;
-    margin: 20px;
-    box-sizing: border-box;
+.sub_aprenderas_tex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    /* border: solid red; */
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+.sub_aprenderas_tex p {
+    font-size:19px;
+    color: rgb(97, 105, 102);
+    text-align: justify;
+    width: 400PX;
+    /* border: solid red; */
 }
 
 .container_aprenderas h2 {
     font-weight: bold;
     font-size: 45px;
-    color: #0F110E;
-    word-wrap: break-word;
+    margin-left: 30px;
+    color: #619534;
 }
 
 /* Certificaciones y convenios */
+
 .certificaciones,
 .container_convenios {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 197, 183, 1) 100%);
-    padding: 20px;
+    /* gap: 300px; */
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 203, 181) 100%);
+    border: solid 1px #0F110E;
+    
 }
 
-.certificaciones h2,
-.container_convenios h2 {
+.certificaciones h2{
+    font-weight: bold;
     font-size: 45px;
-    color: #0a0a09;
+    margin-left: 30px;
+    color: #619534;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.certificaciones P{
+    font-size: 19px;
+    color: rgb(97, 105, 102);
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.certificaciones img {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    /* border: solid 1px #0F110E; */
+    margin-left: 60px;
+    border-bottom: 7px solid #619534;
+    border-right: 7px solid #3D4437;
+    transition: transform 0.3s ease;
     margin-top: 50px;
-    width: 100%;
-    text-align: center;
 }
 
-.certificaciones img,
-.container_convenios img {
+.certificaciones img:hover{
+    transform: translateY(10px);
+    border-bottom: 7px solid #0F110E;
+    border-right: 7px solid #0F110E;
+}
+
+/* --------------------CONVENIOS------------------ */
+.container-convenios{
+    background: linear-gradient(-90deg, rgba(255, 255, 255, 1) 0%, rgba(187, 203, 181) 100%);
+
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: solid red; */
+}
+.container-convenios h2{
+    font-weight: bold;
+    font-size: 45px;
+    color: #619534;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.container_convenios img {
     max-width: 200px;
     height: auto;
-    object-fit: contain;
+    border-radius: 20px;
+    /* border: solid 1px #0F110E; */
+    margin-left: 60px;
+    border-bottom: 7px solid #619534;
+    border-right: 7px solid #3D4437;
+    transition: transform 0.3s ease;
+    margin-bottom: 50px;
+}
+
+.container_convenios img:hover{
+    transform: translateY(10px);
+    border-bottom: 7px solid #0F110E;
+    border-right: 7px solid #0F110E;
 }
 
 /* Media Queries */
@@ -190,6 +290,7 @@
     .container_principal_02 {
         width: 100%;
         padding: 0 15px;
+        border: solid rgb(52, 224, 9);
     }
 
     .image_carreras {
@@ -205,12 +306,13 @@
     }
 
     .container_sub_img img {
-        max-width: 220px;
+        max-width: 320px;
+        border: solid red;
     }
 
     .container-tex {
         width: 100%;
-        text-align: center;
+        text-align:justify;
     }
 
     .container-tex h2,
@@ -224,14 +326,25 @@
     .boton-contabilidad,
     .boton_2 {
         width: 100%;
-        max-width: 250px;
-    }
+        max-width:140px;
+        font-size: 14px;
 
+    }
+    .container-convenios h2{
+        border: solid red;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 30px;
+
+    }
     .certificaciones img,
     .container_convenios img {
-        max-width: 150px;
+        max-width: 130px;
+    
     }
 }
+/* --------------------------- */
 
 @media (max-width: 480px) {
     .container-tex h2,
